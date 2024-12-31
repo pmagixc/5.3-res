@@ -1,0 +1,28 @@
+{
+  "GCADLBMLADP": 469.5406188964844,
+  "entities": {
+    "9": {
+      "$type": "KCCEGKLCEFA",
+      "gadgetId": 70010006,
+      "pos": {
+        "x": 11.560420036315918,
+        "y": -38.328941345214844,
+        "z": 104.09130096435547
+      },
+      "unlocked": true,
+      "specialTipsIconPath": "",
+      "triggerFlag": "NoReviveRegion",
+      "shape": {
+        "$type": "OEPHFBMJJEJ",
+        "useHeight": true,
+        "height": 20.0,
+        "centerType": "Center",
+        "width": 300.0,
+        "length": 300.0
+      },
+      "stringParam": "",
+      "CFIFOHIMFPL": {}
+    }
+  },
+  "JGMPFNPDKFF": {}
+}

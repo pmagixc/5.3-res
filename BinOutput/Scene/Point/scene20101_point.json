@@ -1,0 +1,20 @@
+{
+  "GCADLBMLADP": 245.41139221191406,
+  "points": {
+    "1": {
+      "$type": "LJBHEDFDABI",
+      "gadgetId": 70120004,
+      "pos": {
+        "y": -56.257728576660156
+      },
+      "unlocked": true,
+      "specialTipsIconPath": "",
+      "size": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      }
+    }
+  },
+  "JGMPFNPDKFF": {}
+}
