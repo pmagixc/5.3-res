@@ -13,16 +13,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.009999999776482582,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.009999999776482582
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 8.0,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 8.0
             }
           ],
           "thinkIntervalIgnoreTimeScale": true,
@@ -49,15 +47,13 @@
           "$type": "HealHP",
           "target": "Target",
           "cdDelta": true,
-          "amountByCasterMaxHPRatio": 0.0,
-          "cdRatio": ""
+          "GGLMMJHNGMO": 0.0
         },
         {
           "$type": "HealHP",
           "target": "Target",
           "cdDelta": true,
-          "amount": 300.0,
-          "cdRatio": ""
+          "LNFMOCKIAGK": 300.0
         }
       ],
       "isDynamicAbility": true
@@ -190,18 +186,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.07999999821186066,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.07999999821186066,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 210.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 210.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -214,18 +208,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.09000000357627869,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.09000000357627869,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 260.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 260.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -238,18 +230,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.10000000149011612,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.10000000149011612,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 300.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 300.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -262,18 +252,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.14000000059604645,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.14000000059604645,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 350.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 350.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -286,18 +274,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -310,18 +296,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.18000000715255737,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.18000000715255737,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 300.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 300.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -334,18 +318,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.20000000298023224,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.20000000298023224,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 390.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 390.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -358,18 +340,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.2199999988079071,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.2199999988079071,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 470.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 470.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -382,18 +362,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.25999999046325684,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.25999999046325684,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 570.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 570.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -406,18 +384,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.25999999046325684,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.25999999046325684,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 450.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 450.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -430,18 +406,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.2800000011920929,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.2800000011920929,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 620.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 620.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -454,18 +428,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.30000001192092896,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.30000001192092896,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 790.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 790.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -478,18 +450,16 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.3400000035762787,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.3400000035762787,
+              "ignoreAbilityProperty": true
             }
           ],
           "onThinkInterval": [
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 980.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 980.0,
+              "ignoreAbilityProperty": true
             }
           ]
         },
@@ -506,9 +476,8 @@
                 {
                   "$type": "HealHP",
                   "cdDelta": true,
-                  "amount": 1.0,
-                  "ignoreAbilityProperty": true,
-                  "cdRatio": ""
+                  "LNFMOCKIAGK": 1.0,
+                  "ignoreAbilityProperty": true
                 }
               ],
               "failActions": [
@@ -519,18 +488,16 @@
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 10.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 10.0,
+                      "ignoreAbilityProperty": true
                     }
                   ],
                   "failActions": [
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 100.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 100.0,
+                      "ignoreAbilityProperty": true
                     }
                   ]
                 }
@@ -551,9 +518,8 @@
                 {
                   "$type": "HealHP",
                   "cdDelta": true,
-                  "amount": 1.0,
-                  "ignoreAbilityProperty": true,
-                  "cdRatio": ""
+                  "LNFMOCKIAGK": 1.0,
+                  "ignoreAbilityProperty": true
                 }
               ],
               "failActions": [
@@ -564,18 +530,16 @@
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 10.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 10.0,
+                      "ignoreAbilityProperty": true
                     }
                   ],
                   "failActions": [
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 100.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 100.0,
+                      "ignoreAbilityProperty": true
                     }
                   ]
                 }
@@ -596,9 +560,8 @@
                 {
                   "$type": "HealHP",
                   "cdDelta": true,
-                  "amount": 1.0,
-                  "ignoreAbilityProperty": true,
-                  "cdRatio": ""
+                  "LNFMOCKIAGK": 1.0,
+                  "ignoreAbilityProperty": true
                 }
               ],
               "failActions": [
@@ -609,18 +572,16 @@
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 10.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 10.0,
+                      "ignoreAbilityProperty": true
                     }
                   ],
                   "failActions": [
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 100.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 100.0,
+                      "ignoreAbilityProperty": true
                     }
                   ]
                 }
@@ -641,9 +602,8 @@
                 {
                   "$type": "HealHP",
                   "cdDelta": true,
-                  "amount": 1.0,
-                  "ignoreAbilityProperty": true,
-                  "cdRatio": ""
+                  "LNFMOCKIAGK": 1.0,
+                  "ignoreAbilityProperty": true
                 }
               ],
               "failActions": [
@@ -654,18 +614,16 @@
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 10.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 10.0,
+                      "ignoreAbilityProperty": true
                     }
                   ],
                   "failActions": [
                     {
                       "$type": "HealHP",
                       "cdDelta": true,
-                      "amount": 100.0,
-                      "ignoreAbilityProperty": true,
-                      "cdRatio": ""
+                      "LNFMOCKIAGK": 100.0,
+                      "ignoreAbilityProperty": true
                     }
                   ]
                 }
@@ -681,16 +639,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 800.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 800.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.07999999821186066,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.07999999821186066,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -703,16 +659,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1000.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1000.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.09000000357627869,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.09000000357627869,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -725,16 +679,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1200.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1200.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.10000000149011612,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.10000000149011612,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -747,16 +699,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1350.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1350.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.1599999964237213,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.1599999964237213,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -769,16 +719,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 900.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 900.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.20000000298023224,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.20000000298023224,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -791,16 +739,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1200.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1200.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.2199999988079071,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.2199999988079071,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -813,16 +759,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1500.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1500.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.23999999463558197,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.23999999463558197,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -835,16 +779,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1750.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1750.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.30000001192092896,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.30000001192092896,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -857,16 +799,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 600.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 600.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.30000001192092896,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.30000001192092896,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -879,16 +819,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1250.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1250.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.3199999928474426,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.3199999928474426,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -901,16 +839,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1900.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1900.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.3400000035762787,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.3400000035762787,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -923,16 +859,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 2350.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 2350.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.4000000059604645,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.4000000059604645,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -943,44 +877,32 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.23999999463558197,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 450.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount"
             },
             {
               "$type": "Randomed",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "SetOverrideMaptriggerID",
+                  "$type": "SetOverrideMapValue",
                   "ratio": [
                     "SERVER_ReHP_Modifier_lv63_1_Ratio",
                     0.05999999865889549,
                     "ADD"
                   ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio"
                 },
                 {
-                  "$type": "SetOverrideMaptriggerID",
-                  "ratio": [
-                    "SERVER_ReHP_Modifier_lv63_1_Amount",
-                    150.0,
-                    "ADD"
-                  ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "$type": "SetOverrideMapValue",
+                  "ratio": ["SERVER_ReHP_Modifier_lv63_1_Amount", 150.0, "ADD"],
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount"
                 }
               ],
               "failActions": [
@@ -989,26 +911,22 @@
                   "chance": 0.5,
                   "failActions": [
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_1_Ratio",
                         0.11999999731779099,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio"
                     },
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_1_Amount",
                         250.0,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount"
                     }
                   ]
                 }
@@ -1017,26 +935,21 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": "SERVER_ReHP_Modifier_lv63_1_Amount",
-              "amountByCasterMaxHPRatio": "SERVER_ReHP_Modifier_lv63_1_Ratio",
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": "SERVER_ReHP_Modifier_lv63_1_Amount",
+              "GGLMMJHNGMO": "SERVER_ReHP_Modifier_lv63_1_Ratio",
+              "ignoreAbilityProperty": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.23999999463558197,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 450.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_1_Amount"
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -1047,44 +960,32 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.25999999046325684,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 950.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount"
             },
             {
               "$type": "Randomed",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "SetOverrideMaptriggerID",
+                  "$type": "SetOverrideMapValue",
                   "ratio": [
                     "SERVER_ReHP_Modifier_lv63_2_Ratio",
                     0.05999999865889549,
                     "ADD"
                   ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio"
                 },
                 {
-                  "$type": "SetOverrideMaptriggerID",
-                  "ratio": [
-                    "SERVER_ReHP_Modifier_lv63_2_Amount",
-                    300.0,
-                    "ADD"
-                  ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "$type": "SetOverrideMapValue",
+                  "ratio": ["SERVER_ReHP_Modifier_lv63_2_Amount", 300.0, "ADD"],
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount"
                 }
               ],
               "failActions": [
@@ -1093,26 +994,22 @@
                   "chance": 0.5,
                   "failActions": [
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_2_Ratio",
                         0.11999999731779099,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio"
                     },
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_2_Amount",
                         600.0,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount"
                     }
                   ]
                 }
@@ -1121,26 +1018,21 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": "SERVER_ReHP_Modifier_lv63_2_Amount",
-              "amountByCasterMaxHPRatio": "SERVER_ReHP_Modifier_lv63_2_Ratio",
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": "SERVER_ReHP_Modifier_lv63_2_Amount",
+              "GGLMMJHNGMO": "SERVER_ReHP_Modifier_lv63_2_Ratio",
+              "ignoreAbilityProperty": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.25999999046325684,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 950.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_2_Amount"
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -1151,44 +1043,32 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.2800000011920929,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 1400.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount"
             },
             {
               "$type": "Randomed",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "SetOverrideMaptriggerID",
+                  "$type": "SetOverrideMapValue",
                   "ratio": [
                     "SERVER_ReHP_Modifier_lv63_3_Ratio",
                     0.05999999865889549,
                     "ADD"
                   ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio"
                 },
                 {
-                  "$type": "SetOverrideMaptriggerID",
-                  "ratio": [
-                    "SERVER_ReHP_Modifier_lv63_3_Amount",
-                    500.0,
-                    "ADD"
-                  ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "$type": "SetOverrideMapValue",
+                  "ratio": ["SERVER_ReHP_Modifier_lv63_3_Amount", 500.0, "ADD"],
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount"
                 }
               ],
               "failActions": [
@@ -1197,26 +1077,22 @@
                   "chance": 0.5,
                   "failActions": [
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_3_Ratio",
                         0.11999999731779099,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio"
                     },
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_3_Amount",
                         950.0,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount"
                     }
                   ]
                 }
@@ -1225,26 +1101,21 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": "SERVER_ReHP_Modifier_lv63_3_Amount",
-              "amountByCasterMaxHPRatio": "SERVER_ReHP_Modifier_lv63_3_Ratio",
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": "SERVER_ReHP_Modifier_lv63_3_Amount",
+              "GGLMMJHNGMO": "SERVER_ReHP_Modifier_lv63_3_Ratio",
+              "ignoreAbilityProperty": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.2800000011920929,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 1400.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_3_Amount"
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -1255,44 +1126,32 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.3400000035762787,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 1650.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount"
             },
             {
               "$type": "Randomed",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "SetOverrideMaptriggerID",
+                  "$type": "SetOverrideMapValue",
                   "ratio": [
                     "SERVER_ReHP_Modifier_lv63_4_Ratio",
                     0.05999999865889549,
                     "ADD"
                   ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio"
                 },
                 {
-                  "$type": "SetOverrideMaptriggerID",
-                  "ratio": [
-                    "SERVER_ReHP_Modifier_lv63_4_Amount",
-                    700.0,
-                    "ADD"
-                  ],
-                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount",
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "$type": "SetOverrideMapValue",
+                  "ratio": ["SERVER_ReHP_Modifier_lv63_4_Amount", 700.0, "ADD"],
+                  "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount"
                 }
               ],
               "failActions": [
@@ -1301,26 +1160,22 @@
                   "chance": 0.5,
                   "failActions": [
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_4_Ratio",
                         0.11999999731779099,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio"
                     },
                     {
-                      "$type": "SetOverrideMaptriggerID",
+                      "$type": "SetOverrideMapValue",
                       "ratio": [
                         "SERVER_ReHP_Modifier_lv63_4_Amount",
                         1400.0,
                         "ADD"
                       ],
-                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount",
-                      "maxValue": 0.0,
-                      "minValue": 0.0
+                      "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount"
                     }
                   ]
                 }
@@ -1329,26 +1184,21 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": "SERVER_ReHP_Modifier_lv63_4_Amount",
-              "amountByCasterMaxHPRatio": "SERVER_ReHP_Modifier_lv63_4_Ratio",
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": "SERVER_ReHP_Modifier_lv63_4_Amount",
+              "GGLMMJHNGMO": "SERVER_ReHP_Modifier_lv63_4_Ratio",
+              "ignoreAbilityProperty": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 0.3400000035762787,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Ratio"
             },
             {
-              "$type": "SetOverrideMaptriggerID",
+              "$type": "SetOverrideMapValue",
               "ratio": 1650.0,
-              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "overrideMapKey": "SERVER_ReHP_Modifier_lv63_4_Amount"
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -1478,18 +1328,6 @@
           "bonusCritical": 100.0,
           "properties": {
             "Actor_AttackDelta": 274.0
-          },
-          "reduceDurablityIgnoreTimeScale": true,
-          "buffID": 50001
-        },
-        "SERVER_Atk_Team_Modifier_lv3_5": {
-          "stacking": "Multiple",
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "properties": {
-            "Actor_AttackDelta": 320.0,
-            "Actor_CriticalDelta": 0.10000000149011612,
-            "Actor_SubHurtDelta": -0.20000000298023224
           },
           "reduceDurablityIgnoreTimeScale": true,
           "buffID": 50001
@@ -2188,9 +2026,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 50.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 50.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2203,9 +2040,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 100.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 100.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2218,9 +2054,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 150.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 150.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2233,15 +2068,13 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 150.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 150.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.10000000149011612,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.10000000149011612
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2254,9 +2087,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 250.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 250.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2269,9 +2101,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 400.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 400.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2284,9 +2115,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 550.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 550.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2299,16 +2129,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 550.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 550.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.15000000596046448,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.15000000596046448,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2321,9 +2149,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 900.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 900.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2336,9 +2163,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1200.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1200.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2351,9 +2177,8 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1500.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1500.0,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2366,16 +2191,14 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amount": 1500.0,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 1500.0,
+              "ignoreAbilityProperty": true
             },
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.20000000298023224,
-              "ignoreAbilityProperty": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.20000000298023224,
+              "ignoreAbilityProperty": true
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -2611,8 +2434,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv2_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv2_1_x"
             }
           ],
           "buffID": 50003
@@ -2632,8 +2454,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv2_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv2_2_x"
             }
           ],
           "buffID": 50003
@@ -2653,8 +2474,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv2_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv2_3_x"
             }
           ],
           "buffID": 50003
@@ -2674,8 +2494,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv2_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv2_4_x"
             }
           ],
           "buffID": 50003
@@ -2695,8 +2514,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv3_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv3_1_x"
             }
           ],
           "buffID": 50003
@@ -2716,8 +2534,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv3_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv3_2_x"
             }
           ],
           "buffID": 50003
@@ -2737,8 +2554,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv3_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv3_3_x"
             }
           ],
           "buffID": 50003
@@ -2758,8 +2574,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Fly_Team_Modifier_lv3_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Team_Modifier_lv3_4_x"
             }
           ],
           "buffID": 50003
@@ -2788,8 +2603,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv2_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv2_1_x"
             }
           ],
           "buffID": 50003
@@ -2809,8 +2623,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv2_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv2_2_x"
             }
           ],
           "buffID": 50003
@@ -2830,8 +2643,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv2_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv2_3_x"
             }
           ],
           "buffID": 50003
@@ -2851,8 +2663,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv2_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv2_4_x"
             }
           ],
           "buffID": 50003
@@ -2872,8 +2683,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv3_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv3_1_x"
             }
           ],
           "buffID": 50003
@@ -2893,8 +2703,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv3_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv3_2_x"
             }
           ],
           "buffID": 50003
@@ -2914,8 +2723,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv3_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv3_3_x"
             }
           ],
           "buffID": 50003
@@ -2935,8 +2743,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Team_Modifier_lv3_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Team_Modifier_lv3_4_x"
             }
           ],
           "buffID": 50003
@@ -2965,8 +2772,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Swim"],
-              "modifierName": "Stamina_Swim_Team_Modifier_lv2_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Swim_Team_Modifier_lv2_1_x"
             }
           ],
           "buffID": 50003
@@ -2986,8 +2792,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Swim"],
-              "modifierName": "Stamina_Swim_Team_Modifier_lv2_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Swim_Team_Modifier_lv2_2_x"
             }
           ],
           "buffID": 50003
@@ -3007,8 +2812,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Swim"],
-              "modifierName": "Stamina_Swim_Team_Modifier_lv2_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Swim_Team_Modifier_lv2_3_x"
             }
           ],
           "buffID": 50003
@@ -3028,8 +2832,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Swim"],
-              "modifierName": "Stamina_Swim_Team_Modifier_lv2_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Swim_Team_Modifier_lv2_4_x"
             }
           ],
           "buffID": 50003
@@ -3058,8 +2861,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["SprintBS", "Sprint"],
-              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_1_x"
             }
           ],
           "buffID": 50003
@@ -3079,8 +2881,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["SprintBS", "Sprint"],
-              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_2_x"
             }
           ],
           "buffID": 50003
@@ -3100,8 +2901,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["SprintBS", "Sprint"],
-              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_3_x"
             }
           ],
           "buffID": 50003
@@ -3121,8 +2921,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["SprintBS", "Sprint"],
-              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_4_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Sprint_Team_Modifier_lv2_4_x"
             }
           ],
           "buffID": 50003
@@ -3150,8 +2949,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Modifier_lv3_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Modifier_lv3_1_x"
             }
           ],
           "buffID": 50003
@@ -3186,8 +2984,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Modifier_lv3_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Modifier_lv3_2_x"
             }
           ],
           "buffID": 50003
@@ -3222,8 +3019,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Stamina_Fly_Modifier_lv3_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Fly_Modifier_lv3_3_x"
             }
           ],
           "buffID": 50003
@@ -3258,8 +3054,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Modifier_lv3_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Modifier_lv3_1_x"
             }
           ],
           "buffID": 50003
@@ -3294,8 +3089,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Modifier_lv3_2_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Modifier_lv3_2_x"
             }
           ],
           "buffID": 50003
@@ -3330,8 +3124,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Climb", "Fly", "SprintBS", "Sprint"],
-              "modifierName": "Stamina_Climb_Modifier_lv3_3_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Climb_Modifier_lv3_3_x"
             }
           ],
           "buffID": 50003
@@ -3782,8 +3575,7 @@
                     }
                   ]
                 }
-              ],
-              "BILMCNCKIAO": ""
+              ]
             }
           ]
         },
@@ -3829,7 +3621,7 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobaltriggerID",
+              "$type": "SetGlobalValue",
               "cdDelta": true,
               "ratio": 1.0,
               "key": "_Sprint_Attack_Ratio_CD",
@@ -3840,7 +3632,7 @@
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobaltriggerID",
+              "$type": "SetGlobalValue",
               "cdDelta": true,
               "ratio": 0.0,
               "key": "_Sprint_Attack_Ratio_CD",
@@ -3860,9 +3652,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Atk_HighHP_Dungeon_Sub"
@@ -3872,9 +3664,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Del_Atk_HighHP_Dungeon_Sub"
@@ -3886,9 +3678,9 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Atk_HighHP_Dungeon_Sub"
@@ -3924,9 +3716,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Atk_LowHP_Dungeon_Sub"
@@ -3936,8 +3728,8 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": 0.5
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Del_Atk_LowHP_Dungeon_Sub"
@@ -3949,9 +3741,9 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Atk_LowHP_Dungeon_Sub"
@@ -4014,8 +3806,8 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CHMEPBIEMNL",
-                  "featureTagIDs": [4001]
+                  "$type": "LNOGFCLIEBM",
+                  "GOCIMELDHHL": [4001]
                 }
               ]
             }
@@ -4036,14 +3828,14 @@
       "$type": "ConfigAbility",
       "abilityName": "Atk_WeaponType_Dungeon",
       "abilitySpecials": {
-        "minValue": 0.5
+        "Value": 0.5
       },
       "modifiers": {
         "Atk_WeaponType_Dungeon_1": {
           "modifierName": "",
           "bonusCritical": 100.0,
           "properties": {
-            "Actor_AddHurtDelta": "minValue"
+            "Actor_AddHurtDelta": "Value"
           }
         }
       },
@@ -4065,8 +3857,8 @@
               ]
             },
             {
-              "$type": "CHMEPBIEMNL",
-              "featureTagIDs": [1051]
+              "$type": "LNOGFCLIEBM",
+              "GOCIMELDHHL": [1051]
             }
           ],
           "modifierName": "Atk_WeaponType_Dungeon_1"
@@ -4228,9 +4020,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Def_HighHP_Dungeon_Sub"
@@ -4240,9 +4032,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Del_Def_HighHP_Dungeon_Sub"
@@ -4254,9 +4046,9 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Def_HighHP_Dungeon_Sub"
@@ -4292,9 +4084,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Def_LowHP_Dungeon_Sub"
@@ -4304,8 +4096,8 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": 0.5
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Del_Def_LowHP_Dungeon_Sub"
@@ -4317,9 +4109,9 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 }
               ],
               "modifierName": "Def_LowHP_Dungeon_Sub"
@@ -4385,8 +4177,7 @@
                   "successActions": [
                     {
                       "$type": "HealHP",
-                      "amountByCasterMaxHPRatio": 0.07999999821186066,
-                      "cdRatio": ""
+                      "GGLMMJHNGMO": 0.07999999821186066
                     }
                   ]
                 }
@@ -4452,11 +4243,10 @@
               "onTriggerUltimateSkill": [
                 {
                   "$type": "HealHP",
-                  "amountByCasterMaxHPRatio": 0.30000001192092896,
-                  "cdRatio": ""
+                  "GGLMMJHNGMO": 0.30000001192092896
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ],
           "buffID": 30038
@@ -4537,8 +4327,7 @@
                 "ExtraAttack2",
                 "ExtraAttack3"
               ],
-              "modifierName": "Stamina_ExtraAttack_Dungeon_Sub",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_ExtraAttack_Dungeon_Sub"
             }
           ],
           "buffID": 30040
@@ -4577,8 +4366,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["SprintBS", "Sprint"],
-              "modifierName": "Stamina_Sprint_Dungeon_1_x",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_Sprint_Dungeon_1_x"
             }
           ],
           "buffID": 30042
@@ -4640,8 +4428,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.25,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.25
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -4653,8 +4440,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.5,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.5
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -4666,8 +4452,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.699999988079071,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.699999988079071
             }
           ],
           "reduceDurablityIgnoreTimeScale": true
@@ -4731,8 +4516,7 @@
                 "TakePhotos"
               ],
               "modifierName": "UNIQUE_SERVER_ReHP_SpecialEffects_Modifier_lv2_1_LoopEff",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
+              "isCheckOnAttach": true
             }
           ],
           "onAdded": [
@@ -4760,7 +4544,7 @@
                   "y": 0.0,
                   "z": 0.0
                 },
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "effectTempleteID": -1.0
             }
@@ -4784,8 +4568,7 @@
               "successActions": [
                 {
                   "$type": "HealHP",
-                  "amount": 1.0,
-                  "cdRatio": ""
+                  "LNFMOCKIAGK": 1.0
                 }
               ]
             }
@@ -4819,8 +4602,8 @@
               "damagePercentageRatio": 0.30000001192092896,
               "predicates": [
                 {
-                  "$type": "POIHJHMAMEM",
-                  "hitBoxType": "Head"
+                  "$type": "LCDGFEFCLIP",
+                  "GEGDJNBHHEC": "Head"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -4940,7 +4723,7 @@
                   "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "NHPKNAEEMEO",
+                      "$type": "BJBCJBKOFKK",
                       "abilityState": "ElementFreeze"
                     }
                   ]
@@ -4948,13 +4731,13 @@
               ],
               "successActions": [
                 {
-                  "$type": "DamageByAttacktriggerID",
+                  "$type": "DamageByAttackValue",
                   "otherTargets": {
                     "$type": "SelectTargetsByShape",
                     "shapeName": "CircleR1",
                     "centerBasedOn": "Target",
                     "campTargetType": "Enemy",
-                    "SelectTargetsByShape": 1.0
+                    "OBHNBNDMPFN": 1.0
                   },
                   "attackInfo": {
                     "attackTag": "",
@@ -4965,11 +4748,11 @@
                       "damagePercentageRatio": 0.0,
                       "bonusCritical": 100.0,
                       "strikeType": "Pierce",
-                      "damage": 20.0,
+                      "enBreak": 20.0,
                       "attackType": "Range",
-                      "actorElementReactionCriticalHurtDelta": 1.0,
-                      "actorWindSubHurtDelta": 0.0,
-                      "bonusCritical": 0.0
+                      "MODFLPBMPKB": 1.0,
+                      "IHKMLHCAIIA": 0.0,
+                      "FKGFPFNOJMN": 0.0
                     },
                     "hitPattern": {
                       "onHitEffectName": "default",
@@ -5044,7 +4827,7 @@
               "ratio": -5.0
             },
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "target": "CurTeamAvatars",
               "cdDelta": true,
               "ratio": -1.0,
@@ -5054,7 +4837,7 @@
               "minValue": 0.0
             },
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "cdDelta": true,
               "ratio": 1.0,
               "key": "HAS_BLOOD_BUFF_MARK_NORMAL",
@@ -5065,7 +4848,7 @@
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "cdDelta": true,
               "ratio": -1.0,
               "key": "HAS_BLOOD_BUFF_MARK_NORMAL",
@@ -5115,7 +4898,7 @@
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobaltriggerID",
+                  "$type": "AddGlobalValue",
                   "target": "CurTeamAvatars",
                   "cdDelta": true,
                   "ratio": 1.0,
@@ -5130,9 +4913,9 @@
                     "attackPattern": {
                       "$type": "GGBJACPDDCM",
                       "triggerType": "TriggerNoRepeat",
-                      "entityAttackFilter": "IgnoreSceneProp",
+                      "CBNMCBHGLDP": "IgnoreSceneProp",
                       "born": {
-                        "$type": "PNCLIHNAPNL"
+                        "$type": "FCMOIHKKFIN"
                       },
                       "size": {
                         "x": 2.0,
@@ -5150,7 +4933,7 @@
                         "elementType": "Fire",
                         "bonusCritical": 50.0,
                         "strikeType": "Default",
-                        "damage": 50.0,
+                        "enBreak": 50.0,
                         "FKGFPFNOJMN": 0.0
                       },
                       "hitPattern": {
@@ -5166,7 +4949,7 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DropDulinsBlood_02",
                   "born": {
-                    "$type": "PNCLIHNAPNL"
+                    "$type": "FCMOIHKKFIN"
                   },
                   "effectTempleteID": -1.0
                 },
@@ -5204,7 +4987,7 @@
               "ratio": -5.0
             },
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "cdDelta": true,
               "ratio": 1.0,
               "key": "HAS_BLOOD_BUFF_MARK",
@@ -5216,12 +4999,12 @@
               "$type": "ServerLuaCall",
               "luaCallType": "CurScenePlay",
               "funcName": "UpdateDulinsBloodPickCount",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "target": "CurTeamAvatars",
               "cdDelta": true,
               "ratio": -1.0,
@@ -5233,7 +5016,7 @@
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobaltriggerID",
+              "$type": "AddGlobalValue",
               "cdDelta": true,
               "ratio": -1.0,
               "key": "HAS_BLOOD_BUFF_MARK",
@@ -5282,7 +5065,7 @@
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobaltriggerID",
+                  "$type": "AddGlobalValue",
                   "target": "CurTeamAvatars",
                   "cdDelta": true,
                   "ratio": 1.0,
@@ -5297,9 +5080,9 @@
                     "attackPattern": {
                       "$type": "GGBJACPDDCM",
                       "triggerType": "TriggerNoRepeat",
-                      "entityAttackFilter": "IgnoreSceneProp",
+                      "CBNMCBHGLDP": "IgnoreSceneProp",
                       "born": {
-                        "$type": "PNCLIHNAPNL"
+                        "$type": "FCMOIHKKFIN"
                       },
                       "size": {
                         "x": 2.0,
@@ -5317,7 +5100,7 @@
                         "elementType": "Fire",
                         "bonusCritical": 25.0,
                         "strikeType": "Default",
-                        "damage": 50.0,
+                        "enBreak": 50.0,
                         "FKGFPFNOJMN": 0.0
                       },
                       "hitPattern": {
@@ -5333,7 +5116,7 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DropDulinsBlood_02",
                   "born": {
-                    "$type": "PNCLIHNAPNL"
+                    "$type": "FCMOIHKKFIN"
                   },
                   "effectTempleteID": -1.0
                 },

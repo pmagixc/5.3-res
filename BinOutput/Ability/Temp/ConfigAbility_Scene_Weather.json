@@ -6,8 +6,8 @@
       "abilityMixins": [
         {
           "$type": "AttachModifierToSurfaceTypeMixin",
-          "surfaceType": "Water",
-          "modifiersWithPredicates": [
+          "NACNKLBEBJB": "Water",
+          "CBPFDNKIJFG": [
             {
               "modifierName": "WaterAreaModifier",
               "predicates": [
@@ -32,9 +32,9 @@
               ]
             }
           ],
-          "extraEnterTriggerLevelAbility": "",
-          "extraExitTriggerLevelAbility": "",
-          "extraResetTriggerLevelAbility": ""
+          "IIELIPHANNL": "",
+          "HJHKAPNALFE": "",
+          "NHBLEHHNBLD": ""
         }
       ],
       "modifiers": {
@@ -86,8 +86,8 @@
       "abilityMixins": [
         {
           "$type": "AttachModifierToSurfaceTypeMixin",
-          "surfaceType": "ElectricWater",
-          "modifiersWithPredicates": [
+          "NACNKLBEBJB": "ElectricWater",
+          "CBPFDNKIJFG": [
             {
               "modifierName": "ElectricWaterAreaModifier",
               "predicates": [
@@ -103,9 +103,9 @@
               ]
             }
           ],
-          "extraEnterTriggerLevelAbility": "",
-          "extraExitTriggerLevelAbility": "SceneAbility_ElectricWaterArea_Clear",
-          "extraResetTriggerLevelAbility": "SceneAbility_ElectricWaterArea_Clear"
+          "IIELIPHANNL": "",
+          "HJHKAPNALFE": "SceneAbility_ElectricWaterArea_Clear",
+          "NHBLEHHNBLD": "SceneAbility_ElectricWaterArea_Clear"
         }
       ],
       "abilitySpecials": {
@@ -122,7 +122,7 @@
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "PIJDLFEPGPD"
+                  "$type": "ENGOLHMOGBK"
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -155,7 +155,7 @@
               "$type": "LoseHP",
               "predicates": [
                 {
-                  "$type": "PIJDLFEPGPD"
+                  "$type": "ENGOLHMOGBK"
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -168,14 +168,14 @@
                   "entityTypes": ["Avatar"]
                 }
               ],
-              "amount": [
+              "LNFMOCKIAGK": [
                 20.469999313354492,
                 "ElectricWaterAreaHurtLevel",
                 "MUL",
                 20.0,
                 "ADD"
               ],
-              "amountByCasterMaxHPRatio": [
+              "GGLMMJHNGMO": [
                 0.03150000050663948,
                 "ElectricWaterAreaHurtLevel",
                 "MUL",
@@ -185,7 +185,7 @@
               "enableInvincible": true,
               "enableLockHP": true,
               "disableWhenLoading": true,
-              "MIIHJFFDKKC": ""
+              "amountByCasterMaxHPRatio": ""
             },
             {
               "$type": "ApplyModifier",
@@ -247,8 +247,8 @@
       "abilityMixins": [
         {
           "$type": "AttachModifierToSurfaceTypeMixin",
-          "surfaceType": "BlackMud",
-          "modifiersWithPredicates": [
+          "NACNKLBEBJB": "BlackMud",
+          "CBPFDNKIJFG": [
             {
               "modifierName": "BlackMudAreaBuff",
               "predicates": [
@@ -264,9 +264,9 @@
               ]
             }
           ],
-          "extraEnterTriggerLevelAbility": "",
-          "extraExitTriggerLevelAbility": "",
-          "extraResetTriggerLevelAbility": ""
+          "IIELIPHANNL": "",
+          "HJHKAPNALFE": "",
+          "NHBLEHHNBLD": ""
         }
       ],
       "abilitySpecials": {
@@ -291,8 +291,8 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "CHMEPBIEMNL",
-                      "featureTagIDs": [4006]
+                      "$type": "LNOGFCLIEBM",
+                      "GOCIMELDHHL": [4006]
                     }
                   ]
                 },
@@ -300,8 +300,8 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "CHMEPBIEMNL",
-                      "featureTagIDs": [4009]
+                      "$type": "LNOGFCLIEBM",
+                      "GOCIMELDHHL": [4009]
                     }
                   ]
                 },
@@ -425,8 +425,8 @@
           "onThinkInterval": [
             {
               "$type": "AddRegionalPlayVarValue",
-              "varType": "LightStoneEnergy",
-              "addValue": -1.0
+              "FDFHFIHCJMH": "LightStoneEnergy",
+              "AAPMBNCHCKH": -1.0
             }
           ]
         },
@@ -439,19 +439,19 @@
               "$type": "LoseHP",
               "predicates": [
                 {
-                  "$type": "PIJDLFEPGPD"
+                  "$type": "ENGOLHMOGBK"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"]
                 }
               ],
-              "amount": 60.0,
-              "amountByCasterMaxHPRatio": 0.004000000189989805,
+              "LNFMOCKIAGK": 60.0,
+              "GGLMMJHNGMO": 0.004000000189989805,
               "enableInvincible": true,
               "enableLockHP": true,
               "disableWhenLoading": true,
-              "MIIHJFFDKKC": ""
+              "amountByCasterMaxHPRatio": ""
             }
           ]
         },
@@ -463,8 +463,7 @@
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["NormalMove", "SprintBS", "Sprint"],
               "modifierName": "BlackMudAreaBuff_Avatar_Footprint",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
+              "isCheckOnAttach": true
             }
           ]
         },
@@ -475,101 +474,6 @@
             {
               "$type": "AttachEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Character_Abyss_Footprint",
-              "effectTempleteID": -1.0
-            }
-          ]
-        }
-      },
-      "isDynamicAbility": true
-    }
-  },
-  {
-    "Default": {
-      "$type": "ConfigAbility",
-      "abilityName": "SceneAbility_FoulCarpet",
-      "abilityMixins": [
-        {
-          "$type": "AttachModifierToSurfaceTypeMixin",
-          "surfaceType": "FoulCarpet",
-          "modifiersWithPredicates": [
-            {
-              "modifierName": "FoulCarpetBuff",
-              "predicates": [
-                {
-                  "$type": "ByNot",
-                  "predicates": [
-                    {
-                      "$type": "ByEntityTypes",
-                      "entityTypes": ["Equip"]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "extraEnterTriggerLevelAbility": "",
-          "extraExitTriggerLevelAbility": "",
-          "extraResetTriggerLevelAbility": ""
-        }
-      ],
-      "abilitySpecials": {
-        "SubHurtDelta_AllType": 0.0,
-        "AttackRatio": 0.0,
-        "SubHurtDelta_AllType_Addition": 0.0,
-        "AttackRatio_Addition": 0.0
-      },
-      "modifiers": {
-        "FoulCarpetBuff": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "onAdded": [
-            {
-              "$type": "AttachModifier",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"]
-                }
-              ],
-              "modifierName": "FoulCarpetBuff_Avatar"
-            },
-            {
-              "$type": "AttachModifier",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"]
-                }
-              ],
-              "modifierName": "FoulCarpetBuff_Avatar_FX"
-            }
-          ]
-        },
-        "FoulCarpetBuff_Avatar": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "thinkInterval": 1.0
-        },
-        "FoulCarpetBuff_Avatar_FX": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["NormalMove", "SprintBS", "Sprint"],
-              "modifierName": "FoulCarpetBuff_Avatar_Footprint",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
-            }
-          ]
-        },
-        "FoulCarpetBuff_Avatar_Footprint": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "onAdded": [
-            {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Character_FoulCarpet_Footprint",
               "effectTempleteID": -1.0
             }
           ]
@@ -597,7 +501,7 @@
               "thinkInterval": 0.5
             }
           ],
-          "retainWhenDurabilityIsZero": true
+          "HKNGINABPIM": true
         },
         "HeavyRainModifier": {
           "modifierName": "",
@@ -613,7 +517,7 @@
               "thinkInterval": 0.5
             }
           ],
-          "retainWhenDurabilityIsZero": true
+          "HKNGINABPIM": true
         }
       }
     }
@@ -626,8 +530,8 @@
         {
           "$type": "CreateGadget",
           "born": {
-            "$type": "GJFFMKOHODJ",
-            "lightningHitOrNotRatio": 0.009999999776482582
+            "$type": "PPABJAKMEKL",
+            "OGJPCLAHOEF": 0.009999999776482582
           },
           "gadgetID": 70000009,
           "campID": 9001,
@@ -684,7 +588,7 @@
                     "damagePercentageRatio": 0.0,
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
-                    "damage": 200.0,
+                    "enBreak": 200.0,
                     "damageExtra": [
                       "ElementAbility_Storm_Lightning_BaseReactionDamage",
                       "Storm_Lightning_Damage_Factor",
@@ -776,8 +680,8 @@
               "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GJEFLOEMABK",
-                  "weatherName": "Weather_Dq_HeGuan_Doom"
+                  "$type": "JHFFIIDHELE",
+                  "BJFDMBBJFMK": "Weather_Dq_HeGuan_Doom"
                 }
               ]
             }
@@ -789,8 +693,8 @@
           "$type": "FireEffect",
           "predicates": [
             {
-              "$type": "GJEFLOEMABK",
-              "weatherName": "Weather_Dq_HeGuan_Doom"
+              "$type": "JHFFIIDHELE",
+              "BJFDMBBJFMK": "Weather_Dq_HeGuan_Doom"
             }
           ],
           "healLimitedByCasterMaxHPRatio": "Eff_Thunder_EarlyWarning_01_Tsurumi",
@@ -807,8 +711,8 @@
         {
           "$type": "CreateGadget",
           "born": {
-            "$type": "GJFFMKOHODJ",
-            "lightningHitOrNotRatio": 0.009999999776482582
+            "$type": "PPABJAKMEKL",
+            "OGJPCLAHOEF": 0.009999999776482582
           },
           "gadgetID": 70000014,
           "campID": 9001,
@@ -882,7 +786,7 @@
                     "damagePercentageRatio": 0.0,
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
-                    "damage": 200.0,
+                    "enBreak": 200.0,
                     "damageExtra": [
                       "ElementAbility_Storm_Lightning_BaseReactionDamage",
                       "Storm_Lightning_Damage_Factor",
@@ -995,7 +899,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Grass"
             }
           ],
@@ -1005,7 +909,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Grass"
             }
           ],
@@ -1041,7 +945,7 @@
       "abilityMixins": [
         {
           "$type": "AttachModifierToDiveVolumeMixin",
-          "modifiersWithPredicates": [
+          "CBPFDNKIJFG": [
             {
               "modifierName": "DiveVolumeModifier",
               "predicates": [
@@ -1112,13 +1016,13 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Burnt",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.20000000298023224,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "effectTempleteID": -1.0
                 }
@@ -1128,13 +1032,13 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Destroy_ConfigID",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.20000000298023224,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "effectTempleteID": -1.0
                 }
@@ -1159,13 +1063,13 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Destroy_ConfigID",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.20000000298023224,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "effectTempleteID": -1.0
                 },
@@ -1195,9 +1099,9 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "BAAFGCJBAPM",
+                  "$type": "LPMJKFAGKKG",
                   "element": "Fire",
-                  "durability": 10.0,
+                  "JAIDBMPPDMO": 10.0,
                   "compareType": "MoreThan"
                 }
               ],
@@ -1233,7 +1137,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1264,13 +1168,13 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Bush_Destroy_ConfigID",
               "born": {
-                "$type": "BANDHMAGECH",
+                "$type": "LKJMHCMPDMI",
                 "offset": {
                   "x": 0.0,
                   "y": -0.20000000298023224,
                   "z": 0.0
                 },
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "effectTempleteID": -1.0
             },
@@ -1307,7 +1211,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1359,7 +1263,7 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Burnt",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.6000000238418579,
@@ -1374,7 +1278,7 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Destroy_ConfigID",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.6000000238418579,
@@ -1410,9 +1314,9 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "BAAFGCJBAPM",
+                  "$type": "LPMJKFAGKKG",
                   "element": "Fire",
-                  "durability": 10.0,
+                  "JAIDBMPPDMO": 10.0,
                   "compareType": "MoreThan"
                 }
               ],
@@ -1448,7 +1352,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1500,13 +1404,13 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Burnt_Yellow",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.20000000298023224,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "effectTempleteID": -1.0
                 }
@@ -1516,13 +1420,13 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Bush_Destroy_Yellow",
                   "born": {
-                    "$type": "BANDHMAGECH",
+                    "$type": "LKJMHCMPDMI",
                     "offset": {
                       "x": 0.0,
                       "y": -0.20000000298023224,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "effectTempleteID": -1.0
                 }
@@ -1553,9 +1457,9 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "BAAFGCJBAPM",
+                  "$type": "LPMJKFAGKKG",
                   "element": "Fire",
-                  "durability": 10.0,
+                  "JAIDBMPPDMO": 10.0,
                   "compareType": "MoreThan"
                 }
               ],
@@ -1591,7 +1495,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1633,7 +1537,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1667,7 +1571,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Bush"
             }
           ],
@@ -1697,7 +1601,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Tree"
             }
           ],
@@ -1707,7 +1611,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "PMDOJHHEKJB",
+              "$type": "EPNCIEIJBKC",
               "entityType": "Tree"
             }
           ],
@@ -1900,7 +1804,7 @@
             {
               "$type": "RemoveModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 70900045
               },
               "cdDelta": true,
@@ -1909,7 +1813,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 70900045
               },
               "cdDelta": true,
@@ -1924,7 +1828,7 @@
             {
               "$type": "RemoveModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 70900045
               },
               "cdDelta": true,
@@ -1933,7 +1837,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 70900045
               },
               "cdDelta": true,
@@ -2034,7 +1938,7 @@
             {
               "$type": "AddElementDurability",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 70900045
               },
               "cdDelta": true,
@@ -2121,7 +2025,7 @@
                   "damagePercentageRatio": 0.0,
                   "bonusCritical": 100.0,
                   "damageExtra": 1.0,
-                  "bonusCritical": 0.0
+                  "FKGFPFNOJMN": 0.0
                 }
               }
             }
@@ -2189,7 +2093,7 @@
                   "damagePercentageRatio": 0.0,
                   "bonusCritical": 100.0,
                   "damageExtra": 1.0,
-                  "bonusCritical": 0.0
+                  "FKGFPFNOJMN": 0.0
                 }
               }
             }
@@ -2252,8 +2156,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["NormalMove"],
-              "modifierName": "Avatar_Cold_WhiteBox_MoveSpeed_Down",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Cold_WhiteBox_MoveSpeed_Down"
             }
           ],
           "onAdded": [
@@ -2277,7 +2180,7 @@
                   "damagePercentageRatio": 0.0,
                   "bonusCritical": 100.0,
                   "strikeType": "Default",
-                  "damage": 10.0,
+                  "enBreak": 10.0,
                   "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
@@ -2335,7 +2238,7 @@
                   "damagePercentageRatio": 0.0,
                   "bonusCritical": 100.0,
                   "strikeType": "Default",
-                  "damage": 10.0,
+                  "enBreak": 10.0,
                   "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
@@ -2372,7 +2275,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR50",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -2398,7 +2301,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR50",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -2522,7 +2425,7 @@
               "damagePercentageRatio": 0.0,
               "bonusCritical": 100.0,
               "damageExtra": 1.0,
-              "bonusCritical": 0.0
+              "FKGFPFNOJMN": 0.0
             }
           }
         },
@@ -2925,10 +2828,10 @@
                   "key": "ThunderPos",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 2.0,
-                      "maxRandomRange": 2.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 2.0,
+                      "LEGMDANKMPK": 2.0
                     }
                   }
                 },
@@ -2948,10 +2851,10 @@
               "key": "ThunderPos2",
               "born": {
                 "$type": "ConfigBornByTarget",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 8.0,
-                  "maxRandomRange": 18.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 8.0,
+                  "LEGMDANKMPK": 18.0
                 }
               }
             },
@@ -2961,10 +2864,10 @@
               "key": "ThunderPos3",
               "born": {
                 "$type": "ConfigBornByTarget",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 8.0,
-                  "maxRandomRange": 18.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 8.0,
+                  "LEGMDANKMPK": 18.0
                 }
               }
             },
@@ -2978,10 +2881,10 @@
                   "key": "ThunderPos4",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 8.0,
-                      "maxRandomRange": 18.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 8.0,
+                      "LEGMDANKMPK": 18.0
                     }
                   }
                 },
@@ -3005,10 +2908,10 @@
                   "key": "ThunderPos5",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 8.0,
-                      "maxRandomRange": 18.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 8.0,
+                      "LEGMDANKMPK": 18.0
                     }
                   }
                 },
@@ -3045,10 +2948,10 @@
                   "key": "ThunderPos",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 2.0,
-                      "maxRandomRange": 2.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 2.0,
+                      "LEGMDANKMPK": 2.0
                     }
                   }
                 },
@@ -3068,10 +2971,10 @@
               "key": "ThunderPos2",
               "born": {
                 "$type": "ConfigBornByTarget",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 8.0,
-                  "maxRandomRange": 18.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 8.0,
+                  "LEGMDANKMPK": 18.0
                 }
               }
             },
@@ -3081,10 +2984,10 @@
               "key": "ThunderPos3",
               "born": {
                 "$type": "ConfigBornByTarget",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 8.0,
-                  "maxRandomRange": 18.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 8.0,
+                  "LEGMDANKMPK": 18.0
                 }
               }
             },
@@ -3098,10 +3001,10 @@
                   "key": "ThunderPos4",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 8.0,
-                      "maxRandomRange": 18.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 8.0,
+                      "LEGMDANKMPK": 18.0
                     }
                   }
                 },
@@ -3125,10 +3028,10 @@
                   "key": "ThunderPos5",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "bornRandom": {
-                      "$type": "OCDANLJMNNK",
-                      "minRandomRange": 8.0,
-                      "maxRandomRange": 18.0
+                    "EIHGKLFJFDH": {
+                      "$type": "NEDBFINNHHP",
+                      "MONOAFEICPP": 8.0,
+                      "LEGMDANKMPK": 18.0
                     }
                   }
                 },
@@ -3165,9 +3068,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3175,9 +3078,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos2",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos2",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3185,9 +3088,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos3",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos3",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3202,9 +3105,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos4",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos4",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3219,9 +3122,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos5",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos5",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             }
@@ -3238,9 +3141,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3258,9 +3161,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3274,7 +3177,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3306,14 +3209,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -3325,9 +3228,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos2",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos2",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3338,9 +3241,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos2",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos2",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3354,7 +3257,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3379,14 +3282,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos2",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos2",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -3398,9 +3301,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos3",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos3",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3411,9 +3314,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos3",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos3",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3427,7 +3330,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3452,14 +3355,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos3",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos3",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -3478,9 +3381,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos4",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos4",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3498,9 +3401,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos4",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos4",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3514,7 +3417,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3546,14 +3449,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos4",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos4",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -3572,9 +3475,9 @@
               ],
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos5",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos5",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3592,9 +3495,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos5",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos5",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3608,7 +3511,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3640,14 +3543,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos5",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos5",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -3729,10 +3632,10 @@
               "key": "ThunderPos_Phase2",
               "born": {
                 "$type": "ConfigBornByTarget",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 1.0,
-                  "maxRandomRange": 1.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 1.0,
+                  "LEGMDANKMPK": 1.0
                 }
               }
             },
@@ -3740,9 +3643,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos_Phase2",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos_Phase2",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             }
@@ -3752,9 +3655,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos_Phase2",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos_Phase2",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -3765,9 +3668,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos_Phase2",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos_Phase2",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -3781,7 +3684,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 50.0,
                     "strikeType": "Default",
-                    "damage": 500.0,
+                    "enBreak": 500.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -3806,14 +3709,14 @@
                   "$type": "CreateGadget",
                   "cdDelta": true,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "offset": {
                       "x": 0.0,
                       "y": 1.0,
                       "z": 0.0
                     },
-                    "positionKey": "ThunderPos_Phase2",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "ThunderPos_Phase2",
+                    "IDGILJNLJGN": ""
                   },
                   "gadgetID": 70900269,
                   "campID": 4001,
@@ -4082,7 +3985,7 @@
                   "damagePercentageRatio": 0.0,
                   "elementType": "Fire",
                   "bonusCritical": 50.0,
-                  "damage": 0.0,
+                  "enBreak": 0.0,
                   "damageExtra": ["CounterStage", 10.0, "MUL"],
                   "FKGFPFNOJMN": 0.0
                 },

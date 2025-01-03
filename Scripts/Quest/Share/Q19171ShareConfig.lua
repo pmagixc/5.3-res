@@ -1,302 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1
-main_id = 19171
-L0_1 = {}
-L1_1 = 1917101
-L2_1 = 1917102
-L3_1 = 1917103
-L4_1 = 1917104
-L5_1 = 1917105
-L6_1 = 1917106
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133302721"
-L5_1 = ""
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L2_1[1] = L3_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["1917101"] = L1_1
-L1_1 = {}
-L0_1["1917102"] = L1_1
-L1_1 = {}
-L0_1["1917103"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12923
-L3_1.alias = "Npc12923"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917103_N12923"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1917104"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12924
-L3_1.alias = "Npc12924"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917104_N12924"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1917105"] = L1_1
-L1_1 = {}
-L0_1["1917106"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917102_N513"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917102_N513"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 1067
-L5_1.alias = "Npc1067"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q1917102_N513"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["1917101"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917102_N513"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917102_N1051"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 1067
-L5_1.alias = "Npc1067"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q1917102_N513"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["1917102"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917103_N513"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917103_N1051"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 12923
-L5_1.alias = "Npc12923"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q1917103_N12923"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 1067
-L6_1.alias = "Npc1067"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q1917103_N513"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["1917103"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917104_N513"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917104_N1051"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 12924
-L5_1.alias = "Npc12924"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q1917104_N12924"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 1067
-L6_1.alias = "Npc1067"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q1917104_N513"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["1917104"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917104_N513"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917104_N1051"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4003
-L5_1.alias = "Npc4003"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "Q1917105_N4003"
-L5_1.scene_id = 1074
-L5_1.room_id = 1
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 1067
-L6_1.alias = "Npc1067"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q1917104_N513"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["1917105"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 513
-L3_1.alias = "Coop_Faruzan"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1917106_N513"
-L3_1.scene_id = 1074
-L3_1.room_id = 1
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1051
-L4_1.alias = "Npc1051"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q1917106_N1051"
-L4_1.scene_id = 1074
-L4_1.room_id = 1
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4003
-L5_1.alias = "Npc4003"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "Q1917105_N4003"
-L5_1.scene_id = 1074
-L5_1.room_id = 1
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 1067
-L6_1.alias = "Npc1067"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q1917106_N513"
-L6_1.scene_id = 1074
-L6_1.room_id = 1
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["1917106"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 19171sub_ids = {	1917101,	1917102,	1917103,	1917104,	1917105,	1917106,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = { },}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["1917101"] = { },	["1917102"] = { },	["1917103"] = { },	["1917104"] = 	{		npcs = 		{			{				id = 12923,				alias = "Npc12923",				script = "Actor/Npc/TempNPC",				pos = "Q1917103_N12923",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1917105"] = 	{		npcs = 		{			{				id = 12924,				alias = "Npc12924",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N12924",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1917106"] = { },}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["1917101"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N513",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N513",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12922,				alias = "Npc12922",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N513",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["1917102"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N513",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N1051",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12922,				alias = "Npc12922",				script = "Actor/Npc/TempNPC",				pos = "Q1917102_N12922",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["1917103"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917103_N513",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917103_N1051",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12923,				alias = "Npc12923",				script = "Actor/Npc/TempNPC",				pos = "Q1917103_N12923",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["1917104"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N513",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N1051",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12924,				alias = "Npc12924",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N12924",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["1917105"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N513",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917104_N1051",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4003,				alias = "Npc4003",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q1917105_N4003",				scene_id = 1074,				room_id = 1,				data_index = 3,			},		},	},	["1917106"] = 	{		npcs = 		{			{				id = 513,				alias = "Coop_Faruzan",				script = "Actor/Npc/TempNPC",				pos = "Q1917106_N513",				scene_id = 1074,				room_id = 1,				data_index = 1,			},			{				id = 1051,				alias = "Npc1051",				script = "Actor/Npc/TempNPC",				pos = "Q1917106_N1051",				scene_id = 1074,				room_id = 1,				data_index = 2,			},			{				id = 4003,				alias = "Npc4003",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q1917105_N4003",				scene_id = 1074,				room_id = 1,				data_index = 3,			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,147 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1
-main_id = 23039
-L0_1 = {}
-L1_1 = 2303901
-L2_1 = 2303902
-L3_1 = 2303903
-L4_1 = 2303904
-L5_1 = 2303905
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133308064"
-L5_1 = ""
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L2_1[1] = L3_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["2303901"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4422
-L3_1.alias = "Npc4422"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q23039_BoyA_Ending"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4423
-L4_1.alias = "Npc4423"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q23039_RacingEnd"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["2303904"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4422
-L3_1.alias = "Npc4422"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q23039_BoyA_Ending"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4423
-L4_1.alias = "Npc4423"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q23039_RacingEnd"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["2303905"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4422
-L3_1.alias = "Npc4422"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q23039_BoyA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4423
-L4_1.alias = "Npc4423"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q23039_BoyB"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["2303901"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4422
-L3_1.alias = "Npc4422"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q23039_BoyA_Ending"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4423
-L4_1.alias = "Npc4423"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q23039_BoyB_Start"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 3
-L3_1.pos = "Q23039_Player_Start"
-L2_1[1] = L3_1
-L1_1.transmit_points = L2_1
-L0_1["2303902"] = L1_1
-L1_1 = {}
-L0_1["2303903"] = L1_1
-L1_1 = {}
-L0_1["2303904"] = L1_1
-L1_1 = {}
-L0_1["2303905"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 23039sub_ids = {	2303901,	2303902,	2303903,	2303904,	2303905,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = 	{		QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = 		{			{ "133308064", "", },		},	},}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["2303901"] = { },	["2303904"] = 	{		npcs = 		{			{				id = 4422,				alias = "Npc4422",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyA_Ending",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4423,				alias = "Npc4423",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_RacingEnd",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["2303905"] = 	{		npcs = 		{			{				id = 4422,				alias = "Npc4422",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyA_Ending",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4423,				alias = "Npc4423",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_RacingEnd",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["2303901"] = 	{		npcs = 		{			{				id = 4422,				alias = "Npc4422",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4423,				alias = "Npc4423",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyB",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["2303902"] = 	{		npcs = 		{			{				id = 4422,				alias = "Npc4422",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyA_Ending",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4423,				alias = "Npc4423",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q23039_BoyB_Start",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},		transmit_points = 		{			{				point_id = 1,				scene_id = 3,				pos = "Q23039_Player_Start",			},		},	},	["2303903"] = { },	["2303904"] = { },	["2303905"] = { },}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -49,8 +49,7 @@
                   "$type": "ApplyModifier",
                   "modifierName": "EnergyDisk_FallingAttack_CD_Change"
                 }
-              ],
-              "BILMCNCKIAO": ""
+              ]
             }
           ]
         },
@@ -116,7 +115,7 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "attackType": "Melee",
                     "damageExtra": [
                       "Purple_FallingAttack_Damage",
@@ -169,8 +168,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["FallingAnthem_AS_1"],
-              "modifierName": "UNIQUE_EnergyDisk_Blue_Falling_Reset",
-              "BILMCNCKIAO": ""
+              "modifierName": "UNIQUE_EnergyDisk_Blue_Falling_Reset"
             }
           ]
         },
@@ -234,8 +232,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["FlyStart", "Fly", "Jump"],
-              "modifierName": "UNIQUE_ChangeGlobalValue_FlyTime",
-              "BILMCNCKIAO": ""
+              "modifierName": "UNIQUE_ChangeGlobalValue_FlyTime"
             }
           ]
         },
@@ -374,8 +371,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["FallingAnthem_AS_1", "FallingAnthem_AS_2"],
-              "modifierName": "UNIQUE_EnergyDisk_AddWind_CD_Change",
-              "BILMCNCKIAO": ""
+              "modifierName": "UNIQUE_EnergyDisk_AddWind_CD_Change"
             }
           ]
         },
@@ -452,10 +448,10 @@
                   "y": 0.0,
                   "z": -1.0
                 },
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 0.5
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 0.5
                 }
               },
               "value": 1.0,
@@ -470,12 +466,12 @@
                   "y": 0.0,
                   "z": -1.0
                 },
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 0.5
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 0.5
                 },
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000304,
               "campID": 5001
@@ -1064,9 +1060,9 @@
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "DMHLALOGPAH",
+                  "$type": "EJIHECGHKCK",
                   "target": "Self",
-                  "weaponTypes": ["WEAPON_BOW"]
+                  "NBNCGECJGEK": ["WEAPON_BOW"]
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -1077,8 +1073,8 @@
                   "attackTags": ["ExtraAttack"]
                 },
                 {
-                  "$type": "POIHJHMAMEM",
-                  "hitBoxType": "Head"
+                  "$type": "LCDGFEFCLIP",
+                  "GEGDJNBHHEC": "Head"
                 }
               ],
               "successActions": [
@@ -1112,7 +1108,7 @@
                 "ExtraAttack"
               ],
               "damagePercentageRatio": 0.0,
-              "actorElementReactionCriticalHurtDelta": "bonusCritical"
+              "MODFLPBMPKB": "bonusCritical"
             }
           ],
           "state": "AttackUp",
@@ -1259,7 +1255,7 @@
                   "y": 0.0,
                   "z": 5.0
                 },
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000303,
               "campID": 1001,
@@ -1342,7 +1338,7 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "strikeType": "Default",
-                    "damage": 150.0,
+                    "enBreak": 150.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -1472,8 +1468,7 @@
                 "Katana_Attack06",
                 "Katana_ExtraAttack"
               ],
-              "modifierName": "Stamina_ExtraAttack_EnergyDisk_Sub",
-              "BILMCNCKIAO": ""
+              "modifierName": "Stamina_ExtraAttack_EnergyDisk_Sub"
             }
           ]
         },
@@ -1771,7 +1766,7 @@
           "type": "Current",
           "predicates": [
             {
-              "$type": "BJONBAKPHBM",
+              "$type": "FPBCMGGALCI",
               "type": "All"
             }
           ],
@@ -1981,7 +1976,7 @@
                   ]
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             },
             {
               "$type": "AttachModifierToSelfGlobalValueMixin",
@@ -2064,7 +2059,7 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 25.0,
+                    "enBreak": 25.0,
                     "attackType": "Melee",
                     "damageExtra": [
                       "ElementBurst_Wave_Damage",
@@ -2261,7 +2256,7 @@
               "modifierName": "UNIQUE_EnergyDisk_Blue_OnAtkGenerateBall"
             }
           ],
-          "clearSkillIdDelay": 0.20000000298023224
+          "CJJAFBGFGFD": 0.20000000298023224
         }
       ],
       "abilitySpecials": {
@@ -2328,10 +2323,10 @@
                   "y": 0.0,
                   "z": -1.0
                 },
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 0.5
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 0.5
                 }
               },
               "value": 1.0,
@@ -2444,7 +2439,7 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "CKDCEPKGCMH"
+                  "$type": "ECPKMAIHINE"
                 }
               ],
               "successActions": [
@@ -2523,7 +2518,7 @@
                   ]
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },
@@ -2604,7 +2599,7 @@
                     "damagePercentage": "Purple_FallingAttack_Damage",
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
-                    "damage": 25.0,
+                    "enBreak": 25.0,
                     "attackType": "Melee",
                     "FKGFPFNOJMN": 0.0
                   },
@@ -2704,7 +2699,7 @@
                   "modifierName": "UNIQUE_EnergyDisk_Blue_GenerateBall"
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },
@@ -2822,7 +2817,7 @@
                       "target": "Target",
                       "key": "_ABILITY_EnergyDisk_Thunder_Pos",
                       "born": {
-                        "$type": "PNCLIHNAPNL",
+                        "$type": "FCMOIHKKFIN",
                         "offset": {
                           "x": 0.0,
                           "y": 0.0,
@@ -2834,9 +2829,9 @@
                     {
                       "$type": "CreateGadget",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ABILITY_EnergyDisk_Thunder_Pos",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ABILITY_EnergyDisk_Thunder_Pos",
+                        "IDGILJNLJGN": ""
                       },
                       "gadgetID": 44000300,
                       "campID": 1001,
@@ -2963,7 +2958,7 @@
                     "damagePercentage": "DamageRate",
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
-                    "damage": 20.0,
+                    "enBreak": 20.0,
                     "attackType": "Range",
                     "FKGFPFNOJMN": 0.0
                   },
@@ -2993,7 +2988,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR2H4",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -3158,10 +3153,10 @@
                   "y": 0.0,
                   "z": 1.0
                 },
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 0.5
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 0.5
                 }
               },
               "gadgetID": 44000307,
@@ -3336,7 +3331,7 @@
                       "target": "Target",
                       "key": "_ABILITY_EnergyDisk_Superconductor_Pos",
                       "born": {
-                        "$type": "PNCLIHNAPNL",
+                        "$type": "FCMOIHKKFIN",
                         "offset": {
                           "x": 0.0,
                           "y": 0.0,
@@ -3348,9 +3343,9 @@
                     {
                       "$type": "CreateGadget",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ABILITY_EnergyDisk_Superconductor_Pos",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ABILITY_EnergyDisk_Superconductor_Pos",
+                        "IDGILJNLJGN": ""
                       },
                       "gadgetID": 44000301,
                       "campID": 1001,
@@ -3469,7 +3464,7 @@
                     "damagePercentage": "DamageRate",
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
-                    "damage": 20.0,
+                    "enBreak": 20.0,
                     "attackType": "Range",
                     "FKGFPFNOJMN": 0.0
                   },
@@ -3495,7 +3490,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR4",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -3560,11 +3555,11 @@
                   "$type": "ByAny",
                   "predicates": [
                     {
-                      "$type": "KKDONNLCCFK",
+                      "$type": "OOKBGJPMLJC",
                       "element": "Ice"
                     },
                     {
-                      "$type": "KKDONNLCCFK",
+                      "$type": "OOKBGJPMLJC",
                       "element": "Frozen"
                     }
                   ]
@@ -3893,7 +3888,7 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "strikeType": "Slash",
-                    "damage": 25.0,
+                    "enBreak": 25.0,
                     "attackType": "Melee",
                     "FKGFPFNOJMN": 0.0
                   },
@@ -4441,9 +4436,9 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.9900000095367432
+                  "KDHOFDIBFJM": 0.9900000095367432
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_Purple_HealthyDamage_AOE_LowHp_delay"
@@ -4452,9 +4447,9 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": 0.9900000095367432
+                  "KDHOFDIBFJM": 0.9900000095367432
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_Purple_HealthyDamage_AOE_HighHp_delay"
@@ -4505,13 +4500,9 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "attackType": "Melee",
-                    "damageExtra": [
-                      "DamageHigh",
-                      "DamageSystemValue",
-                      "MUL"
-                    ],
+                    "damageExtra": ["DamageHigh", "DamageSystemValue", "MUL"],
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -4570,12 +4561,8 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
-                    "damageExtra": [
-                      "DamageLow",
-                      "DamageSystemValue",
-                      "MUL"
-                    ],
+                    "enBreak": 0.0,
+                    "damageExtra": ["DamageLow", "DamageSystemValue", "MUL"],
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -4636,7 +4623,7 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "BJONBAKPHBM",
+                  "$type": "FPBCMGGALCI",
                   "type": "All"
                 }
               ],
@@ -4767,9 +4754,9 @@
                   "attackTags": ["ExtraAttack"]
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HPRatio"
+                  "KDHOFDIBFJM": "HPRatio"
                 }
               ],
               "successActions": [
@@ -4817,13 +4804,9 @@
                       "damagePercentageRatio": 0.0,
                       "bonusCritical": 100.0,
                       "strikeType": "Default",
-                      "damage": 50.0,
-                      "damageExtra": [
-                        "Damage",
-                        "DamageSystemValue",
-                        "MUL"
-                      ],
-                      "bonusCritical": 0.0
+                      "enBreak": 50.0,
+                      "damageExtra": ["Damage", "DamageSystemValue", "MUL"],
+                      "FKGFPFNOJMN": 0.0
                     },
                     "hitPattern": {
                       "onHitEffectName": "default",
@@ -4997,11 +4980,7 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 100.0,
                     "ignoreAttackerProperty": true,
-                    "damageExtra": [
-                      "Damage",
-                      "DamageSystemValue",
-                      "MUL"
-                    ],
+                    "damageExtra": ["Damage", "DamageSystemValue", "MUL"],
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -5054,7 +5033,7 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "CKDCEPKGCMH"
+                  "$type": "ECPKMAIHINE"
                 }
               ],
               "successActions": [
@@ -5076,7 +5055,7 @@
                     "sortType": "Nearest",
                     "shapeName": "CircleR8",
                     "campTargetType": "Enemy",
-                    "SelectTargetsByShape": 1.0
+                    "OBHNBNDMPFN": 1.0
                   },
                   "predicates": [
                     {

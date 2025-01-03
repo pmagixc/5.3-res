@@ -21,7 +21,7 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "KKDONNLCCFK",
+                      "$type": "OOKBGJPMLJC",
                       "element": "Fire"
                     }
                   ]
@@ -40,7 +40,7 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "KKDONNLCCFK",
+                      "$type": "OOKBGJPMLJC",
                       "element": "Fire"
                     }
                   ]
@@ -108,7 +108,7 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "KKDONNLCCFK",
+                      "$type": "OOKBGJPMLJC",
                       "element": "Fire"
                     }
                   ]
@@ -127,7 +127,7 @@
               "$type": "Predicated",
               "targetPredicates": [
                 {
-                  "$type": "KKDONNLCCFK",
+                  "$type": "OOKBGJPMLJC",
                   "element": "Fire"
                 }
               ],
@@ -145,7 +145,7 @@
                       "elementType": "Fire",
                       "bonusCritical": 40.0,
                       "strikeType": "Default",
-                      "bonusCritical": 0.0
+                      "FKGFPFNOJMN": 0.0
                     },
                     "hitPattern": {
                       "onHitEffectName": "default",
@@ -175,7 +175,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR5",
                 "campTargetType": "SelfCamp",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "modifierName": "Check_Around"
             }
@@ -193,7 +193,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR5",
                 "campTargetType": "SelfCamp",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "attackInfo": {
                 "attackTag": "",

@@ -1,242 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1
-main_id = 19154
-L0_1 = {}
-L1_1 = 1915402
-L2_1 = 1915408
-L3_1 = 1915401
-L4_1 = 1915403
-L5_1 = 1915404
-L6_1 = 1915409
-L7_1 = 1915407
-L8_1 = 1915405
-L9_1 = 1915406
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-L0_1[7] = L7_1
-L0_1[8] = L8_1
-L0_1[9] = L9_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133302734"
-L5_1 = ""
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L4_1 = {}
-L5_1 = "133302752"
-L6_1 = ""
-L4_1[1] = L5_1
-L4_1[2] = L6_1
-L5_1 = {}
-L6_1 = "133302758"
-L7_1 = ""
-L5_1[1] = L6_1
-L5_1[2] = L7_1
-L6_1 = {}
-L7_1 = "133302735"
-L8_1 = ""
-L6_1[1] = L7_1
-L6_1[2] = L8_1
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["1915401"] = L1_1
-L1_1 = {}
-L0_1["1915402"] = L1_1
-L1_1 = {}
-L0_1["1915403"] = L1_1
-L1_1 = {}
-L0_1["1915404"] = L1_1
-L1_1 = {}
-L0_1["1915405"] = L1_1
-L1_1 = {}
-L0_1["1915406"] = L1_1
-L1_1 = {}
-L0_1["1915407"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_C1915403"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "guide_C1915403"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915401"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "C1915402_N512"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "C1915402_N512"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915402"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_C1915403"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "guide_C1915403"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915403"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "C1915404_N512"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "C1915404_N512"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915404"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "C1915407_guide"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "C1915407_guide"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915405"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "C1915406_N512"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "C1915406_N512"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915406"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 512
-L3_1.alias = "Coop_Layla"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "C1915407_guide"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 1063
-L4_1.alias = "Npc1063"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "C1915407_guide"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["1915407"] = L1_1
-L1_1 = {}
-L0_1["1915408"] = L1_1
-L1_1 = {}
-L0_1["1915409"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 19154sub_ids = {	1915401,	1915402,	1915403,	1915404,	1915405,	1915406,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = { },}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["1915401"] = { },	["1915402"] = { },	["1915403"] = 	{		npcs = 		{			{				id = 512,				alias = "Coop_Layla",				script = "Actor/Npc/TempNPC",				pos = "C1915402_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1915404"] = { },	["1915405"] = 	{		npcs = 		{			{				id = 512,				alias = "Coop_Layla",				script = "Actor/Npc/TempNPC",				pos = "C1915404_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1915406"] = { },}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["1915401"] = { },	["1915402"] = 	{		npcs = 		{			{				id = 512,				alias = "Coop_Layla",				script = "Actor/Npc/TempNPC",				pos = "C1915402_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1063,				alias = "Npc1063",				script = "Actor/Npc/TempNPC",				pos = "C1915402_N512",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["1915403"] = 	{		npcs = 		{			{				id = 1063,				alias = "Npc1063",				script = "Actor/Npc/TempNPC",				pos = "C1915402_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1915404"] = 	{		npcs = 		{			{				id = 512,				alias = "Coop_Layla",				script = "Actor/Npc/TempNPC",				pos = "C1915404_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1063,				alias = "Npc1063",				script = "Actor/Npc/TempNPC",				pos = "C1915404_N512",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["1915405"] = 	{		npcs = 		{			{				id = 1063,				alias = "Npc1063",				script = "Actor/Npc/TempNPC",				pos = "C1915404_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1915406"] = 	{		npcs = 		{			{				id = 512,				alias = "Coop_Layla",				script = "Actor/Npc/TempNPC",				pos = "C1915406_N512",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 1063,				alias = "Npc1063",				script = "Actor/Npc/TempNPC",				pos = "C1915406_N512",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

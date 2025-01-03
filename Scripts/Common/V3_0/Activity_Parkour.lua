@@ -6,6 +6,36 @@
 ||	Protection:     ???
 =======================================]]
 
+--[[
+local defs = {
+
+	gallery_id = ,
+
+	--开启机关交互后，加载哪个/些suit
+	load_on_start = {2},
+
+	--开启机关的configID，SelectOption为175
+	starter_gadget = 0,
+
+	--终点region的configID
+	end_regionID = 0,
+
+	--玩法RegionID，进入此圈开启性能优化，在suit1
+	parkour_regions = {},
+
+	--全程终点在哪个suit,如果这个group非终点，则配0
+	end_suite = 0,
+
+	--挑战限时秒
+	challenge_time = 300,
+
+
+	--镜头注目
+	look_pos = {x=555, y=555, z=555},
+	duration = 2,
+}
+]]--
+
 local global =
 {
     father_challengeID = 2010050,
@@ -39,6 +69,11 @@ local triggers_end =
 }
 
 ---------- Basic Functions -------------
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_Parkour] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
 
 --用于检查value是否在目标table中
 function CheckIsInTable(context, value, check_table)
@@ -92,18 +127,18 @@ function LF_InitChallenge(context)
 	-- 开父挑战再Attach保序 
 	ScriptLib.CreateFatherChallenge(context, 1, global.father_challengeID, defs.challenge_time, {success = 10, fail = 5})
 	if 0 == ScriptLib.StartFatherChallenge(context, 1) then 
-        --ScriptLib.PrintContextLog(context, "开启父挑战成功")
+        --PrintLog(context, "开启父挑战成功")
     else 
-        ScriptLib.PrintContextLog(context, "开启父挑战失败")
+        PrintLog(context, "开启父挑战失败")
     end
     -- param table：param1-event类型, param2-Tag, param3:次数, param4:达到次数是否success
     -- 限时到达	
 	if 0 ~= ScriptLib.AttachChildChallenge(context, 1, 101, 2010051, {4, 666, 1, 1}, {}, {success = 10, fail = 5}) then 
-        ScriptLib.PrintContextLog(context, "子挑战2010051添加失败")
+        PrintLog(context, "子挑战2010051添加失败")
     end
     -- 收集金币
 	if 0 ~= ScriptLib.AttachChildChallenge(context, 1, 102, 2010052, {3, 888, 999}, {}, {success = 0, fail = 0}) then 
-        ScriptLib.PrintContextLog(context, "子挑战2010052添加失败")
+        PrintLog(context, "子挑战2010052添加失败")
     end
 
 	return 0
@@ -114,9 +149,9 @@ function LF_Try_StartTutorial(context)
     --local ownerUid = context.owner_uid
 
     if 0 ~= ScriptLib.AssignPlayerShowTemplateReminder(context,192,{param_uid_vec={},param_vec={},uid_vec={context.uid}}) then
-        ScriptLib.PrintContextLog(context, "弹教程失败")
+        PrintLog(context, "弹教程失败")
     else 
-        ScriptLib.PrintContextLog(context, "弹教程成功")
+        PrintLog(context, "弹教程成功")
     end
 
     return 0
@@ -124,7 +159,7 @@ end
 
 function LF_FailChallenge(context, reason)
 
-    ScriptLib.PrintContextLog(context, "挑战失败处理")
+    PrintLog(context, "挑战失败处理")
     --停Gallery
 	--Reason 0-NONE 1-超时 2-客户端中断 3-lua设置成功 4-lua设置失败
 	ScriptLib.StopGalleryByReason(context, defs.gallery_id, reason)
@@ -138,10 +173,10 @@ function LF_RevertVisionType(context)
 	local uidList = ScriptLib.GetSceneUidList(context)
 	for k, v in pairs(uidList) do
         if 0 == ScriptLib.RevertPlayerRegionVision(context, v) then 
-            ScriptLib.PrintContextLog(context, "Revert Vision成功"..v)
+            PrintLog(context, "Revert Vision成功"..v)
         end
         if 0 ~= ScriptLib.SetPlayerGroupVisionType(context, {v}, {1}) then
-            ScriptLib.PrintContextLog(context, "设置VisionType失败"..v)
+            PrintLog(context, "设置VisionType失败"..v)
         end
 	end
 	return 0
@@ -158,7 +193,7 @@ function CameraAction(context)
 	                                            is_set_screen_XY = false, screen_x = 0, screen_y = 0 })
 		return 0
 	else
-		ScriptLib.PrintContextLog(context, "缺少镜头参数")
+		PrintLog(context, "缺少镜头参数")
 	end
 	return 0
 end
@@ -193,7 +228,7 @@ function SLC_Activity_Parkour_PickCoin(context)
 
     -- pick_up为拾取类型。0：金币
     if 0 ~= ScriptLib.UpdatePlayerGalleryScore(context, defs.gallery_id, {["pick_up"] = 0}) then
-        ScriptLib.PrintContextLog(context, "Gallery通信失败")
+        PrintLog(context, "Gallery通信失败")
     end
 
 	return 0
@@ -202,7 +237,7 @@ end
 ---------- Triggers -----------
 function action_gallery_stop(context, evt)
     -- TEST
-    ScriptLib.PrintContextLog(context, "GalleryID:"..evt.param1.."终止。原因:"..evt.param3)
+    PrintLog(context, "GalleryID:"..evt.param1.."终止。原因:"..evt.param3)
     --环境小动物恢复
 	ScriptLib.SwitchSceneEnvAnimal(context, 2)
 	--VisionType恢复
@@ -227,7 +262,7 @@ function action_gadget_create(context, evt)
 	end
 	-- 设置操作台选项
 	if 0 ~= ScriptLib.SetWorktopOptionsByGroupId(context, base_info.group_id, defs.starter_gadget, {175}) then
-        ScriptLib.PrintContextLog(context, "设置操作台选项失败")
+        PrintLog(context, "设置操作台选项失败")
         return -1
     end
 	
@@ -273,7 +308,7 @@ function action_select_option(context, evt)
 	--加载第一波suite
 	for k, v in pairs(defs.load_on_start) do
 		if 0 == ScriptLib.AddExtraGroupSuite(context, base_info.group_id, v) then 
-            ScriptLib.PrintContextLog(context, "加载suite"..v)
+            PrintLog(context, "加载suite"..v)
         end
 	end
 
@@ -293,11 +328,11 @@ function action_select_option(context, evt)
 	
 	--开启Gallery
 	if 0 ~= ScriptLib.StartGallery(context, defs.gallery_id) then 
-        ScriptLib.PrintContextLog(context, "开启Gallery失败")
+        PrintLog(context, "开启Gallery失败")
     else
-        ScriptLib.PrintContextLog(context, "金币总数-"..global.total_coin_count)
+        PrintLog(context, "金币总数-"..global.total_coin_count)
         if 0 ~= ScriptLib.UpdatePlayerGalleryScore(context, defs.gallery_id, {["total_coin_count"] = global.total_coin_count}) then
-            ScriptLib.PrintContextLog(context, "Gallery传金币数量失败")
+            PrintLog(context, "Gallery传金币数量失败")
         end
     end
 
@@ -313,7 +348,7 @@ function action_challenge_success(context,evt)
 		return -1
 	end
 
-    ScriptLib.PrintContextLog(context, "挑战成功处理")
+    PrintLog(context, "挑战成功处理")
     --停Gallery
 	--Reason 0-NONE 1-超时 2-客户端中断 3-lua设置成功 4-lua设置失败
 	ScriptLib.StopGalleryByReason(context, defs.gallery_id, 3)
@@ -340,11 +375,11 @@ function action_challenge_fail(context, evt)
 	else
         if ScriptLib.IsPlayerAllAvatarDie(context, context.owner_uid) then 
             -- 团灭
-            ScriptLib.PrintContextLog(context, "挑战失败-灭队")
+            PrintLog(context, "挑战失败-灭队")
             LF_FailChallenge(context, 8)
         else
             -- 主动中断
-            ScriptLib.PrintContextLog(context, "挑战失败-客户端中断/其他")
+            PrintLog(context, "挑战失败-客户端中断/其他")
             LF_FailChallenge(context, 2)
         end
 	end
@@ -360,7 +395,7 @@ function action_enter_OptimizRegion(context, evt)
 		ScriptLib.ChangeGroupTempValue(context, "is_in_region", 1, {})
 
 		if ScriptLib.GetGroupTempValue(context, "challenge_state", {}) == 1 then
-            ScriptLib.PrintContextLog(context, "进入跑酷区域"..evt.param1)
+            PrintLog(context, "进入跑酷区域"..evt.param1)
 		end
 	end
 
@@ -378,7 +413,7 @@ function action_leave_OptimizRegion(context,evt)
 			return 0
 		end
 
-        ScriptLib.PrintContextLog(context, "出赛道区域"..evt.param1)
+        PrintLog(context, "出赛道区域"..evt.param1)
 
 		--如果完全出圈了，触发挑战失败
 		local is_in_region = ScriptLib.GetGroupTempValue(context, "is_in_region", {})
@@ -401,7 +436,7 @@ end
 function action_group_will_unload(context,evt)
 
 
-    ScriptLib.PrintContextLog(context, "GROUP UNLOAD.")
+    PrintLog(context, "GROUP UNLOAD.")
 
 	return 0
 end

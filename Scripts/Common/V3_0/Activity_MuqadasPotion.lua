@@ -6,6 +6,71 @@
 ||	Protection:     ???
 =======================================]]
 
+
+--[[
+
+    local defs = 
+    {
+        operator_id = 574048, --操作台的configid
+        option_id = 175, --操作台的option id
+        reminder_id = 400139, -- 每波刷怪，弹出reminder提示
+        gallery_id = 25001,
+    }
+
+    local monster_list = 
+    {
+        -- 第1波怪
+        [1] = 
+        {
+            -- 精英怪configID, 精英怪全部死亡就刷下一波
+            elite_monster = {574001,574002},
+            -- 附属小怪configID，每个id小怪死了之后，重新刷出来
+            tide_mons = {574003, 574004, 574005, 574006, 574007},
+            -- 附属小怪的刷怪间隔
+            tide_mon_delay = 2,
+            -- 下一波怪
+            next = 2,
+            -- 刷下一波怪延迟
+            next_delay = 2,
+
+            elite_monster_energy = 10,
+            elite_monster_score = 10,
+            tide_mons_energy = 10,
+            tide_mons_score = 10,
+        },
+
+        -- 第2波怪
+        [2] =
+        {
+            -- 精英怪configID, 精英怪全部死亡就刷下一波
+            elite_monster = {574011,574012},
+            -- 附属小怪configID，每个id小怪死了之后，重新刷出来
+            tide_mons = {574013, 574014, 574015, 574016, 574017},
+            -- 附属小怪的刷怪间隔
+            tide_mon_delay = 2,
+            -- 下一波的ID
+            next = 3,
+            -- 刷下一波怪延迟
+            next_delay = 2,
+
+            elite_monster_energy = 10,
+            elite_monster_score = 10,
+            tide_mons_energy = 10,
+            tide_mons_score = 10,
+        },
+    }
+    
+--]]
+
+
+
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_MuqadasPotion] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     { name = "tri_group_load", config_id = 40000001, event = EventType.EVENT_GROUP_LOAD, source = "", condition = "", action = "action_group_load", trigger_count = 0 },
@@ -26,7 +91,7 @@ end
 -- 团灭
 function action_dungeon_all_avatar_die(context,evt)
     if 0 ~= ScriptLib.StopGallery(context, defs.gallery_id, true) then 
-        ScriptLib.PrintContextLog(context, "Stop Gallery失败")
+        PrintLog(context, "Stop Gallery失败")
     end
     --LF_Stop_Play(context, false)
     return 0
@@ -35,7 +100,7 @@ end
 -- 副本结算
 function action_dungeon_settle(context,evt)
     if 0 ~= ScriptLib.StopGallery(context, defs.gallery_id, true) then 
-        ScriptLib.PrintContextLog(context, "Stop Gallery失败")
+        PrintLog(context, "Stop Gallery失败")
     end
     --LF_Stop_Play(context, false)
     return 0
@@ -48,10 +113,10 @@ end
 
 --group load后，加载操作台选项
 function action_group_load(context,evt)
-    ScriptLib.PrintContextLog(context, "GroupLoad: 0608-1700")
+    PrintLog(context, "GroupLoad: 0608-1700")
     ScriptLib.SetGadgetStateByConfigId(context, defs.operator_id, 0)
     if 0 ~= ScriptLib.SetWorktopOptionsByGroupId(context, base_info.group_id, defs.operator_id, {defs.option_id}) then
-        ScriptLib.PrintContextLog(context, "设置操作选项失败")
+        PrintLog(context, "设置操作选项失败")
     end
     return 0
 end
@@ -116,14 +181,14 @@ end
 function action_timer_event(context, evt)
     local timer_name = evt.source_name
     if timer_name == "NEXTWAVE" then 
-        ScriptLib.PrintContextLog(context, "计时器-刷下一波怪物")
+        PrintLog(context, "计时器-刷下一波怪物")
         ScriptLib.ShowReminder(context, defs.reminder_id)
 
         local current_wave = ScriptLib.GetGroupVariableValue(context, "current_wave")
         local next_wave = monster_list[current_wave].next
         LF_Create_Monster_Wave(context, next_wave)
     else 
-        ScriptLib.PrintContextLog(context, "计时器-小怪复活"..timer_name)
+        PrintLog(context, "计时器-小怪复活"..timer_name)
         local monster_cid = tonumber(timer_name)
         ScriptLib.CreateMonster(context, { config_id = monster_cid, delay_time = 0 })  
     end
@@ -141,24 +206,24 @@ function LF_Update_Score(context, is_elite, wave)
 
     if wave_info ~= nil then 
         if is_elite == 1 then 
-            ScriptLib.PrintContextLog(context, "精英怪死亡")
+            PrintLog(context, "精英怪死亡")
             score = wave_info.elite_monster_score or 0
             energy = wave_info.elite_monster_energy or 0
         else 
-            ScriptLib.PrintContextLog(context, "普通怪死亡")
+            PrintLog(context, "普通怪死亡")
             score = wave_info.tide_mons_score or 0
             energy = wave_info.tide_mons_energy or 0
         end
     end
 
-    ScriptLib.PrintContextLog(context, "怪物分数:"..score.."。怪物能量:"..energy)
+    PrintLog(context, "怪物分数:"..score.."。怪物能量:"..energy)
 
     ScriptLib.UpdatePlayerGalleryScore(context, defs.gallery_id, { ["add_score"] = score, ["add_energy"] = energy })
 end
 
 function LF_Create_Monster_Wave(context, wave)
 
-    ScriptLib.PrintContextLog(context, "怪物波次:"..wave)
+    PrintLog(context, "怪物波次:"..wave)
 
     --ScriptLib.ShowReminder(context, defs.reminder_id)
 
@@ -172,7 +237,7 @@ function LF_Create_Monster_Wave(context, wave)
 
     local left_elites = #elites or 0
     ScriptLib.SetGroupVariableValue(context, "left_elites", left_elites)
-    ScriptLib.PrintContextLog(context, "该波次精英怪数量:"..left_elites)
+    PrintLog(context, "该波次精英怪数量:"..left_elites)
     --ScriptLib.SetGroupVariableValue(context, "wave_pause", 0)
 
     -- 普通怪
@@ -186,9 +251,9 @@ function LF_Cancel_Monster_Timers(context, wave)
     local monsters = monster_list[wave].tide_mons
     for _, _cid in pairs(monsters) do
         if 0 ~= ScriptLib.CancelGroupTimerEvent(context, base_info.group_id, tostring(_cid)) then 
-            ScriptLib.PrintContextLog(context, "找不到Timer:".._cid)
+            PrintLog(context, "找不到Timer:".._cid)
         else 
-            ScriptLib.PrintContextLog(context, "取消TIMER成功:".._cid)
+            PrintLog(context, "取消TIMER成功:".._cid)
         end
     end
 end
@@ -229,7 +294,7 @@ function LF_Stop_Play(context, success)
     ScriptLib.SetGroupVariableValue(context, "level_stopped", 1)
 
     -- if 0 ~= ScriptLib.StopGallery(context, defs.gallery_id, true) then 
-    --     ScriptLib.PrintContextLog(context, "Stop Gallery失败")
+    --     PrintLog(context, "Stop Gallery失败")
     -- end
     
     -- 关卡重置

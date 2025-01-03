@@ -30,8 +30,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CATALYST"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CATALYST"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystMuteHurt"
@@ -71,8 +71,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordMuteHurt"
@@ -112,8 +112,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CLAYMORE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreMuteHurt"
@@ -153,8 +153,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_POLE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_POLE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleMuteHurt"
@@ -194,8 +194,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_BOW"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_BOW"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowMuteHurt"
@@ -273,8 +273,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CATALYST"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CATALYST"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable"
@@ -317,8 +317,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CATALYST"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CATALYST"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable_High"
@@ -361,8 +361,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordVulnerable"
@@ -405,8 +405,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordVulnerable_High"
@@ -449,8 +449,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CLAYMORE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable"
@@ -493,8 +493,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_CLAYMORE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable_High"
@@ -537,8 +537,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_POLE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_POLE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleVulnerable"
@@ -581,8 +581,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_POLE"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_POLE"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleVulnerable_High"
@@ -625,8 +625,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_BOW"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_BOW"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowVulnerable"
@@ -669,8 +669,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_BOW"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_BOW"]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowVulnerable_High"
@@ -696,7 +696,7 @@
               "$type": "ModifyDamageMixin",
               "ignoreEventInfo": true,
               "damagePercentageRatio": 0.0,
-              "actorElementReactionCriticalHurtDelta": "Rate",
+              "MODFLPBMPKB": "Rate",
               "predicates": [
                 {
                   "$type": "ByTargetGlobalValue",
@@ -735,7 +735,7 @@
               "$type": "ModifyDamageMixin",
               "ignoreEventInfo": true,
               "damagePercentageRatio": 0.0,
-              "actorWindSubHurtDelta": "Rate",
+              "IHKMLHCAIIA": "Rate",
               "predicates": [
                 {
                   "$type": "ByTargetGlobalValue",

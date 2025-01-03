@@ -64,8 +64,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Jump", "Fly", "Fall"],
-              "modifierName": "Seeker_Execution_SwitchSkill_State_Fly",
-              "BILMCNCKIAO": ""
+              "modifierName": "Seeker_Execution_SwitchSkill_State_Fly"
             },
             {
               "$type": "SetSkillCanUseInStateMixin",
@@ -94,7 +93,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "HideAndSeek"
+              "DLEICBJFEKN": "HideAndSeek"
             }
           ]
         },
@@ -236,9 +235,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_CatchPrey",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ],
           "failActions": [
@@ -363,7 +362,7 @@
             {
               "$type": "Predicated",
               "otherTargets": {
-                "$type": "LOFHFECCCGG",
+                "$type": "PGJBNNPALCJ",
                 "tag": "HideSeek_GuideGadget"
               },
               "successActions": [
@@ -377,10 +376,9 @@
                   "key": "_ActivityAbility_HideSeek_Seeker_Guide_Dir",
                   "born": {
                     "$type": "ConfigBornBySelf",
-                    "onGround": true,
+                    "CJKCLAIPMHH": true,
                     "direction": {
-                      "$type": "KPKEFLCHOHD",
-                      "namedTransform": ""
+                      "$type": "NIFFDEMABPO"
                     }
                   },
                   "setTarget": false
@@ -397,8 +395,8 @@
                       "z": 0.0
                     },
                     "direction": {
-                      "$type": "AIJHOFHPJJB",
-                      "directionKey": "_ActivityAbility_HideSeek_Seeker_Guide_Dir"
+                      "$type": "KFDGCDGDJMH",
+                      "IDGILJNLJGN": "_ActivityAbility_HideSeek_Seeker_Guide_Dir"
                     }
                   },
                   "effectTempleteID": -1.0
@@ -415,10 +413,9 @@
                   "key": "_ActivityAbility_HideSeek_Seeker_Guide_Dir",
                   "born": {
                     "$type": "ConfigBornBySelf",
-                    "onGround": true,
+                    "CJKCLAIPMHH": true,
                     "direction": {
-                      "$type": "KPKEFLCHOHD",
-                      "namedTransform": ""
+                      "$type": "NIFFDEMABPO"
                     }
                   },
                   "setTarget": false
@@ -435,8 +432,8 @@
                       "z": 0.0
                     },
                     "direction": {
-                      "$type": "AIJHOFHPJJB",
-                      "directionKey": "_ActivityAbility_HideSeek_Seeker_Guide_Dir"
+                      "$type": "KFDGCDGDJMH",
+                      "IDGILJNLJGN": "_ActivityAbility_HideSeek_Seeker_Guide_Dir"
                     }
                   },
                   "effectTempleteID": -1.0
@@ -517,9 +514,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Guide",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ],
           "failActions": [
@@ -702,9 +699,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Detect_F",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "FireEffect",
@@ -875,9 +872,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_UltraMark",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ],
           "failActions": [
@@ -1007,9 +1004,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Out_GlobalSight",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         }
@@ -1070,9 +1067,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_GlobalSight",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ],
           "failActions": [
@@ -1193,9 +1190,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Out_SuperPrison",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -1254,9 +1251,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_SuperPrison",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ],
           "failActions": [
@@ -1417,7 +1414,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "HideAndSeek"
+              "DLEICBJFEKN": "HideAndSeek"
             }
           ]
         },
@@ -1439,8 +1436,7 @@
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Swim", "Fly"],
               "modifierName": "HideAndSeek_PlayerState_Transfer_Quit_Swim",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
+              "isCheckOnAttach": true
             }
           ]
         },
@@ -1504,9 +1500,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Transfer_Quit",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         }
@@ -1597,9 +1593,9 @@
                   "$type": "ServerLuaCall",
                   "luaCallType": "AbilityGroupSourceGroup",
                   "funcName": "HideAndSeek_Skill_Transfer",
-                  "param1": 0.0,
-                  "KEEFCBAAODF": 0.0,
-                  "LABHKHBCHFB": 0.0
+                  "FDPBPIHKEGH": 0.0,
+                  "FJCBPCIDMGJ": 0.0,
+                  "NDCPJDDPIMD": 0.0
                 },
                 {
                   "$type": "DebugLog",
@@ -1627,9 +1623,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Transfer_Quit",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         }
@@ -1711,7 +1707,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000200,
               "campID": 1001,
@@ -1742,7 +1738,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000201,
               "campID": 1001,
@@ -1773,7 +1769,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000202,
               "campID": 1001,
@@ -1804,7 +1800,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000203,
               "campID": 1001,
@@ -1840,7 +1836,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000204,
               "campID": 1001,
@@ -1870,7 +1866,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000205,
               "campID": 1001,
@@ -1901,7 +1897,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000206,
               "campID": 1001,
@@ -1932,7 +1928,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000207,
               "campID": 1001,
@@ -1963,7 +1959,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000208,
               "campID": 1001,
@@ -1993,7 +1989,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000209,
               "campID": 1001,
@@ -2024,7 +2020,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000400,
               "campID": 1001,
@@ -2055,7 +2051,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000401,
               "campID": 1001,
@@ -2086,7 +2082,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000402,
               "campID": 1001,
@@ -2117,7 +2113,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000403,
               "campID": 1001,
@@ -2153,7 +2149,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000404,
               "campID": 1001,
@@ -2183,7 +2179,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000405,
               "campID": 1001,
@@ -2214,7 +2210,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000406,
               "campID": 1001,
@@ -2245,7 +2241,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000407,
               "campID": 1001,
@@ -2276,7 +2272,7 @@
               "canBeHandledOnRecover": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000408,
               "campID": 1001,
@@ -2306,7 +2302,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000409,
               "campID": 1001,
@@ -2336,7 +2332,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000410,
               "campID": 1001,
@@ -2366,7 +2362,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000411,
               "campID": 1001,
@@ -2396,7 +2392,7 @@
               "$type": "CreateGadget",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "onGround": true
+                "CJKCLAIPMHH": true
               },
               "gadgetID": 44000412,
               "campID": 1001,
@@ -2449,7 +2445,7 @@
               "content": "退出变身时执行了吗"
             }
           ],
-          "onReconnect": [
+          "EAHGOMKOGPA": [
             {
               "$type": "RemoveModifier",
               "predicates": [
@@ -2483,7 +2479,7 @@
             {
               "$type": "EntityInVisibleMixin",
               "reason": "Gallary",
-              "disableAudio": true
+              "GGBKJDBCPHL": true
             }
           ]
         },
@@ -2503,9 +2499,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Transfer_Quit",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -2695,11 +2691,10 @@
                   "$type": "EnableSceneTransformByName",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
                       "targetType": "Team",
-                      "isTarget": false,
-                      "EFHKFHFMKIF": ""
+                      "isTarget": false
                     }
                   ],
                   "transformNames": ["Obj"]
@@ -2716,11 +2711,10 @@
                   "$type": "EnableSceneTransformByName",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
                       "targetType": "Team",
-                      "isTarget": false,
-                      "EFHKFHFMKIF": ""
+                      "isTarget": false
                     }
                   ],
                   "transformNames": ["Obj"],
@@ -2736,10 +2730,9 @@
                   "$type": "FireEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     },
                     {
                       "$type": "ByTargetGlobalValue",
@@ -2754,10 +2747,9 @@
                   "$type": "FireEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     },
                     {
                       "$type": "ByTargetGlobalValue",
@@ -2772,10 +2764,9 @@
                   "$type": "FireEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     },
                     {
                       "$type": "ByTargetGlobalValue",
@@ -2804,10 +2795,9 @@
                   "$type": "AttachEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     }
                   ],
                   "healLimitedByCasterMaxHPRatio": "Eff_Activity_HideSeek_Invisibility_Little",
@@ -2831,10 +2821,9 @@
                   "$type": "AttachEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     }
                   ],
                   "healLimitedByCasterMaxHPRatio": "Eff_Activity_HideSeek_Invisibility_Bait",
@@ -2858,10 +2847,9 @@
                   "$type": "AttachEffect",
                   "predicates": [
                     {
-                      "$type": "KHCIBKLALCK",
+                      "$type": "JAFKEIGFBKO",
                       "target": "OriginOwner",
-                      "targetType": "Team",
-                      "EFHKFHFMKIF": ""
+                      "targetType": "Team"
                     }
                   ],
                   "healLimitedByCasterMaxHPRatio": "Eff_Activity_HideSeek_Invisibility_Big",
@@ -2908,10 +2896,9 @@
               "$type": "EnableSceneTransformByName",
               "predicates": [
                 {
-                  "$type": "KHCIBKLALCK",
+                  "$type": "JAFKEIGFBKO",
                   "target": "OriginOwner",
-                  "targetType": "Team",
-                  "EFHKFHFMKIF": ""
+                  "targetType": "Team"
                 }
               ],
               "transformNames": ["Obj"],
@@ -3016,17 +3003,17 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Transfer_Quit",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_SelfInvisible",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         }
@@ -3146,7 +3133,7 @@
             "$type": "SelectTargetsByShape",
             "shapeName": "CircleR3H5",
             "campTargetType": "All",
-            "SelectTargetsByShape": 1.0
+            "OBHNBNDMPFN": 1.0
           },
           "targetPredicates": [
             {
@@ -3226,9 +3213,9 @@
                   "$type": "ServerLuaCall",
                   "luaCallType": "AbilityGroupSourceGroup",
                   "funcName": "HideAndSeek_Skill_PlaceBait",
-                  "param1": 0.0,
-                  "KEEFCBAAODF": 0.0,
-                  "LABHKHBCHFB": 0.0
+                  "FDPBPIHKEGH": 0.0,
+                  "FJCBPCIDMGJ": 0.0,
+                  "NDCPJDDPIMD": 0.0
                 },
                 {
                   "$type": "SetGlobalValue",
@@ -4598,9 +4585,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Blind",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -4686,7 +4673,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR10H3",
                 "campTargetType": "AllExceptSelf",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -4806,7 +4793,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000458,
               "campID": 1001,
@@ -4836,7 +4823,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000459,
               "campID": 1001,
@@ -4866,7 +4853,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000460,
               "campID": 1001,
@@ -4896,7 +4883,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000461,
               "campID": 1001,
@@ -4926,7 +4913,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000462,
               "campID": 1001,
@@ -4956,7 +4943,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000463,
               "campID": 1001,
@@ -4986,7 +4973,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000464,
               "campID": 1001,
@@ -5016,7 +5003,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000465,
               "campID": 1001,
@@ -5046,7 +5033,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000466,
               "campID": 1001,
@@ -5076,7 +5063,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000467,
               "campID": 1001,
@@ -5106,7 +5093,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000468,
               "campID": 1001,
@@ -5136,7 +5123,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000469,
               "campID": 1001,
@@ -5166,7 +5153,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000470,
               "campID": 1001,
@@ -5196,7 +5183,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000471,
               "campID": 1001,
@@ -5226,7 +5213,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000472,
               "campID": 1001,
@@ -5256,7 +5243,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000473,
               "campID": 1001,
@@ -5286,7 +5273,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000474,
               "campID": 1001,
@@ -5316,7 +5303,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000475,
               "campID": 1001,
@@ -5346,7 +5333,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000476,
               "campID": 1001,
@@ -5376,7 +5363,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000477,
               "campID": 1001,
@@ -5406,7 +5393,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000478,
               "campID": 1001,
@@ -5436,7 +5423,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000479,
               "campID": 1001,
@@ -5466,7 +5453,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000480,
               "campID": 1001,
@@ -5496,7 +5483,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000481,
               "campID": 1001,
@@ -5526,7 +5513,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000482,
               "campID": 1001,
@@ -5556,7 +5543,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000483,
               "campID": 1001,
@@ -5586,7 +5573,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000484,
               "campID": 1001,
@@ -5616,7 +5603,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000485,
               "campID": 1001,
@@ -5646,7 +5633,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000486,
               "campID": 1001,
@@ -5676,7 +5663,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000487,
               "campID": 1001,
@@ -5706,7 +5693,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000488,
               "campID": 1001,
@@ -5736,7 +5723,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000489,
               "campID": 1001,
@@ -5766,7 +5753,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000490,
               "campID": 1001,
@@ -5796,7 +5783,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000491,
               "campID": 1001,
@@ -5826,7 +5813,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000492,
               "campID": 1001,
@@ -5856,7 +5843,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000493,
               "campID": 1001,
@@ -5886,7 +5873,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000494,
               "campID": 1001,
@@ -5916,7 +5903,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000495,
               "campID": 1001,
@@ -5946,7 +5933,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000496,
               "campID": 1001,
@@ -5976,7 +5963,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000497,
               "campID": 1001,
@@ -6006,7 +5993,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000498,
               "campID": 1001,
@@ -6036,7 +6023,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000499,
               "campID": 1001,
@@ -6066,7 +6053,7 @@
               "lifeByOwnerIsAlive": true,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000500,
               "campID": 1001,
@@ -6117,9 +6104,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Blind",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -6405,9 +6392,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Sprint",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -6609,9 +6596,9 @@
               "luaCallType": "CurChallengeGroup",
               "isTarget": true,
               "funcName": "HideAndSeek_Skill_Get_Energy",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -6624,7 +6611,7 @@
             {
               "$type": "KillSelf",
               "banDrop": true,
-              "limboByTargetMaxHPRatio": true,
+              "banExp": true,
               "killSelfType": "Disappear"
             },
             {
@@ -6761,8 +6748,7 @@
             }
           ]
         }
-      ],
-      "isDynamicAbility": true
+      ]
     }
   },
   {
@@ -6779,9 +6765,9 @@
               "cdDelta": true,
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Init",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -7375,9 +7361,9 @@
               "cdDelta": true,
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Init",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "DebugLog",
@@ -7453,7 +7439,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "HideAndSeek"
+              "DLEICBJFEKN": "HideAndSeek"
             }
           ]
         },
@@ -7511,19 +7497,19 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "CKJNCONHFNH"
+                      "$type": "ABFPLJIKNAD"
                     }
                   ]
                 }
               ],
               "reason": "Gallary",
-              "disableAudio": true
+              "GGBKJDBCPHL": true
             },
             {
               "$type": "EntityDitherMixin",
               "predicates": [
                 {
-                  "$type": "CKJNCONHFNH"
+                  "$type": "ABFPLJIKNAD"
                 }
               ],
               "ditherValue": 0.5,
@@ -7571,8 +7557,7 @@
           "onThinkInterval": [
             {
               "$type": "HealHP",
-              "amountByCasterMaxHPRatio": 1.0,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 1.0
             }
           ]
         },
@@ -7681,9 +7666,9 @@
               "cdDelta": true,
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Out_UltraMark",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -7818,9 +7803,9 @@
               "cdDelta": true,
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Out_GlobalSight",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -7945,7 +7930,7 @@
                   "z": 0.0
                 },
                 "attachPointName": "RootNode",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               },
               "gadgetID": 44000108,
               "campID": 1001,
@@ -7957,9 +7942,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Out_SuperPrison",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "KillGadget",
@@ -7983,15 +7968,14 @@
             {
               "$type": "Predicated",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "configID": 44000108
               },
               "targetPredicates": [
                 {
                   "$type": "JOLJOHDJLNF",
                   "compareType": "XYZ",
-                  "ratio": 2.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 2.0
                 }
               ],
               "successActions": [
@@ -8014,7 +7998,7 @@
                       "z": 0.0
                     },
                     "attachPointName": "RootNode",
-                    "attachPointTargetType": "Self"
+                    "BKOJLOPLKJE": "Self"
                   },
                   "gadgetID": 44000108,
                   "campID": 1001,
@@ -8055,7 +8039,7 @@
             {
               "$type": "KillSelf",
               "banDrop": true,
-              "limboByTargetMaxHPRatio": true
+              "banExp": true
             }
           ]
         }
@@ -8078,9 +8062,9 @@
           "$type": "ServerLuaCall",
           "luaCallType": "FromGroup",
           "funcName": "FireDirection",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         },
         {
           "$type": "DebugLog",
@@ -8224,9 +8208,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "AbilityGroupSourceGroup",
               "funcName": "HideAndSeek_Skill_Is_Detected_Quit",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -8645,19 +8629,19 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "CKJNCONHFNH"
+                      "$type": "ABFPLJIKNAD"
                     }
                   ]
                 }
               ],
               "reason": "Gallary",
-              "disableAudio": true
+              "GGBKJDBCPHL": true
             },
             {
               "$type": "EntityDitherMixin",
               "predicates": [
                 {
-                  "$type": "CKJNCONHFNH"
+                  "$type": "ABFPLJIKNAD"
                 }
               ],
               "ditherValue": 0.5,

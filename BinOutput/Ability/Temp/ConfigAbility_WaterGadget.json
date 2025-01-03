@@ -16,7 +16,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR5",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "modifierName": "WetModifier"
             }

@@ -11,6 +11,11 @@ global_info=
 	attackLevel={groupId=247101002,galleryId=28021,max_wave=3},
 	defenseLevel={groupId=247102002,galleryId=28022,max_wave=1}
 }
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_BattleMushroomMonster_FungusGroup] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
 
 local extraTriggers = 
 {
@@ -44,7 +49,7 @@ function LF_GetGalleryId(context)
 	elseif base_info.group_id==global_info.defenseLevel.groupId then
 		return global_info.defenseLevel.galleryId
 	end
-	ScriptLib.PrintContextLog(context, "galleryid获取失败")
+	PrintLog(context, "galleryid获取失败")
 	return 0
 end
 
@@ -62,14 +67,14 @@ end
 ------ Server Lua Call Functions -----------
 --怪物cd重置
 function SLC_MushroomMonsterAlertRefreshSkill(context)
-	ScriptLib.PrintContextLog(context,"蕈兽技能CD重置")
+	PrintLog(context,"蕈兽技能CD重置")
 	local beast = ScriptLib.GetMonsterConfigId(context, { monster_eid = context.source_entity_id })
 	ScriptLib.SetEntityServerGlobalValueByConfigId(context, beast, "SGV_Fungus_StartBurst_Immediately",0)
 	return 0
 end
 --蕈兽放技能
 function SLC_MushroomMonsterAlertDoSkill(context)
-	ScriptLib.PrintContextLog(context,"蕈兽开始释放技能")
+	PrintLog(context,"蕈兽开始释放技能")
 	if ScriptLib.GetTeamServerGlobalValue(context, context.owner_uid, "SGV_Fungus_Burst_Count")>0 or defs.isFungusQuestGroup==1 then
 		local beast = ScriptLib.GetMonsterConfigId(context, { monster_eid = context.source_entity_id })
 		local fungusMonsterId=ScriptLib.GetMonsterIdByEntityId(context, context.source_entity_id)
@@ -93,13 +98,13 @@ end
 ------ conditions & actions ------
 --group加载
 function action_EVENT_GROUP_LOAD(context, evt)
-    ScriptLib.PrintContextLog(context, "group load")
+    PrintLog(context, "group load")
 	LF_ResetVariables(context)
     return 0
 end
 
 function action_EVENT_ANY_MONSTER_DIE(context, evt)
-	ScriptLib.PrintContextLog(context, "蕈兽死亡")
+	PrintLog(context, "蕈兽死亡")
 	--如果本房间没开过复活机关，开一个
 	if ScriptLib.GetGroupVariableValue(context, "RebornGearUsed")==0 then
 		local backupFungusList = ScriptLib.GetCurFungusFighterTrainingValidBackupFungusIdList(context)
@@ -122,7 +127,7 @@ function action_EVENT_VARIABLE_CHANGE(context, evt)
 end
 
 function action_EVENT_ANY_MONSTER_LIVE(context, evt)
-	ScriptLib.PrintContextLog(context, "蕈兽创生")
+	PrintLog(context, "蕈兽创生")
 	--无脑设
 	if defs.reborn_gear ~= nil then
 		ScriptLib.SetGadgetStateByConfigId(context, defs.reborn_gear, 0)

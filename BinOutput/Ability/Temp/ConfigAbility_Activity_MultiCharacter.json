@@ -76,7 +76,7 @@
                 "sortType": "Random",
                 "shapeName": "CircleR60",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -92,16 +92,16 @@
               "bulletID": 70330614,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 15.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 15.0
                 },
-                "onGround": true,
-                "alongGround": true,
-                "useRotation": true
+                "CJKCLAIPMHH": true,
+                "JNDJNDJCGGC": true,
+                "FIOMHONCCNM": true
               },
-              "lifeByOwnerV2": true
+              "BNCFPGNKKPA": true
             }
           ],
           "onThinkInterval": [
@@ -123,7 +123,7 @@
                 "sortType": "Random",
                 "shapeName": "CircleR60",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -139,16 +139,16 @@
               "bulletID": 70330614,
               "born": {
                 "$type": "ConfigBornBySelf",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 15.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 15.0
                 },
-                "onGround": true,
-                "alongGround": true,
-                "useRotation": true
+                "CJKCLAIPMHH": true,
+                "JNDJNDJCGGC": true,
+                "FIOMHONCCNM": true
               },
-              "lifeByOwnerV2": true
+              "BNCFPGNKKPA": true
             }
           ]
         }
@@ -188,7 +188,7 @@
                 "sortType": "Random",
                 "shapeName": "CircleR60",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -204,11 +204,11 @@
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_TracingEnergyBall_Grass_DirectionLine",
               "born": {
                 "$type": "ConfigBornByAttachPoint",
-                "useRotation": true,
+                "FIOMHONCCNM": true,
                 "attachPointName": "RootNode"
               },
               "effectTempleteID": -1.0,
-              "setSelfAsEffectPluginTarget": true
+              "BNEDICIJIKE": true
             }
           ]
         },
@@ -229,7 +229,7 @@
           "onRemoved": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "ActiveTrigger"
+              "triggerID": "ActiveTrigger"
             },
             {
               "$type": "ApplyModifier",
@@ -358,7 +358,7 @@
               "bonusCritical": 25.0,
               "ignoreAttackerProperty": true,
               "strikeType": "Default",
-              "damage": 100.0,
+              "enBreak": 100.0,
               "attackType": "Range",
               "damageExtra": [
                 "ElementLevelCo",
@@ -397,7 +397,7 @@
               "bonusCritical": 25.0,
               "ignoreAttackerProperty": true,
               "strikeType": "Default",
-              "damage": 100.0,
+              "enBreak": 100.0,
               "attackType": "Range",
               "damageExtra": [
                 "ElementLevelCo",
@@ -430,7 +430,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "Explode",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_TracingEnergyBall_Grass"
             }
           ]
@@ -512,7 +512,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "InitialStage1",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderStorm_SafeArea"
             }
           ]
@@ -524,7 +524,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "ToStage2",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderStorm_SafeArea"
             }
           ]
@@ -536,7 +536,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "ToStage3",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderStorm_SafeArea"
             }
           ]
@@ -554,7 +554,7 @@
             },
             {
               "$type": "CreateGadget",
-              "lifeByOwnerV2": true,
+              "BNCFPGNKKPA": true,
               "gadgetID": 70330655,
               "campID": 5001,
               "byServer": true
@@ -606,7 +606,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "sortType": "Reversed",
                 "configID": 70330655
               },
@@ -614,7 +614,7 @@
             },
             {
               "$type": "CreateGadget",
-              "lifeByOwnerV2": true,
+              "BNCFPGNKKPA": true,
               "gadgetID": 70330656,
               "campID": 5001,
               "byServer": true
@@ -650,7 +650,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "sortType": "Reversed",
                 "configID": 70330656
               },
@@ -658,7 +658,7 @@
             },
             {
               "$type": "CreateGadget",
-              "lifeByOwnerV2": true,
+              "BNCFPGNKKPA": true,
               "gadgetID": 70330657,
               "campID": 5001,
               "byServer": true
@@ -672,7 +672,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "sortType": "Reversed",
                 "configID": 70330655
               },
@@ -681,7 +681,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "sortType": "Reversed",
                 "configID": 70330656
               },
@@ -690,7 +690,7 @@
             {
               "$type": "ApplyModifier",
               "otherTargets": {
-                "$type": "JHKLCAELLHL",
+                "$type": "SelectTargetsByChildren",
                 "sortType": "Reversed",
                 "configID": 70330657
               },
@@ -699,7 +699,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "StageChange",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderStorm_SafeArea"
             },
             {
@@ -716,9 +716,8 @@
             {
               "$type": "KillSelf",
               "banDrop": true,
-              "limboByTargetMaxHPRatio": true,
-              "killSelfType": "Disappear",
-              "configIdArray": [70000000]
+              "banExp": true,
+              "killSelfType": "Disappear"
             }
           ]
         }
@@ -772,8 +771,7 @@
                 },
                 {
                   "$type": "JOLJOHDJLNF",
-                  "ratio": 15.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 15.0
                 }
               ],
               "modifierName": "UNIQUE_ThunderStorm_MultiCharacter_DamageTrigger"
@@ -790,8 +788,7 @@
                 },
                 {
                   "$type": "JOLJOHDJLNF",
-                  "ratio": 10.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 10.0
                 }
               ],
               "modifierName": "UNIQUE_ThunderStorm_MultiCharacter_DamageTrigger"
@@ -808,8 +805,7 @@
                 },
                 {
                   "$type": "JOLJOHDJLNF",
-                  "ratio": 5.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 5.0
                 }
               ],
               "modifierName": "UNIQUE_ThunderStorm_MultiCharacter_DamageTrigger"
@@ -827,8 +823,7 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 15.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 15.0
                 }
               ],
               "modifierName": "UNIQUE_Gear_Combat_ThunderStorm_MultiCharacter_Team"
@@ -846,8 +841,7 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 10.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 10.0
                 }
               ],
               "modifierName": "UNIQUE_Gear_Combat_ThunderStorm_MultiCharacter_Team"
@@ -865,8 +859,7 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 5.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 5.0
                 }
               ],
               "modifierName": "UNIQUE_Gear_Combat_ThunderStorm_MultiCharacter_Team"
@@ -954,8 +947,8 @@
                 "shapeName": "CircleR50",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "Alliance",
-                "campBasedOn": "Caster",
-                "SelectTargetsByShape": 1.0
+                "BDDJBGEIGMJ": "Caster",
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1052,8 +1045,8 @@
                 "shapeName": "CircleR50",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "Alliance",
-                "campBasedOn": "Caster",
-                "SelectTargetsByShape": 1.0
+                "BDDJBGEIGMJ": "Caster",
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -1090,13 +1083,13 @@
                       "elementType": "Electric",
                       "bonusCritical": 25.0,
                       "ignoreAttackerProperty": true,
-                      "damage": 0.0,
+                      "enBreak": 0.0,
                       "damageExtra": [
                         "ThunderStorm_Ratio",
                         "ElementLevelCo",
                         "MUL"
                       ],
-                      "bonusCritical": 0.0
+                      "FKGFPFNOJMN": 0.0
                     },
                     "hitPattern": {
                       "onHitEffectName": "",
@@ -1167,8 +1160,7 @@
           "predicates": [
             {
               "$type": "JOLJOHDJLNF",
-              "ratio": 15.0,
-              "PHMALDNHHLD": ""
+              "ratio": 15.0
             },
             {
               "$type": "ByTargetGlobalValue",
@@ -1185,8 +1177,7 @@
           "predicates": [
             {
               "$type": "JOLJOHDJLNF",
-              "ratio": 10.0,
-              "PHMALDNHHLD": ""
+              "ratio": 10.0
             },
             {
               "$type": "ByTargetGlobalValue",
@@ -1271,9 +1262,9 @@
               "minValue": 0.0
             }
           ],
-          "simpleCountGlobaValueKey": "",
-          "simpleCountMaxValue": 0.0,
-          "simpleCountMinValue": 0.0
+          "JEPDGJAPAID": "",
+          "DMCIDGCHIDM": 0.0,
+          "HEEHJGLEDMG": 0.0
         }
       ],
       "abilitySpecials": {
@@ -1331,9 +1322,9 @@
               "$type": "CreateGadget",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "target": "Self",
-                  "ratio": 0.0
+                  "KDHOFDIBFJM": 0.0
                 }
               ],
               "born": {
@@ -1343,19 +1334,19 @@
                   "y": 0.0,
                   "z": 0.0
                 },
-                "onGround": true,
+                "CJKCLAIPMHH": true,
                 "direction": {
-                  "$type": "JLNMKCHJBEB",
+                  "$type": "PPHBFHNAEBE",
                   "eularAngles": {
                     "x": 0.10000000149011612,
                     "y": 0.10000000149011612,
                     "z": 0.10000000149011612
                   }
                 },
-                "alongGround": true,
-                "useRotation": true
+                "JNDJNDJCGGC": true,
+                "FIOMHONCCNM": true
               },
-              "lifeByOwnerV2": true,
+              "BNCFPGNKKPA": true,
               "gadgetID": 49001018,
               "campID": 4001
             },
@@ -1374,7 +1365,7 @@
               "minValue": 0.0
             }
           ],
-          "onThinkIntervalIsFixedUpdate": true,
+          "OLIDLOMEEFB": true,
           "thinkIntervalIgnoreTimeScale": true
         },
         "Activity_MultiCharacter_DangerArea_CoolDown": {
@@ -1455,17 +1446,17 @@
                   "y": 0.0,
                   "z": 0.0
                 },
-                "onGround": true,
+                "CJKCLAIPMHH": true,
                 "direction": {
-                  "$type": "JLNMKCHJBEB",
+                  "$type": "PPHBFHNAEBE",
                   "eularAngles": {
                     "x": 0.10000000149011612,
                     "y": 0.10000000149011612,
                     "z": 0.10000000149011612
                   }
                 },
-                "alongGround": true,
-                "useRotation": true
+                "JNDJNDJCGGC": true,
+                "FIOMHONCCNM": true
               },
               "effectTempleteID": -1.0
             },
@@ -1488,7 +1479,7 @@
                       "y": 0.0,
                       "z": 0.0
                     },
-                    "useRotation": true
+                    "FIOMHONCCNM": true
                   },
                   "height": 20.0,
                   "radius": 7.5
@@ -1504,11 +1495,7 @@
                     "ignoreAttackerProperty": true,
                     "strikeType": "Default",
                     "attackType": "Range",
-                    "damageExtra": [
-                      "ElementLevelCo",
-                      "DamageRatio",
-                      "MUL"
-                    ],
+                    "damageExtra": ["ElementLevelCo", "DamageRatio", "MUL"],
                     "trueDamage": true,
                     "FKGFPFNOJMN": 0.0
                   },
@@ -1632,7 +1619,7 @@
                 "sortType": "Nearest",
                 "shapeName": "CircleR60",
                 "campTargetType": "Alliance",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1685,7 +1672,7 @@
                 "sortType": "Nearest",
                 "shapeName": "CircleR60",
                 "campTargetType": "Alliance",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -1724,7 +1711,7 @@
                 "sortType": "Nearest",
                 "shapeName": "CircleR60",
                 "campTargetType": "Alliance",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1733,9 +1720,9 @@
                   "ratio": 1.0
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "target": "Self",
-                  "ratio": 0.0
+                  "KDHOFDIBFJM": 0.0
                 }
               ],
               "successActions": [
@@ -1750,17 +1737,16 @@
                   "healLimitedByCasterMaxHPRatio": "Eff_Monster_GeneralSkill_Sovereign_Slave_LifeLine",
                   "born": {
                     "$type": "ConfigBornByAttachPoint",
-                    "useRotation": true,
+                    "FIOMHONCCNM": true,
                     "attachPointName": "RootNode",
-                    "attachPointTargetType": "Caster"
+                    "BKOJLOPLKJE": "Caster"
                   },
                   "effectTempleteID": -1.0
                 },
                 {
                   "$type": "HealHP",
                   "target": "Target",
-                  "amountByCasterMaxHPRatio": "HealRatio",
-                  "cdRatio": ""
+                  "GGLMMJHNGMO": "HealRatio"
                 }
               ]
             }
@@ -1878,8 +1864,8 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": 0.0
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": 0.0
                 }
               ],
               "modifierName": "GeneralSkill_Activity_MultiCharacter_SelfHeal_Latency"
@@ -1914,8 +1900,7 @@
                   "$type": "HKHCENMGHLH"
                 }
               ],
-              "amountByCasterMaxHPRatio": "SelfHeal_Ratio",
-              "cdRatio": ""
+              "GGLMMJHNGMO": "SelfHeal_Ratio"
             },
             {
               "$type": "FireEffect",

@@ -6,10 +6,10 @@
       "abilityMixins": [
         {
           "$type": "AvatarCombatMixin",
-          "onEnterCombat": [
+          "OJIADBPIBAO": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ]
         }
@@ -18,7 +18,7 @@
         {
           "$type": "SetAnimatorTrigger",
           "cdDelta": true,
-          "value": "EndChannelTrigger"
+          "triggerID": "EndChannelTrigger"
         }
       ],
       "onAbilityStart": [
@@ -34,13 +34,13 @@
           "successActions": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ],
           "failActions": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "StartChannelTrigger"
+              "triggerID": "StartChannelTrigger"
             }
           ]
         }
@@ -55,15 +55,15 @@
       "abilityMixins": [
         {
           "$type": "AttachToWidgetStateMixin",
-          "targetWidgetMaterialIDs": [220053, 220071],
-          "onActive": [
+          "OMEGFFOGHHK": [220053, 220071],
+          "OCMNJLLGKDE": [
             {
               "$type": "AttachModifier",
               "cdDelta": true,
               "modifierName": "ActivityAbility_Lannaluo_Shoot_Handler"
             }
           ],
-          "onDisable": [
+          "MPAPIGOKCAM": [
             {
               "$type": "RemoveModifier",
               "cdDelta": true,
@@ -83,14 +83,12 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_BS", "Channel_Loop"],
-              "modifierName": "ActivityAbility_Lannaluo_ChangePlayMode",
-              "BILMCNCKIAO": ""
+              "modifierName": "ActivityAbility_Lannaluo_ChangePlayMode"
             },
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_BS", "Channel_Loop"],
-              "modifierName": "ActivityAbility_Lannaluo_Focus",
-              "BILMCNCKIAO": ""
+              "modifierName": "ActivityAbility_Lannaluo_Focus"
             }
           ]
         },
@@ -100,11 +98,11 @@
           "modifierMixins": [
             {
               "$type": "WidgetLightUpControlMixin",
-              "targetWidgetMaterialId": 220053
+              "MLLIMCLICNI": 220053
             },
             {
               "$type": "WidgetLightUpControlMixin",
-              "targetWidgetMaterialId": 220071
+              "MLLIMCLICNI": 220071
             }
           ],
           "onAdded": [
@@ -127,7 +125,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "LannaluoState"
+              "DLEICBJFEKN": "LannaluoState"
             },
             {
               "$type": "SetGlobalValue",
@@ -172,8 +170,7 @@
               "canMove": false,
               "showCrosshair": false,
               "vcamFov": 30.0,
-              "disableAnim": true,
-              "BPJCLAEPBPL": ""
+              "disableAnim": true
             },
             {
               "$type": "SetAnimatorBool",
@@ -282,7 +279,7 @@
           "$type": "ChangePlayMode",
           "cdDelta": true,
           "muteRemoteAction": true,
-          "FFFGBBHBKGB": "LannaluoState"
+          "DLEICBJFEKN": "LannaluoState"
         }
       ],
       "isDynamicAbility": true
@@ -295,15 +292,15 @@
       "abilityMixins": [
         {
           "$type": "AttachToWidgetStateMixin",
-          "targetWidgetMaterialIDs": [220053, 220071],
-          "onActive": [
+          "OMEGFFOGHHK": [220053, 220071],
+          "OCMNJLLGKDE": [
             {
               "$type": "AttachModifier",
               "cdDelta": true,
               "modifierName": "ActivityAbility_Lannaluo_Skill_Handler"
             }
           ],
-          "onDisable": [
+          "MPAPIGOKCAM": [
             {
               "$type": "RemoveModifier",
               "cdDelta": true,
@@ -320,14 +317,12 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_BS", "Channel_Loop"],
-              "modifierName": "ActivityAbility_Lannaluo_SwitchSkill",
-              "BILMCNCKIAO": ""
+              "modifierName": "ActivityAbility_Lannaluo_SwitchSkill"
             },
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_BS", "Channel_Loop"],
-              "modifierName": "ActivityAbility_Lannaluo_Skill_Handler_01",
-              "BILMCNCKIAO": ""
+              "modifierName": "ActivityAbility_Lannaluo_Skill_Handler_01"
             }
           ]
         },
@@ -352,13 +347,13 @@
               "$type": "RemoveAvatarSkillInfo",
               "cdDelta": true,
               "skillID": 20330,
-              "refreshAfterRemove": true
+              "doOffStage": true
             },
             {
               "$type": "RemoveAvatarSkillInfo",
               "cdDelta": true,
               "skillID": 20331,
-              "refreshAfterRemove": true
+              "doOffStage": true
             }
           ],
           "onThinkInterval": [
@@ -455,7 +450,7 @@
           "modifierMixins": [
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "Slot2"
+              "MGEIMONNADI": "Slot2"
             }
           ]
         },
@@ -708,7 +703,7 @@
                     "elementType": "AntiFire",
                     "bonusCritical": 0.0,
                     "strikeType": "Default",
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -755,7 +750,7 @@
                     "elementType": "AntiFire",
                     "bonusCritical": 0.0,
                     "strikeType": "Default",
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -802,7 +797,7 @@
                     "elementType": "AntiFire",
                     "bonusCritical": 0.0,
                     "strikeType": "Default",
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {

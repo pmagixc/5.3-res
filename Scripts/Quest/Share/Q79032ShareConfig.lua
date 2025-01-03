@@ -1,263 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1
-main_id = 79032
-L0_1 = {}
-L1_1 = 7903201
-L2_1 = 7903202
-L3_1 = 7903203
-L4_1 = 7903204
-L5_1 = 7903209
-L6_1 = 7903205
-L7_1 = 7903206
-L8_1 = 7903207
-L9_1 = 7903208
-L10_1 = 7903210
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-L0_1[7] = L7_1
-L0_1[8] = L8_1
-L0_1[9] = L9_1
-L0_1[10] = L10_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["7903201"] = L1_1
-L1_1 = {}
-L0_1["7903204"] = L1_1
-L1_1 = {}
-L0_1["7903205"] = L1_1
-L1_1 = {}
-L0_1["7903208"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L0_1["7903201"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L2_1[1] = L3_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903202"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903203"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903204"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903205"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903206"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903207"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 20134
-L3_1.pos = "Q4007608_transmit"
-L4_1 = {}
-L4_1.point_id = 2
-L4_1.scene_id = 9
-L4_1.pos = "Q4007613_transmit"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points = L2_1
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.dungeon_id = 1140
-L3_1.pos = "diveinpoint2"
-L4_1 = {}
-L4_1.point_id = 3
-L4_1.dungeon_id = 1139
-L4_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903208"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 3
-L3_1.dungeon_id = 1139
-L3_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903209"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 3
-L3_1.dungeon_id = 1139
-L3_1.pos = "Q4007616_guide"
-L2_1[1] = L3_1
-L1_1.transmit_points_enter_dungeon = L2_1
-L0_1["7903210"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 79032sub_ids = {	7903201,	7903202,	7903203,	7903204,	7903209,	7903205,	7903206,	7903207,	7903208,	7903210,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = { },}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["7903201"] = { },	["7903204"] = { },	["7903205"] = { },	["7903208"] = { },}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["7903201"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},	},	["7903202"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},		},	},	["7903203"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903204"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903205"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903206"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903207"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903208"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 20134,				pos = "Q4007608_transmit",			},			{				point_id = 2,				scene_id = 9,				pos = "Q4007613_transmit",			},		},		transmit_points_enter_dungeon = 		{			{				point_id = 2,				dungeon_id = 1140,				pos = "diveinpoint2",			},			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903209"] = 	{		transmit_points_enter_dungeon = 		{			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},	["7903210"] = 	{		transmit_points_enter_dungeon = 		{			{				point_id = 3,				dungeon_id = 1139,				pos = "Q4007616_guide",			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

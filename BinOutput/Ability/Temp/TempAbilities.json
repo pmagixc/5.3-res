@@ -282,7 +282,7 @@
             "shapeName": "CircleR3",
             "centerBasedOn": "SelfAttackTarget",
             "campTargetType": "Enemy",
-            "SelectTargetsByShape": 1.0
+            "OBHNBNDMPFN": 1.0
           },
           "modifierName": "SetTriggerModifier"
         }
@@ -307,8 +307,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": "healHPRatio",
-              "cdRatio": ""
+              "PKPBLCNMPIG": "healHPRatio"
             }
           ]
         }
@@ -319,9 +318,9 @@
           "target": "Caster",
           "predicates": [
             {
-              "$type": "JAEEKGKDNDI",
+              "$type": "MLPCNPAHGEK",
               "logic": "LesserOrEqual",
-              "ratio": "HPRatio"
+              "KDHOFDIBFJM": "HPRatio"
             }
           ],
           "modifierName": "Test_HealHP"
@@ -602,7 +601,7 @@
           "$type": "ApplyModifier",
           "predicates": [
             {
-              "$type": "FOGBAKKNACO",
+              "$type": "MOEHLEJPJFH",
               "elementType": "Grass"
             }
           ],
@@ -738,7 +737,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR3",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "modifierName": "SteamBangWet"
             }
@@ -776,10 +775,9 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR3",
                 "campTargetType": "Alliance",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
-              "amount": 35.0,
-              "cdRatio": ""
+              "LNFMOCKIAGK": 35.0
             },
             {
               "$type": "FireEffect",
@@ -834,7 +832,7 @@
               "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "KKDONNLCCFK",
+                  "$type": "OOKBGJPMLJC",
                   "element": "Water"
                 }
               ]
@@ -856,7 +854,7 @@
           "$type": "CreateGadget",
           "predicates": [
             {
-              "$type": "KKDONNLCCFK",
+              "$type": "OOKBGJPMLJC",
               "element": "Water"
             }
           ],
@@ -1013,8 +1011,7 @@
         {
           "$type": "HealHP",
           "target": "Target",
-          "amountByCasterMaxHPRatio": 0.25,
-          "cdRatio": ""
+          "GGLMMJHNGMO": 0.25
         }
       ]
     }
@@ -1242,14 +1239,12 @@
             "ChargedAttack_Loop",
             "ChargedShoot_Loop"
           ],
-          "modifierName": "RisingSlashLoopModifier",
-          "BILMCNCKIAO": ""
+          "modifierName": "RisingSlashLoopModifier"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ChargedAttack_Loop2", "SupportRisingSlash_BS"],
-          "modifierName": "RisingSlashLoop2Modifier",
-          "BILMCNCKIAO": ""
+          "modifierName": "RisingSlashLoop2Modifier"
         }
       ],
       "modifiers": {
@@ -1300,21 +1295,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["FireAssault_Loop"],
-          "modifierName": "FireAssault_Loop",
-          "BILMCNCKIAO": ""
+          "modifierName": "FireAssault_Loop"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["SupportFireAssault_Loop"],
-          "modifierName": "SupportFireAssault_Loop",
-          "BILMCNCKIAO": ""
+          "modifierName": "SupportFireAssault_Loop"
         },
         {
           "$type": "AvatarSteerByCameraMixin",
           "stateIDs": ["FireAssault_Loop"],
-          "angularSpeed": 720.0,
-          "GMBCNDFMEPL": "",
-          "LGBNCJHLOLI": ""
+          "angularSpeed": 720.0
         },
         {
           "$type": "SteerAttackMixin",
@@ -1322,15 +1313,13 @@
           "endNormalizedTime": 0.5,
           "angularSpeed": 360.0,
           "attackTrigger": "NextSkillTrigger",
-          "attackDistance": 4.0,
-          "BILMCNCKIAO": ""
+          "attackDistance": 4.0
         },
         {
           "$type": "SteerAttackMixin",
           "steerStateIDs": ["SupportFireAssault_Loop"],
           "angularSpeed": 540.0,
-          "attackTrigger": "",
-          "BILMCNCKIAO": ""
+          "attackTrigger": ""
         }
       ],
       "modifiers": {
@@ -1557,7 +1546,7 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "FOGBAKKNACO",
+              "$type": "MOEHLEJPJFH",
               "elementType": "Grass"
             }
           ],
@@ -1568,7 +1557,7 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "FOGBAKKNACO",
+              "$type": "MOEHLEJPJFH",
               "elementType": "Fire"
             }
           ],
@@ -1607,7 +1596,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR3",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "modifierName": "SelectNearModifier"
             }
@@ -1633,8 +1622,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 0.10000000149011612,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 0.10000000149011612
             }
           ]
         }
@@ -2348,8 +2336,8 @@
               "z": 0.0
             },
             "direction": {
-              "$type": "HAEIKNNFLFO",
-              "PDKJDHJIEJB": ""
+              "$type": "MDFHAFBFOAD",
+              "NNGJPPABGNH": ""
             }
           }
         }
@@ -2372,8 +2360,8 @@
               "z": 0.0
             },
             "direction": {
-              "$type": "HAEIKNNFLFO",
-              "PDKJDHJIEJB": ""
+              "$type": "MDFHAFBFOAD",
+              "NNGJPPABGNH": ""
             }
           }
         }
@@ -2646,7 +2634,7 @@
             "$type": "SelectTargetsByShape",
             "shapeName": "CircleR1",
             "campTargetType": "Enemy",
-            "SelectTargetsByShape": 1.0
+            "OBHNBNDMPFN": 1.0
           },
           "modifierName": "slowdown"
         }
@@ -2662,8 +2650,8 @@
           "$type": "AttachEffect",
           "predicates": [
             {
-              "$type": "GLELJBPONCJ",
-              "filters": ["Water"],
+              "$type": "ABGKMCPBLIP",
+              "HBILJDNKDKP": ["Water"],
               "include": false
             }
           ],
@@ -2674,8 +2662,8 @@
           "$type": "AttachEffect",
           "predicates": [
             {
-              "$type": "GLELJBPONCJ",
-              "filters": ["Water"]
+              "$type": "ABGKMCPBLIP",
+              "HBILJDNKDKP": ["Water"]
             }
           ],
           "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Girl_Sword_Ayaka_LiquidStrike_Spray",

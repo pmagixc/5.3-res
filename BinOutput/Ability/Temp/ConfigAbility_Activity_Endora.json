@@ -7,8 +7,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ShootBS", "Shoot", "FastAim", "FastAimShoot"],
-          "modifierName": "AimHideEndora",
-          "BILMCNCKIAO": ""
+          "modifierName": "AimHideEndora"
         },
         {
           "$type": "StageReadyMixin",
@@ -82,7 +81,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "Die",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             }
           ],
@@ -102,7 +101,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Die",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             }
           ],
@@ -111,7 +110,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Show",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             }
           ]
@@ -167,7 +166,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "SwitchSkill",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
@@ -183,7 +182,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "SwitchSkill",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             },
@@ -223,7 +222,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "EndoraState"
+              "DLEICBJFEKN": "EndoraState"
             }
           ]
         }
@@ -262,8 +261,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Channel_BS", "Channel_Loop"],
-          "modifierName": "CheckChannelLoop",
-          "BILMCNCKIAO": ""
+          "modifierName": "CheckChannelLoop"
         },
         {
           "$type": "ButtonHoldChargeMixin",
@@ -299,7 +297,7 @@
           "OnBeginSecondCharged": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "StartChannelTrigger"
+              "triggerID": "StartChannelTrigger"
             },
             {
               "$type": "SetAnimatorBool",
@@ -307,11 +305,11 @@
               "ratio": true
             }
           ],
-          "onReleaseSecondCharged": [
+          "OnReleaseSecondCharged": [
             {
               "$type": "SetAnimatorTrigger",
               "cdDelta": true,
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
               "$type": "SetAnimatorBool",
@@ -350,7 +348,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Attack_AS",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             },
             {
@@ -379,14 +377,14 @@
               "$type": "TriggerBullet",
               "bulletID": 44000102,
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.6499999761581421,
                   "y": 0.4699999988079071,
                   "z": 0.0
                 },
-                "positionKey": "_ActivityAbility_Endora_Shoot_POS",
-                "directionKey": ""
+                "LDPAKEFHAOK": "_ActivityAbility_Endora_Shoot_POS",
+                "IDGILJNLJGN": ""
               }
             }
           ]
@@ -416,7 +414,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Attack_AS",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             },
             {
@@ -445,14 +443,14 @@
               "$type": "TriggerBullet",
               "bulletID": 44000101,
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.6499999761581421,
                   "y": 0.4699999988079071,
                   "z": 0.0
                 },
-                "positionKey": "_ActivityAbility_Endora_Shoot_POS",
-                "directionKey": ""
+                "LDPAKEFHAOK": "_ActivityAbility_Endora_Shoot_POS",
+                "IDGILJNLJGN": ""
               }
             }
           ]
@@ -472,7 +470,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Attack_BS",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_Endora"
             },
             {
@@ -499,8 +497,7 @@
               "dragButtonName": "Skill2",
               "canMove": false,
               "showCrosshair": false,
-              "disableAnim": true,
-              "BPJCLAEPBPL": ""
+              "disableAnim": true
             }
           ],
           "onRemoved": [
@@ -578,7 +575,7 @@
                   "compareType": "NoneOrEqual"
                 }
               ],
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ]
         },
@@ -720,7 +717,7 @@
       "onAdded": [
         {
           "$type": "SetGlobalValueToOverrideMap",
-          "DEJICOKPHHM": "DummyThrowSpeed",
+          "abilityFormula": "DummyThrowSpeed",
           "isFromOwner": true,
           "globalValueKey": "ActivityAbility_Endora_Throw_Range",
           "overrideMapKey": "Endora_Bubble_Bullet_SpeedUp"
@@ -756,7 +753,7 @@
                 "entityTypePriority": ["Monster", "Gadget"],
                 "shapeName": "CircleR2",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -803,7 +800,7 @@
                 "entityTypePriority": ["Monster", "Gadget"],
                 "shapeName": "CircleR2",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1003,8 +1000,7 @@
                   "ratio": 1.0,
                   "compareType": "MoreThanAndEqual"
                 }
-              ],
-              "configIdArray": [70000000]
+              ]
             },
             {
               "$type": "ClearGlobalValue",

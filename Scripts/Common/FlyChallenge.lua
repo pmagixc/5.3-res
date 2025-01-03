@@ -1,3 +1,1 @@
-function ChallengeFail(context)
-	ScriptLib.StopChallenge(context,2008 ,0)
-end
+-- TODO find out what it should do and implement

@@ -7,44 +7,37 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "ReachLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "UnderLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Open", "Opening"],
-          "modifierName": "Entrance",
-          "BILMCNCKIAO": ""
+          "modifierName": "Entrance"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Active"],
-          "modifierName": "Active",
-          "BILMCNCKIAO": ""
+          "modifierName": "Active"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Opening"],
-          "modifierName": "Opening",
-          "BILMCNCKIAO": ""
+          "modifierName": "Opening"
         }
       ],
       "modifiers": {
@@ -55,7 +48,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "RedTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03"
@@ -74,7 +67,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "BlueTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03"
@@ -88,7 +81,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
@@ -102,7 +95,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
@@ -152,44 +145,37 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "ReachLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "UnderLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Open", "Opening"],
-          "modifierName": "Entrance",
-          "BILMCNCKIAO": ""
+          "modifierName": "Entrance"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Active"],
-          "modifierName": "Active",
-          "BILMCNCKIAO": ""
+          "modifierName": "Active"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Opening"],
-          "modifierName": "Opening",
-          "BILMCNCKIAO": ""
+          "modifierName": "Opening"
         }
       ],
       "modifiers": {
@@ -200,7 +186,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "RedTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03_UW"
@@ -219,7 +205,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "BlueTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03_UW"
@@ -233,7 +219,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
@@ -247,7 +233,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
@@ -297,8 +283,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Gate_Open"],
-          "modifierName": "Gate_Open",
-          "BILMCNCKIAO": ""
+          "modifierName": "Gate_Open"
         }
       ],
       "modifiers": {
@@ -362,56 +347,47 @@
             "Other",
             "Opening"
           ],
-          "modifierName": "Pillar",
-          "BILMCNCKIAO": ""
+          "modifierName": "Pillar"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise"],
-          "modifierName": "Rise",
-          "BILMCNCKIAO": ""
+          "modifierName": "Rise"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise", "UnderLevel", "OnGround", "ReachLevel"],
-          "modifierName": "RedBoard",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedBoard"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise", "OnGround", "UnderLevel"],
-          "modifierName": "RedTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ReachLevel"],
-          "modifierName": "BlueBoard",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueBoard"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Other", "Opening"],
-          "modifierName": "Entrance",
-          "BILMCNCKIAO": ""
+          "modifierName": "Entrance"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Opening"],
-          "modifierName": "Opening",
-          "BILMCNCKIAO": ""
+          "modifierName": "Opening"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Gate_Broken"],
-          "modifierName": "Broken",
-          "BILMCNCKIAO": ""
+          "modifierName": "Broken"
         }
       ],
       "modifiers": {
@@ -459,7 +435,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "BlueTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint"
@@ -505,7 +481,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "RedTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint"
@@ -519,7 +495,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
@@ -532,7 +508,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
@@ -569,56 +545,47 @@
             "Other",
             "Opening"
           ],
-          "modifierName": "Pillar",
-          "BILMCNCKIAO": ""
+          "modifierName": "Pillar"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise"],
-          "modifierName": "Rise",
-          "BILMCNCKIAO": ""
+          "modifierName": "Rise"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise", "UnderLevel", "OnGround", "ReachLevel"],
-          "modifierName": "RedBoard",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedBoard"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Rise", "OnGround", "UnderLevel"],
-          "modifierName": "RedTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ReachLevel"],
-          "modifierName": "BlueBoard",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueBoard"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Other", "Opening"],
-          "modifierName": "Entrance",
-          "BILMCNCKIAO": ""
+          "modifierName": "Entrance"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Opening"],
-          "modifierName": "Opening",
-          "BILMCNCKIAO": ""
+          "modifierName": "Opening"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Gate_Broken"],
-          "modifierName": "Broken",
-          "BILMCNCKIAO": ""
+          "modifierName": "Broken"
         }
       ],
       "modifiers": {
@@ -642,7 +609,7 @@
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Open_UW",
               "born": {
                 "$type": "ConfigBornByAttachPoint",
-                "useRotation": true,
+                "FIOMHONCCNM": true,
                 "attachPointName": "OpenEffectPoint"
               },
               "effectTempleteID": -1.0
@@ -667,7 +634,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "BlueTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
@@ -713,7 +680,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "RedTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
@@ -727,7 +694,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
@@ -740,7 +707,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
@@ -752,7 +719,7 @@
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Active_UW",
               "born": {
                 "$type": "ConfigBornByAttachPoint",
-                "useRotation": true,
+                "FIOMHONCCNM": true,
                 "attachPointName": "ActiveEffectPoint"
               },
               "effectTempleteID": -1.0
@@ -770,38 +737,32 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "RedTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger",
-          "BILMCNCKIAO": ""
+          "modifierName": "BlueTrigger"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "ReachLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel",
-          "BILMCNCKIAO": ""
+          "modifierName": "UnderLevel"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Open"],
-          "modifierName": "Entrance",
-          "BILMCNCKIAO": ""
+          "modifierName": "Entrance"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Active"],
-          "modifierName": "Active",
-          "BILMCNCKIAO": ""
+          "modifierName": "Active"
         }
       ],
       "modifiers": {
@@ -812,7 +773,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "RedTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Hint01"
@@ -865,7 +826,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "BlueTrigger",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Hint01"
@@ -879,7 +840,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Locked"
@@ -893,7 +854,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "gadgetState",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Locked"
             }
@@ -948,8 +909,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Appear"],
-          "modifierName": "Dungeon_Appear",
-          "BILMCNCKIAO": ""
+          "modifierName": "Dungeon_Appear"
         }
       ],
       "modifiers": {
@@ -975,8 +935,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Appear"],
-          "modifierName": "Dungeon_Appear",
-          "BILMCNCKIAO": ""
+          "modifierName": "Dungeon_Appear"
         }
       ],
       "modifiers": {
@@ -1002,20 +961,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Red_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["White"],
-          "modifierName": "White_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "White_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Blue_LightCross"
         }
       ],
       "modifiers": {
@@ -1026,7 +982,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
             }
@@ -1039,7 +995,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
@@ -1057,7 +1013,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 2,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
@@ -1112,20 +1068,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Red_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["White"],
-          "modifierName": "White_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "White_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Blue_LightCross"
         }
       ],
       "modifiers": {
@@ -1136,7 +1089,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
             }
@@ -1149,7 +1102,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
@@ -1163,7 +1116,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 2,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
@@ -1218,20 +1171,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Red_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["White"],
-          "modifierName": "White_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "White_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Blue_LightCross"
         }
       ],
       "modifiers": {
@@ -1242,7 +1192,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
             }
@@ -1255,7 +1205,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
@@ -1269,7 +1219,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 2,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
@@ -1416,7 +1366,7 @@
                     "elementType": "Grass",
                     "bonusCritical": 10.0,
                     "strikeType": "Pierce",
-                    "damage": 9999999.0,
+                    "enBreak": 9999999.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -1469,7 +1419,7 @@
                 "elementType": "Grass",
                 "bonusCritical": 10.0,
                 "strikeType": "Pierce",
-                "damage": 9999999.0,
+                "enBreak": 9999999.0,
                 "FKGFPFNOJMN": 0.0
               },
               "hitPattern": {
@@ -1575,8 +1525,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Gate_Open"],
-          "modifierName": "Gate_Open",
-          "BILMCNCKIAO": ""
+          "modifierName": "Gate_Open"
         }
       ],
       "modifiers": {
@@ -1658,44 +1607,37 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["LadderNone"],
-          "modifierName": "LadderNone",
-          "BILMCNCKIAO": ""
+          "modifierName": "LadderNone"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["LadderAppear"],
-          "modifierName": "LadderAppear",
-          "BILMCNCKIAO": ""
+          "modifierName": "LadderAppear"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["LadderDisapper"],
-          "modifierName": "LadderDisapper",
-          "BILMCNCKIAO": ""
+          "modifierName": "LadderDisapper"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ChallengeEntry_Disappear"],
-          "modifierName": "ChallengeEntry_Disappear",
-          "BILMCNCKIAO": ""
+          "modifierName": "ChallengeEntry_Disappear"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ChallengeEntry_Appear"],
-          "modifierName": "ChallengeEntry_Appear",
-          "BILMCNCKIAO": ""
+          "modifierName": "ChallengeEntry_Appear"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ChallengeEntry_Open"],
-          "modifierName": "ChallengeEntry_Open",
-          "BILMCNCKIAO": ""
+          "modifierName": "ChallengeEntry_Open"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["ChallengeEntry_Close"],
-          "modifierName": "ChallengeEntry_Close",
-          "BILMCNCKIAO": ""
+          "modifierName": "ChallengeEntry_Close"
         },
         {
           "$type": "AttachToGadgetStateMixin",
@@ -1814,20 +1756,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Red_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["White"],
-          "modifierName": "White_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "White_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Blue_LightCross"
         }
       ],
       "modifiers": {
@@ -1838,7 +1777,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
             }
@@ -1851,7 +1790,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
@@ -1865,7 +1804,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 2,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
@@ -1920,20 +1859,17 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Red_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["White"],
-          "modifierName": "White_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "White_LightCross"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross",
-          "BILMCNCKIAO": ""
+          "modifierName": "Blue_LightCross"
         }
       ],
       "modifiers": {
@@ -1944,7 +1880,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
             }
@@ -1957,7 +1893,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
@@ -1971,7 +1907,7 @@
             {
               "$type": "SendEffectTrigger",
               "parameter": "TriggerType",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 2,
               "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
@@ -2035,7 +1971,7 @@
             "$type": "ConfigBornBySelf",
             "direction": {
               "$type": "DFEHJKCDGHN",
-              "angleOffsetCorrect": {
+              "LAIBDKJCHJI": {
                 "x": 0.0,
                 "y": -67.0,
                 "z": 0.0

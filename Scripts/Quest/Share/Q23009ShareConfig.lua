@@ -1,390 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1, L11_1, L12_1, L13_1, L14_1, L15_1, L16_1, L17_1, L18_1
-main_id = 23009
-L0_1 = {}
-L1_1 = 2300901
-L2_1 = 2300902
-L3_1 = 2300903
-L4_1 = 2300917
-L5_1 = 2300904
-L6_1 = 2300918
-L7_1 = 2300908
-L8_1 = 2300909
-L9_1 = 2300910
-L10_1 = 2300919
-L11_1 = 2300911
-L12_1 = 2300912
-L13_1 = 2300913
-L14_1 = 2300920
-L15_1 = 2300914
-L16_1 = 2300915
-L17_1 = 2300916
-L18_1 = 2300921
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-L0_1[7] = L7_1
-L0_1[8] = L8_1
-L0_1[9] = L9_1
-L0_1[10] = L10_1
-L0_1[11] = L11_1
-L0_1[12] = L12_1
-L0_1[13] = L13_1
-L0_1[14] = L14_1
-L0_1[15] = L15_1
-L0_1[16] = L16_1
-L0_1[17] = L17_1
-L0_1[18] = L18_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "101913"
-L3_1[1] = L4_1
-L4_1 = {}
-L5_1 = "101914"
-L4_1[1] = L5_1
-L5_1 = {}
-L6_1 = "101911"
-L5_1[1] = L6_1
-L6_1 = {}
-L7_1 = "101915"
-L6_1[1] = L7_1
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM = L2_1
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133302128"
-L5_1 = "0"
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L4_1 = {}
-L5_1 = "133303115"
-L6_1 = "0"
-L4_1[1] = L5_1
-L4_1[2] = L6_1
-L5_1 = {}
-L6_1 = "133302129"
-L7_1 = "0"
-L5_1[1] = L6_1
-L5_1[2] = L7_1
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L2_1 = {}
-L3_1 = {}
-L4_1 = "2300903"
-L3_1[1] = L4_1
-L4_1 = {}
-L5_1 = "2300904"
-L4_1[1] = L5_1
-L5_1 = {}
-L6_1 = "2300910"
-L5_1[1] = L6_1
-L6_1 = {}
-L7_1 = "2300913"
-L6_1[1] = L7_1
-L7_1 = {}
-L8_1 = "2300916"
-L7_1[1] = L8_1
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L2_1[5] = L7_1
-L1_1.QUEST_EXEC_DEACTIVE_ITEM_GIVING = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["2300902"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300903"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300904"] = L1_1
-L1_1 = {}
-L0_1["2300908"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300909"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300910"] = L1_1
-L1_1 = {}
-L0_1["2300911"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300912"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300913"] = L1_1
-L1_1 = {}
-L0_1["2300914"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300915"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300916"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300917"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4103
-L3_1.alias = "Npc4103"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300904_N4103"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300918"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300919"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300920"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300921"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["2300901"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300902"] = L1_1
-L1_1 = {}
-L0_1["2300903"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4103
-L3_1.alias = "Npc4103"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300904_N4103"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300904"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300908"] = L1_1
-L1_1 = {}
-L0_1["2300909"] = L1_1
-L1_1 = {}
-L0_1["2300910"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300911"] = L1_1
-L1_1 = {}
-L0_1["2300912"] = L1_1
-L1_1 = {}
-L0_1["2300913"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4016
-L3_1.alias = "Npc4016"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q2300701_N4016"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["2300914"] = L1_1
-L1_1 = {}
-L0_1["2300915"] = L1_1
-L1_1 = {}
-L0_1["2300916"] = L1_1
-L1_1 = {}
-L0_1["2300917"] = L1_1
-L1_1 = {}
-L0_1["2300918"] = L1_1
-L1_1 = {}
-L0_1["2300919"] = L1_1
-L1_1 = {}
-L0_1["2300920"] = L1_1
-L1_1 = {}
-L0_1["2300921"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 23009sub_ids = {	2300901,	2300902,	2300903,	2300917,	2300904,	2300918,	2300908,	2300909,	2300910,	2300919,	2300911,	2300912,	2300913,	2300920,	2300914,	2300915,	2300916,	2300921,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = 	{		QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM = 		{			{ "101913", },			{ "101914", },			{ "101911", },			{ "101915", },		},		QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = 		{			{ "133302128", "0", },			{ "133303115", "0", },			{ "133302129", "0", },		},		QUEST_EXEC_DEACTIVE_ITEM_GIVING = 		{			{ "2300903", },			{ "2300904", },			{ "2300910", },			{ "2300913", },			{ "2300916", },		},	},}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["2300902"] = { },	["2300903"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300904"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300908"] = { },	["2300909"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300910"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300911"] = { },	["2300912"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300913"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300914"] = { },	["2300915"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300916"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300917"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300918"] = 	{		npcs = 		{			{				id = 4103,				alias = "Npc4103",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300904_N4103",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300919"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300920"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300921"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["2300901"] = { },	["2300902"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300903"] = { },	["2300904"] = 	{		npcs = 		{			{				id = 4103,				alias = "Npc4103",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300904_N4103",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300908"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300909"] = { },	["2300910"] = { },	["2300911"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300912"] = { },	["2300913"] = { },	["2300914"] = 	{		npcs = 		{			{				id = 4016,				alias = "Npc4016",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q2300701_N4016",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["2300915"] = { },	["2300916"] = { },	["2300917"] = { },	["2300918"] = { },	["2300919"] = { },	["2300920"] = { },	["2300921"] = { },}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

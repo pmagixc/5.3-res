@@ -345,8 +345,7 @@
                       "$type": "HealHP",
                       "target": "Caster",
                       "cdDelta": true,
-                      "amountByCasterMaxHPRatio": "Value_HPRatio",
-                      "cdRatio": ""
+                      "PKPBLCNMPIG": "Value_HPRatio"
                     },
                     {
                       "$type": "ApplyModifier",
@@ -587,7 +586,7 @@
               "$type": "ModifyDamageMixin",
               "attackTags": ["ExtraAttack"],
               "damagePercentageRatio": 0.0,
-              "actorElementReactionCriticalHurtDelta": "Value_BonusCritical"
+              "MODFLPBMPKB": "Value_BonusCritical"
             }
           ],
           "onAttackLanded": [
@@ -716,8 +715,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "DMHLALOGPAH",
-              "weaponTypes": ["WEAPON_BOW"]
+              "$type": "EJIHECGHKCK",
+              "NBNCGECJGEK": ["WEAPON_BOW"]
             }
           ],
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage"
@@ -758,7 +757,7 @@
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "BJONBAKPHBM",
+                  "$type": "FPBCMGGALCI",
                   "target": "Self",
                   "type": "All"
                 }
@@ -841,7 +840,7 @@
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
                     "strikeType": "Default",
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "damageExtra": [
                       "Value_DamageSystemValue",
                       "Value_DamageSystemValueRate",

@@ -15,6 +15,12 @@ local bossMonsterId=
 	29070105
 }
 
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Boss_Battle_Process_Scaramouche] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     { config_id = 40000001, name = "monster_die", event = EventType.EVENT_ANY_MONSTER_DIE, source = "", condition = "", action = "action_EVENT_ANY_MONSTER_DIE", trigger_count = 0 },
@@ -63,7 +69,7 @@ function action_EVENT_TIME_AXIS_PASS(context, evt)
 			end
 		end
 		ScriptLib.InitTimeAxis(context,"YAxisCheck",{5},true)
-		ScriptLib.PrintContextLog(context, "没找到传送目标点")
+		PrintLog(context, "没找到传送目标点")
 	end
 	if evt.source_name=="ShowReminder" then
 		local uidList=ScriptLib.GetSceneUidList(context)
@@ -120,12 +126,13 @@ function action_EVENT_ENTER_REGION(context, evt)
 end
 
 function action_EVENT_ANY_MONSTER_LIVE(context, evt)
-	ScriptLib.PrintContextLog(context, "monster alive:"..evt.param1)
+	--进入方法的log
+	PrintLog(context, "monster alive:"..evt.param1)
 	local monsterEntityId=ScriptLib.GetEntityIdByConfigId(context, evt.param1)
-	ScriptLib.PrintContextLog(context, "GetEntityIdByConfigId: "..monsterEntityId)
     local monsterId=ScriptLib.GetMonsterIdByEntityId(context, monsterEntityId)
-	ScriptLib.PrintContextLog(context, "GetMonsterIdByEntityId :"..monsterId)
-	ScriptLib.SetEntityServerGlobalValueByConfigId(context, evt.param1, "SGV_MONSTER_NADA", 1)
+	if LF_IsBossMonster(context,monsterId) then
+		ScriptLib.SetEntityServerGlobalValueByConfigId(context, evt.param1, "SGV_MONSTER_NADA", 1)
+	end
 	return 0
 end
 

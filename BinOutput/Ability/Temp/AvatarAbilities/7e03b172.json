@@ -1838,17 +1838,6 @@
               "minValue": 0.0
             }
           ],
-          "onRemoved": [
-            {
-              "$type": "SetGlobalValue",
-              "target": "Team",
-              "doOffStage": true,
-              "value": 0.0,
-              "key": "_ABILITY_PlayerFire_ElementalArt_Hold_Fx",
-              "maxValue": 0.0,
-              "minValue": 0.0
-            }
-          ],
           "onAttackLanded": [
             {
               "$type": "Predicated",
@@ -4653,34 +4642,26 @@
         "Avatar_Player_Fire_Constellation_1_Buff_InNyxState": {
           "modifierName": "",
           "elementDurability": 100.0,
-          "properties": {
-            "Actor_FireAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_ElecAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_WaterAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_GrassAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_WindAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_IceAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_RockAddHurtDelta": "Constellation_1_AddHurt_Enhanced",
-            "Actor_PhysicalAddHurtDelta": "Constellation_1_AddHurt_Enhanced"
-          },
-          "state": "AttackUp",
-          "isLimitedProperties": true
+          "modifierMixins": [
+            {
+              "$type": "ModifyDamageMixin",
+              "ignoreEventInfo": true,
+              "damagePercentageRatio": "Constellation_1_AddHurt_Enhanced"
+            }
+          ],
+          "state": "AttackUp"
         },
         "Avatar_Player_Fire_Constellation_1_Buff": {
           "modifierName": "",
           "elementDurability": 100.0,
-          "properties": {
-            "Actor_FireAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_ElecAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_WaterAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_GrassAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_WindAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_IceAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_RockAddHurtDelta": "Constellation_1_AddHurt",
-            "Actor_PhysicalAddHurtDelta": "Constellation_1_AddHurt"
-          },
-          "state": "AttackUp",
-          "isLimitedProperties": true
+          "modifierMixins": [
+            {
+              "$type": "ModifyDamageMixin",
+              "ignoreEventInfo": true,
+              "damagePercentageRatio": "Constellation_1_AddHurt"
+            }
+          ],
+          "state": "AttackUp"
         }
       },
       "onAdded": [
@@ -4789,51 +4770,10 @@
                 "Burning",
                 "CrystallizeFire",
                 "Melt",
-                "Explode"
+                "Explode",
+                "OvergrowMushroomFire"
               ],
               "actions": [
-                {
-                  "$type": "ApplyModifier",
-                  "target": "Caster",
-                  "doOffStage": true,
-                  "predicates": [
-                    {
-                      "$type": "ByTargetGlobalValue",
-                      "target": "Caster",
-                      "key": "_ABILITY_Player_Fire_Permanent_AddNyx_Count",
-                      "value": [
-                        "MaxCount",
-                        1.0,
-                        "SUB"
-                      ],
-                      "compareType": "LessAndEqual"
-                    }
-                  ],
-                  "modifierName": "Avatar_Player_Fire_FireReaction_RecoverNyxValue"
-                }
-              ]
-            }
-          ],
-          "onAttackLanded": [
-            {
-              "$type": "Predicated",
-              "target": "Other",
-              "doOffStage": true,
-              "targetPredicates": [
-                {
-                  "$type": "ByAttackTags",
-                  "attackTags": [
-                    "OverGrow_Fire_Damage"
-                  ]
-                },
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": [
-                    "Monster"
-                  ]
-                }
-              ],
-              "successActions": [
                 {
                   "$type": "ApplyModifier",
                   "target": "Caster",
@@ -4858,6 +4798,7 @@
           ]
         },
         "Avatar_Player_Fire_FireReaction_RecoverNyxValue": {
+          "stacking": "Multiple",
           "modifierName": "",
           "duration": 0.10000000149011612,
           "elementDurability": 100.0,
@@ -5000,50 +4941,10 @@
                 "Burning",
                 "CrystallizeFire",
                 "Melt",
-                "Explode"
+                "Explode",
+                "OvergrowMushroomFire"
               ],
               "actions": [
-                {
-                  "$type": "ApplyModifier",
-                  "target": "Caster",
-                  "doOffStage": true,
-                  "predicates": [
-                    {
-                      "$type": "ByNot",
-                      "predicates": [
-                        {
-                          "$type": "__exp_HasModifier",
-                          "target": "Caster",
-                          "modifierName": "Avatar_Player_Fire_PermanentSkill_2_RecoverEnergyCD"
-                        }
-                      ]
-                    }
-                  ],
-                  "modifierName": "Avatar_Player_Fire_AddEnergy_ByFireReaction"
-                }
-              ]
-            }
-          ],
-          "onAttackLanded": [
-            {
-              "$type": "Predicated",
-              "target": "Other",
-              "doOffStage": true,
-              "targetPredicates": [
-                {
-                  "$type": "ByAttackTags",
-                  "attackTags": [
-                    "OverGrow_Fire_Damage"
-                  ]
-                },
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": [
-                    "Monster"
-                  ]
-                }
-              ],
-              "successActions": [
                 {
                   "$type": "ApplyModifier",
                   "target": "Caster",

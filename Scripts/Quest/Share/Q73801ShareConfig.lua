@@ -1,337 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1
-main_id = 73801
-L0_1 = {}
-L1_1 = 7380101
-L2_1 = 7380102
-L3_1 = 7380103
-L4_1 = 7380104
-L5_1 = 7380105
-L6_1 = 7380106
-L7_1 = 7380107
-L8_1 = 7380108
-L9_1 = 7380109
-L10_1 = 7380110
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-L0_1[7] = L7_1
-L0_1[8] = L8_1
-L0_1[9] = L9_1
-L0_1[10] = L10_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133304233"
-L5_1 = ""
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L4_1 = {}
-L5_1 = "133304235"
-L6_1 = ""
-L4_1[1] = L5_1
-L4_1[2] = L6_1
-L5_1 = {}
-L6_1 = "133304234"
-L7_1 = ""
-L5_1[1] = L6_1
-L5_1[2] = L7_1
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["7380101"] = L1_1
-L1_1 = {}
-L0_1["7380102"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_XUMI01_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4137
-L4_1.alias = "Npc4137"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_XUMI01_PUREWA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["7380103"] = L1_1
-L1_1 = {}
-L0_1["7380104"] = L1_1
-L1_1 = {}
-L0_1["7380105"] = L1_1
-L1_1 = {}
-L0_1["7380106"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD04_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4174
-L4_1.alias = "Npc4174"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD04_NIKA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["7380107"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD04_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4174
-L4_1.alias = "Npc4174"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD04_NIKA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["7380108"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD04_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["7380109"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 20862
-L3_1.alias = "Npc20862"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q73801_WILD07_TUOSHOU"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["7380110"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["7380101"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1005
-L3_1.alias = "Paimon"
-L3_1.script = "Actor/Quest/Q352/Paimon"
-L3_1.pos = "Q73801_XUMI01_PAIMON"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4138
-L4_1.alias = "Npc4138"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_XUMI01_YALISHANDELA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4137
-L5_1.alias = "Npc4137"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "Q73801_XUMI01_PUREWA"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["7380102"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1005
-L3_1.alias = "Paimon"
-L3_1.script = "Actor/Quest/Q352/Paimon"
-L3_1.pos = "Q73801_WILD01_PAIMON"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["7380103"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD01_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4137
-L4_1.alias = "Npc4137"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD01_PUREWA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["7380104"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4137
-L3_1.alias = "Npc4137"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD03_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["7380105"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4138
-L3_1.alias = "Npc4138"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD04_YALISHANDELA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4174
-L4_1.alias = "Npc4174"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD04_NIKA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L1_1.npcs = L2_1
-L0_1["7380106"] = L1_1
-L1_1 = {}
-L0_1["7380107"] = L1_1
-L1_1 = {}
-L0_1["7380108"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4137
-L3_1.alias = "Npc4137"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "Q73801_WILD05_PUREWA"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4121
-L4_1.alias = "Npc4121"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD06_BELATE"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 20862
-L5_1.alias = "Npc20862"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q73801_WILD07_TUOSHOU"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["7380109"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1005
-L3_1.alias = "Paimon"
-L3_1.script = "Actor/Quest/Q352/Paimon"
-L3_1.pos = "Q73801_WILD08_PAIMON"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4174
-L4_1.alias = "Npc4174"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q73801_WILD07_NIKA"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4121
-L5_1.alias = "Npc4121"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "Q73801_WILD07_BELATE"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["7380110"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 73801sub_ids = {	7380101,	7380102,	7380103,	7380104,	7380105,	7380106,	7380107,	7380108,	7380109,	7380110,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = 	{		QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = 		{			{ "133304233", "", },			{ "133304235", "", },			{ "133304234", "", },		},	},}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["7380101"] = { },	["7380102"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_PUREWA",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["7380103"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_PUREWA",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["7380104"] = { },	["7380105"] = { },	["7380106"] = { },	["7380107"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4174,				alias = "Npc4174",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_NIKA",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["7380108"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4174,				alias = "Npc4174",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_NIKA",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["7380109"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["7380110"] = 	{		npcs = 		{			{				id = 20862,				alias = "Npc20862",				script = "Actor/Npc/TempNPC",				pos = "Q73801_WILD07_TUOSHOU",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["7380101"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_XUMI01_PUREWA",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["7380102"] = 	{		npcs = 		{			{				id = 1005,				alias = "Paimon",				script = "Actor/Quest/Q352/Paimon",				pos = "Q73801_XUMI01_PAIMON",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["7380103"] = 	{		npcs = 		{			{				id = 1005,				alias = "Paimon",				script = "Actor/Quest/Q352/Paimon",				pos = "Q73801_WILD01_PAIMON",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["7380104"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD01_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD01_PUREWA",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["7380105"] = 	{		npcs = 		{			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD03_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["7380106"] = 	{		npcs = 		{			{				id = 4138,				alias = "Npc4138",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_YALISHANDELA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4174,				alias = "Npc4174",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD04_NIKA",				scene_id = 3,				room_id = 0,				data_index = 2,			},		},	},	["7380107"] = { },	["7380108"] = { },	["7380109"] = 	{		npcs = 		{			{				id = 4137,				alias = "Npc4137",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD05_PUREWA",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4121,				alias = "Npc4121",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD06_BELATE",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 20862,				alias = "Npc20862",				script = "Actor/Npc/TempNPC",				pos = "Q73801_WILD07_TUOSHOU",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},	["7380110"] = 	{		npcs = 		{			{				id = 1005,				alias = "Paimon",				script = "Actor/Quest/Q352/Paimon",				pos = "Q73801_WILD08_PAIMON",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4174,				alias = "Npc4174",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD07_NIKA",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4121,				alias = "Npc4121",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q73801_WILD07_BELATE",				scene_id = 3,				room_id = 0,				data_index = 3,			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

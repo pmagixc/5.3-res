@@ -6,6 +6,23 @@
 ||	Protection:     [Protection]
 =======================================]]
 
+--[[
+定义每个任务环节的电梯锁定情况
+local questLockInfo=
+{
+    [1]={
+        [1]={uplock=true}
+        [2]={uplock=true,downlock=true }
+    },
+    [2]={
+        [2]={downlock=true }
+    },
+}
+
+
+
+]]
+
 local globalInfo=
 {
     platformConfigId=1001,
@@ -29,6 +46,12 @@ local floorSummonInfo =
     [2]={console=1006},
     [3]={console=1007}, 
 }
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [LibraryElevator] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
 
 local extraTriggers = 
 {
@@ -57,7 +80,7 @@ end
 
 function LF_SetConsoleOptions(context,floor)
     if floorInfo[floor]==nil then
-        ScriptLib.PrintContextLog(context, "没有该楼层")
+        PrintLog(context, "没有该楼层")
         return 0
     end
     --获取任务进度
@@ -66,14 +89,14 @@ function LF_SetConsoleOptions(context,floor)
     --底层只上向上按钮
     if floor==1 then
         if questLockInfo[progress]~=nil and questLockInfo[progress][floor]~=nil and questLockInfo[progress][floor].uplock==true then
-            ScriptLib.PrintContextLog(context, "向上被锁")
+            PrintLog(context, "向上被锁")
         else
             ScriptLib.SetWorktopOptionsByGroupId(context, 0, consoleConfigId, {globalInfo.upOption})
         end 
     --顶层只上向下按钮
     elseif floor==#floorInfo then
         if questLockInfo[progress]~=nil and questLockInfo[progress][floor]~=nil and questLockInfo[progress][floor].downlock==true then
-            ScriptLib.PrintContextLog(context, "向下被锁")
+            PrintLog(context, "向下被锁")
         else
             ScriptLib.SetWorktopOptionsByGroupId(context, 0, consoleConfigId, {globalInfo.downOption})
         end
@@ -99,7 +122,7 @@ end
 
 function LF_DeleteConsoleOptions(context,floor)
     if floorInfo[floor]==nil then
-        ScriptLib.PrintContextLog(context, "没有该楼层")
+        PrintLog(context, "没有该楼层")
         return 0
     end
     local consoleConfigId=floorInfo[floor].console
@@ -132,7 +155,7 @@ function LF_FindSummonLevel(context,configId)
             return i
         end
     end
-    ScriptLib.PrintContextLog(context, "召唤楼层未找到")
+    PrintLog(context, "召唤楼层未找到")
     return -1
 end
 
@@ -161,7 +184,7 @@ function action_EVENT_GROUP_LOAD(context, evt)
 end
 
 function action_EVENT_PLATFORM_REACH_POINT(context, evt)
-    ScriptLib.PrintContextLog(context, "action_EVENT_PLATFORM_REACH_POINT")
+    PrintLog(context, "action_EVENT_PLATFORM_REACH_POINT")
     local curFloor=ScriptLib.GetGroupVariableValue(context, "currentFloor")
     LF_SetConsoleOptions(context,curFloor)
     return 0
@@ -186,7 +209,7 @@ function action_EVENT_SELECT_OPTION(context, evt)
         LF_DeleteConsoleOptions(context,curFloor)
         LF_MovePlatform(context,curFloor,summonFloor)
     else
-        ScriptLib.PrintContextLog(context, "按钮触发错误")
+        PrintLog(context, "按钮触发错误")
     end 
 	return 0
 end

@@ -1,190 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1
-main_id = 73102
-L0_1 = {}
-L1_1 = 7310201
-L2_1 = 7310202
-L3_1 = 7310204
-L4_1 = 7310205
-L5_1 = 7310206
-L6_1 = 7310207
-L7_1 = 7310208
-L8_1 = 7310209
-L9_1 = 7310210
-L10_1 = 7310211
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-L0_1[7] = L7_1
-L0_1[8] = L8_1
-L0_1[9] = L9_1
-L0_1[10] = L10_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["7310201"] = L1_1
-L1_1 = {}
-L0_1["7310202"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4225
-L3_1.alias = "Npc4225"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "wq73077_mgd_a"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4226
-L4_1.alias = "Npc4226"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "wq73077_mgd_b"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4227
-L5_1.alias = "Npc4227"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "wq73077_mgd_c"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 4228
-L6_1.alias = "Npc4228"
-L6_1.script = "Actor/Npc/NpcFSMBehaviour"
-L6_1.pos = "wq73077_mgd_d"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["7310204"] = L1_1
-L1_1 = {}
-L0_1["7310205"] = L1_1
-L1_1 = {}
-L0_1["7310206"] = L1_1
-L1_1 = {}
-L0_1["7310207"] = L1_1
-L1_1 = {}
-L0_1["7310208"] = L1_1
-L1_1 = {}
-L0_1["7310209"] = L1_1
-L1_1 = {}
-L0_1["7310210"] = L1_1
-L1_1 = {}
-L0_1["7310211"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["7310201"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 4225
-L3_1.alias = "Npc4225"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "wq73077_mgd_a"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4226
-L4_1.alias = "Npc4226"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "wq73077_mgd_b"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4227
-L5_1.alias = "Npc4227"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "wq73077_mgd_c"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 4228
-L6_1.alias = "Npc4228"
-L6_1.script = "Actor/Npc/NpcFSMBehaviour"
-L6_1.pos = "wq73077_mgd_d"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L1_1.npcs = L2_1
-L0_1["7310202"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 1
-L3_1.scene_id = 3
-L3_1.pos = "wq73101_player"
-L2_1[1] = L3_1
-L1_1.transmit_points = L2_1
-L0_1["7310204"] = L1_1
-L1_1 = {}
-L0_1["7310205"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 2
-L3_1.scene_id = 3
-L3_1.pos = "wq73101_player"
-L2_1[1] = L3_1
-L1_1.transmit_points = L2_1
-L0_1["7310206"] = L1_1
-L1_1 = {}
-L0_1["7310207"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 3
-L3_1.scene_id = 3
-L3_1.pos = "wq73101_player"
-L2_1[1] = L3_1
-L1_1.transmit_points = L2_1
-L0_1["7310208"] = L1_1
-L1_1 = {}
-L0_1["7310209"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.point_id = 4
-L3_1.scene_id = 3
-L3_1.pos = "wq73101_player"
-L2_1[1] = L3_1
-L1_1.transmit_points = L2_1
-L0_1["7310210"] = L1_1
-L1_1 = {}
-L0_1["7310211"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 73102sub_ids = {	7310201,	7310202,	7310204,	7310205,	7310206,	7310207,	7310208,	7310209,	7310210,	7310211,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = { },}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["7310201"] = { },	["7310202"] = { },	["7310204"] = 	{		npcs = 		{			{				id = 4225,				alias = "Npc4225",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_a",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4226,				alias = "Npc4226",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_b",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4227,				alias = "Npc4227",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_c",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 4228,				alias = "Npc4228",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_d",				scene_id = 3,				room_id = 0,				data_index = 4,			},		},	},	["7310205"] = { },	["7310206"] = { },	["7310207"] = { },	["7310208"] = { },	["7310209"] = { },	["7310210"] = { },	["7310211"] = { },}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["7310201"] = { },	["7310202"] = 	{		npcs = 		{			{				id = 4225,				alias = "Npc4225",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_a",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4226,				alias = "Npc4226",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_b",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4227,				alias = "Npc4227",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_c",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 4228,				alias = "Npc4228",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "wq73077_mgd_d",				scene_id = 3,				room_id = 0,				data_index = 4,			},		},	},	["7310204"] = 	{		transmit_points = 		{			{				point_id = 1,				scene_id = 3,				pos = "wq73101_player",			},		},	},	["7310205"] = { },	["7310206"] = 	{		transmit_points = 		{			{				point_id = 2,				scene_id = 3,				pos = "wq73101_player",			},		},	},	["7310207"] = { },	["7310208"] = 	{		transmit_points = 		{			{				point_id = 3,				scene_id = 3,				pos = "wq73101_player",			},		},	},	["7310209"] = { },	["7310210"] = 	{		transmit_points = 		{			{				point_id = 4,				scene_id = 3,				pos = "wq73101_player",			},		},	},	["7310211"] = { },}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

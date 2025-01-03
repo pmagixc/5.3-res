@@ -12,14 +12,12 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Avatar_Flying_StaminaReduced",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Flying_StaminaReduced"
             },
             {
               "$type": "AttachToAnimatorStateIDMixin",
               "stateIDs": ["Run"],
-              "modifierName": "Avatar_Flying_StaminaReduced",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Flying_StaminaReduced"
             }
           ]
         },
@@ -88,7 +86,7 @@
                   "elementType": "Fire",
                   "bonusCritical": 100.0,
                   "strikeType": "Default",
-                  "damage": 0.0,
+                  "enBreak": 0.0,
                   "damageExtra": 10.0,
                   "FKGFPFNOJMN": 0.0
                 },
@@ -111,7 +109,7 @@
                   "elementType": "Fire",
                   "bonusCritical": 100.0,
                   "strikeType": "Default",
-                  "damage": 0.0,
+                  "enBreak": 0.0,
                   "damageExtra": 10.0,
                   "FKGFPFNOJMN": 0.0
                 },
@@ -176,8 +174,7 @@
               "onGainEnergyByBall": [
                 {
                   "$type": "HealHP",
-                  "amountByCasterMaxHPRatio": 0.10000000149011612,
-                  "cdRatio": ""
+                  "GGLMMJHNGMO": 0.10000000149011612
                 }
               ]
             },
@@ -195,8 +192,8 @@
                   "target": "CurLocalAvatar",
                   "predicates": [
                     {
-                      "$type": "CHMEPBIEMNL",
-                      "featureTagIDs": [10026]
+                      "$type": "LNOGFCLIEBM",
+                      "GOCIMELDHHL": [10026]
                     }
                   ],
                   "modifierName": "AutoTriggerAbility"
@@ -236,8 +233,8 @@
           "target": "CurLocalAvatar",
           "predicates": [
             {
-              "$type": "CHMEPBIEMNL",
-              "featureTagIDs": [10026]
+              "$type": "LNOGFCLIEBM",
+              "GOCIMELDHHL": [10026]
             }
           ],
           "modifierName": "AutoTriggerAbility"
@@ -248,8 +245,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "CHMEPBIEMNL",
-              "featureTagIDs": [10026]
+              "$type": "LNOGFCLIEBM",
+              "GOCIMELDHHL": [10026]
             }
           ],
           "modifierName": "UNIQUE_QuestBuff_DeductElemEnergy"
@@ -266,7 +263,7 @@
         {
           "$type": "FollowAttachPointEffectMixin",
           "modifierName": "ClearFollowPet",
-          "attachPriority": "QuestBlank"
+          "APNJDGMDPIF": "QuestBlank"
         }
       ],
       "modifiers": {
@@ -285,7 +282,7 @@
         {
           "$type": "FollowAttachPointEffectMixin",
           "modifierName": "ClearFollowPet02",
-          "attachPriority": "QuestBlank"
+          "APNJDGMDPIF": "QuestBlank"
         }
       ],
       "modifiers": {
@@ -323,10 +320,10 @@
       },
       "onAdded": [
         {
-          "$type": "SetRandomOverrideMaptriggerID",
+          "$type": "SetRandomOverrideMapValue",
           "cdDelta": true,
-          "triggerIDRangeMax": 30.0,
-          "triggerIDRangeMin": 20.0,
+          "valueRangeMax": 30.0,
+          "valueRangeMin": 20.0,
           "overrideMapKey": "DeadTime_RandomInterval"
         },
         {
@@ -337,10 +334,10 @@
       ],
       "onAbilityStart": [
         {
-          "$type": "SetRandomOverrideMaptriggerID",
+          "$type": "SetRandomOverrideMapValue",
           "cdDelta": true,
-          "triggerIDRangeMax": 30.0,
-          "triggerIDRangeMin": 20.0,
+          "valueRangeMax": 30.0,
+          "valueRangeMin": 20.0,
           "overrideMapKey": "DeadTime_RandomInterval"
         },
         {
@@ -391,7 +388,7 @@
               ]
             }
           ],
-          "costEnergyDeltaName": ""
+          "ABJEBBFHGOI": ""
         }
       ],
       "abilitySpecials": {
@@ -408,7 +405,7 @@
             {
               "$type": "CallLuaTask",
               "targetAlias": "12041",
-              "triggerIDString": "ShougunQuest_Timestop"
+              "valueString": "ShougunQuest_Timestop"
             }
           ],
           "onRemoved": [
@@ -484,8 +481,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "CHMEPBIEMNL",
-              "featureTagIDs": [10070]
+              "$type": "LNOGFCLIEBM",
+              "GOCIMELDHHL": [10070]
             }
           ],
           "modifierName": "UNIQUE_Avatar_QuestAbility_NilouFullMP"
@@ -495,8 +492,8 @@
           "cdDelta": true,
           "predicates": [
             {
-              "$type": "CHMEPBIEMNL",
-              "featureTagIDs": [10070]
+              "$type": "LNOGFCLIEBM",
+              "GOCIMELDHHL": [10070]
             }
           ],
           "content": "!!!!!!!!!Avatar_QuestAbility_NilouFullMP!!!!!!!!!!!"
@@ -511,14 +508,14 @@
       "abilityName": "QuestAbility_WisdomBattle",
       "abilityMixins": [
         {
-          "$type": "ServerUpdateGlobaltriggerIDMixin",
+          "$type": "ServerUpdateGlobalValueMixin",
           "key": "SGV_QUESTABILITY_WISDOMBATTLE",
           "useLimitRange": true,
           "maxValue": 3.0,
           "minValue": 1.0
         },
         {
-          "$type": "AttachModifierToSelfGlobaltriggerIDNoInitMixin",
+          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
           "globalValueKey": "SGV_QUESTABILITY_WISDOMBATTLE",
           "valueSteps": [0.5, 1.5, 2.5, 3.5],
           "modifierNameSteps": [
@@ -678,7 +675,7 @@
                   "triggerType": "TriggerNoRepeat",
                   "born": {
                     "$type": "ConfigBornBySelf",
-                    "useRotation": true
+                    "FIOMHONCCNM": true
                   },
                   "radius": 5.0
                 },
@@ -690,14 +687,10 @@
                     "damagePercentageRatio": 0.0,
                     "bonusCritical": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
-                    "damageExtra": [
-                      "System_Damage",
-                      "CJB_Ratio",
-                      "MUL"
-                    ],
+                    "enBreak": 0.0,
+                    "damageExtra": ["System_Damage", "CJB_Ratio", "MUL"],
                     "trueDamage": true,
-                    "ignoreModifyDamage": true,
+                    "JHBHILHIEJJ": true,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -728,8 +721,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": "Heal_MaxHpRatio",
-              "cdRatio": ""
+              "GGLMMJHNGMO": "Heal_MaxHpRatio"
             }
           ],
           "isLimitedProperties": true
@@ -746,7 +738,7 @@
       },
       "onAdded": [
         {
-          "$type": "SetSystemtriggerIDToOverrideMap",
+          "$type": "SetSystemValueToOverrideMap",
           "key": "System_Damage",
           "type": "ElementLevelCo"
         }
@@ -779,12 +771,11 @@
               "$type": "FireUIEffect",
               "predicates": [
                 {
-                  "$type": "GOKKOCICPNK",
+                  "$type": "GKDECGKPLNM",
                   "skillID": 20070
                 }
               ],
-              "healLimitedByCasterMaxHPRatio": "Eff_UI_BtnSprint_Ripples",
-              "effectParam": ""
+              "healLimitedByCasterMaxHPRatio": "Eff_UI_BtnSprint_Ripples"
             }
           ]
         },
@@ -800,7 +791,7 @@
             },
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "Slot5"
+              "MGEIMONNADI": "Slot5"
             }
           ]
         },
@@ -851,38 +842,6 @@
   {
     "Default": {
       "$type": "ConfigAbility",
-      "abilityName": "Avatar_QuestAbility_TwinsQuest_CheckIsInRegion",
-      "modifiers": {
-        "TwinsQuest_CheckIsInRegion": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "thinkInterval": 2.0,
-          "onThinkInterval": [
-            {
-              "$type": "ServerLuaCall",
-              "cdDelta": false,
-              "luaCallType": "SpecificGroup",
-              "callParamList": [166001079],
-              "funcName": "SLC_Quest_RegionLimit_Check",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
-            }
-          ]
-        }
-      },
-      "onAdded": [
-        {
-          "$type": "AttachModifier",
-          "modifierName": "TwinsQuest_CheckIsInRegion"
-        }
-      ],
-      "isDynamicAbility": true
-    }
-  },
-  {
-    "Default": {
-      "$type": "ConfigAbility",
       "abilityName": "Avatar_QuestAbility_DiscoverBig",
       "modifiers": {
         "QuestAbility_Discover_SwitchSkillButton": {
@@ -905,12 +864,11 @@
               "$type": "FireUIEffect",
               "predicates": [
                 {
-                  "$type": "GOKKOCICPNK",
+                  "$type": "GKDECGKPLNM",
                   "skillID": 20080
                 }
               ],
-              "healLimitedByCasterMaxHPRatio": "Eff_UI_BtnSprint_Ripples",
-              "effectParam": ""
+              "healLimitedByCasterMaxHPRatio": "Eff_UI_BtnSprint_Ripples"
             }
           ]
         },
@@ -926,7 +884,7 @@
             },
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "Slot5"
+              "MGEIMONNADI": "Slot5"
             }
           ]
         },

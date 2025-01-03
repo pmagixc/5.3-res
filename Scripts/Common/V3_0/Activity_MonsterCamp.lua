@@ -23,6 +23,12 @@
 -- 怪物潮模式配置 - 对应的monsterConfigId
 -- local tideMonsters = {1001, 1002, 1003}
 
+-- 打印日志
+function PrintLog(context, content)
+    local log = "## [Activity_MonsterCamp] TD: "..content
+    ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     { config_id = 40000001, name = "tri_group_load", event = EventType.EVENT_GROUP_LOAD, source = "", condition = "", action = "action_EVENT_GROUP_LOAD", trigger_count = 0 },
@@ -89,9 +95,9 @@ function action_EVENT_GROUP_WILL_UNLOAD(context, evt)
     if ScriptLib.GetGroupVariableValue(context, "challenge_state") == 1 then 
         ScriptLib.SetGroupVariableValue(context, "challenge_state", 0)
         if 0 == ScriptLib.PauseChallenge(context, 99) then
-            ScriptLib.PrintContextLog(context, "暂停挑战成功")
+            PrintLog(context, "暂停挑战成功")
         else
-            ScriptLib.PrintContextLog(context, "暂停挑战失败")
+            PrintLog(context, "暂停挑战失败")
         end
     end
 
@@ -99,7 +105,7 @@ function action_EVENT_GROUP_WILL_UNLOAD(context, evt)
 end
 
 function condition_monster_killed(context, evt)
-    ScriptLib.PrintContextLog(context, "var_change : monster_killed "..evt.param2.." -> "..evt.param1)
+    PrintLog(context, "var_change : monster_killed "..evt.param2.." -> "..evt.param1)
     if evt.param1 > evt.param2 then
         return true
     end
@@ -114,7 +120,7 @@ end
 
 function action_EVENT_CHALLENGE_FAIL(context, evt)
     ScriptLib.SetGroupVariableValue(context, "challenge_state", 0)
-    ScriptLib.PrintContextLog(context, "挑战失败")
+    PrintLog(context, "挑战失败")
     return 0
 end
 
@@ -125,7 +131,7 @@ end
 
 function action_EVENT_ANY_MONSTER_DIE(context, evt)
 
-    ScriptLib.PrintContextLog(context, "怪物死亡")
+    PrintLog(context, "怪物死亡")
     -- 更新挑战进度
     ScriptLib.ChangeGroupVariableValue(context, "monster_killed", 1)
     local cur_progress = ScriptLib.GetGroupVariableValue(context, "monster_killed")
@@ -161,9 +167,9 @@ end
 
 -- 进入挑战区域
 function action_EVENT_ENTER_REGION(context, evt)
-    ScriptLib.PrintContextLog(context, "进入挑战区域")
+    PrintLog(context, "进入挑战区域")
     if 0 ~= ScriptLib.AssignPlayerShowTemplateReminder(context,191,{param_uid_vec={},param_vec={},uid_vec={context.uid}}) then
-        ScriptLib.PrintContextLog(context, "弹教程失败")
+        PrintLog(context, "弹教程失败")
     end
     LF_Try_Start_Challenge(context)
     return 0
@@ -176,10 +182,10 @@ function condition_EVENT_LEAVE_REGION(context, evt)
 end
 
 function action_EVENT_LEAVE_REGION(context, evt)
-    ScriptLib.PrintContextLog(context, "离开挑战区域")
+    PrintLog(context, "离开挑战区域")
     if ScriptLib.GetGroupVariableValue(context, "challenge_state") == 1 then 
         if 0 == ScriptLib.PauseChallenge(context, 99) then
-            ScriptLib.PrintContextLog(context, "暂停挑战成功")
+            PrintLog(context, "暂停挑战成功")
         end
     end
     return 0
@@ -204,7 +210,7 @@ function LF_Try_Start_Challenge(context)
 
         --参数1： event_type所在枚举序号； 参数2： trigger_tag；参数3： 次数；参数4：Bool，次数达成是否计为成功；参数5：初始次数值
         if 0 ~= ScriptLib.StartChallenge(context, 99, defs.challenge_id, {3, 666, defs.target_count, 1, init_count}) then 
-            ScriptLib.PrintContextLog(context, "开启挑战失败")
+            PrintLog(context, "开启挑战失败")
         else
             -- 成功开启挑战1
             ScriptLib.MarkGroupLuaAction(context, "GravenInnocence_Camp_1", "", {})
@@ -225,9 +231,9 @@ function LF_Try_Start_Challenge(context)
 end
 
 function LF_StartMonsterWave(context, wave)
-    ScriptLib.PrintContextLog(context, "start wave: "..wave)
+    PrintLog(context, "start wave: "..wave)
     if wave > #monsterSuites then 
-        ScriptLib.PrintContextLog(context, "所有波次已完成")
+        PrintLog(context, "所有波次已完成")
     else
         --ScriptLib.MarkGroupLuaAction(context, "GravenInnocence_Camp_2", "", {current_progress=wave, total_progress=#monsterSuites})
         local suite = monsterSuites[wave]
@@ -243,17 +249,17 @@ function LF_Try_Create_Monster(context)
         local configId = tideMonsters[index+1]
 
         if 0 == ScriptLib.CreateMonster(context, { config_id = configId, delay_time = 0}) then 
-            ScriptLib.PrintContextLog(context, "添加怪物成功")
+            PrintLog(context, "添加怪物成功")
             ScriptLib.SetGroupVariableValue(context, "monster_index", index + 1)
         else 
-            ScriptLib.PrintContextLog(context, "添加怪物失败")
+            PrintLog(context, "添加怪物失败")
         end
     end
 end
 
 -- 测试用
 -- function LF_Reset_Level(context)
---     ScriptLib.PrintContextLog(context, "重置关卡")
+--     PrintLog(context, "重置关卡")
 --     ScriptLib.SetGroupVariableValue(context, "challenge_state", 0)
 --     ScriptLib.SetGroupVariableValue(context, "current_wave", 1)
 --     ScriptLib.SetGroupVariableValue(context, "monster_killed", 0)

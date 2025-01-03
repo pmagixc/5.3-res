@@ -1,126 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1
-main_id = 73306
-L0_1 = {}
-L1_1 = 7330601
-L0_1[1] = L1_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1702
-L3_1.alias = "Npc1702"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "T7305508_N1702"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4247
-L4_1.alias = "Npc4247"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "T7305508_N4247"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4218
-L5_1.alias = "Npc4218"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "T7305508_N4218"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 20723
-L6_1.alias = "Npc20723"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "T7305508_N20723"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L7_1 = {}
-L7_1.id = 20724
-L7_1.alias = "Npc20724"
-L7_1.script = "Actor/Npc/TempNPC"
-L7_1.pos = "Q7305508_N20724"
-L7_1.scene_id = 3
-L7_1.room_id = 0
-L7_1.data_index = 5
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L2_1[5] = L7_1
-L1_1.npcs = L2_1
-L0_1["7330601"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1702
-L3_1.alias = "Npc1702"
-L3_1.script = "Actor/Npc/NpcFSMBehaviour"
-L3_1.pos = "T7305508_N1702"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 4247
-L4_1.alias = "Npc4247"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "T7305508_N4247"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 4218
-L5_1.alias = "Npc4218"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "T7305508_N4218"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 20723
-L6_1.alias = "Npc20723"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "T7305508_N20723"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L7_1 = {}
-L7_1.id = 20724
-L7_1.alias = "Npc20724"
-L7_1.script = "Actor/Npc/TempNPC"
-L7_1.pos = "Q7305508_N20724"
-L7_1.scene_id = 3
-L7_1.room_id = 0
-L7_1.data_index = 5
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L2_1[5] = L7_1
-L1_1.npcs = L2_1
-L0_1["7330601"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 73306sub_ids = {	7330601,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = { },}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["7330601"] = 	{		npcs = 		{			{				id = 1702,				alias = "Npc1702",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "T7305508_N1702",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4247,				alias = "Npc4247",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "T7305508_N4247",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4218,				alias = "Npc4218",				script = "Actor/Npc/TempNPC",				pos = "T7305508_N4218",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 20723,				alias = "Npc20723",				script = "Actor/Npc/TempNPC",				pos = "T7305508_N20723",				scene_id = 3,				room_id = 0,				data_index = 4,			},			{				id = 20724,				alias = "Npc20724",				script = "Actor/Npc/TempNPC",				pos = "Q7305508_N20724",				scene_id = 3,				room_id = 0,				data_index = 5,			},		},	},}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["7330601"] = 	{		npcs = 		{			{				id = 1702,				alias = "Npc1702",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "T7305508_N1702",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 4247,				alias = "Npc4247",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "T7305508_N4247",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 4218,				alias = "Npc4218",				script = "Actor/Npc/TempNPC",				pos = "T7305508_N4218",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 20723,				alias = "Npc20723",				script = "Actor/Npc/TempNPC",				pos = "T7305508_N20723",				scene_id = 3,				room_id = 0,				data_index = 4,			},			{				id = 20724,				alias = "Npc20724",				script = "Actor/Npc/TempNPC",				pos = "Q7305508_N20724",				scene_id = 3,				room_id = 0,				data_index = 5,			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

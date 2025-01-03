@@ -13,6 +13,7 @@
           "onAdded": [
             {
               "$type": "AttachEffect",
+              "target": "Team",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Widget_FlySpeedUp_Use_Loop",
               "effectTempleteID": -1.0
             },
@@ -30,8 +31,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly", "Fall"],
-              "modifierName": "AttachEffect_Fly_FireEffect",
-              "BILMCNCKIAO": ""
+              "modifierName": "AttachEffect_Fly_FireEffect"
             }
           ],
           "properties": {
@@ -51,18 +51,8 @@
           "bonusCritical": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
-              "target": "Team",
-              "modifierName": "AttachEffect_Fly_FireEffect_Team"
-            }
-          ]
-        },
-        "AttachEffect_Fly_FireEffect_Team": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "onAdded": [
-            {
               "$type": "AttachEffect",
+              "target": "Team",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Widget_FlySpeedUp",
               "effectTempleteID": -1.0
             }
@@ -101,7 +91,7 @@
                   "y": -0.20000000298023224,
                   "z": 0.0
                 },
-                "useRotation": true
+                "FIOMHONCCNM": true
               },
               "gadgetID": 44000579,
               "campID": 5001

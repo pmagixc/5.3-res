@@ -39,9 +39,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -189,8 +189,7 @@
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["FlyStart", "Fly"],
               "modifierName": "Activity_ToMoon_Part1_DefendBuff_FlyHealHP",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
+              "isCheckOnAttach": true
             }
           ]
         },
@@ -201,8 +200,7 @@
           "onThinkInterval": [
             {
               "$type": "HealHP",
-              "amountByCasterMaxHPRatio": "Heal_Ratio",
-              "cdRatio": ""
+              "GGLMMJHNGMO": "Heal_Ratio"
             }
           ]
         }
@@ -260,9 +258,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -287,7 +285,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR6.5H5",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -348,7 +346,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR6.5H5",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -389,8 +387,7 @@
           "onAdded": [
             {
               "$type": "HealHP",
-              "amountByCasterMaxHPRatio": "Heal_Ratio",
-              "cdRatio": ""
+              "GGLMMJHNGMO": "Heal_Ratio"
             }
           ]
         }
@@ -448,9 +445,9 @@
               "$type": "ServerLuaCall",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -511,7 +508,7 @@
                   "modifierName": "Activity_ToMoon_Part3_AttackUp"
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },

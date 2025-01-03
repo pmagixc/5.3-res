@@ -183,7 +183,7 @@
               "cdDelta": true,
               "targetPredicates": [
                 {
-                  "$type": "BJONBAKPHBM",
+                  "$type": "FPBCMGGALCI",
                   "type": "All"
                 }
               ],
@@ -326,8 +326,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Sprint", "SprintBS"],
-              "modifierName": "UNIQUE_EnergyDisk_DashStamina_DashStaminaReduction",
-              "BILMCNCKIAO": ""
+              "modifierName": "UNIQUE_EnergyDisk_DashStamina_DashStaminaReduction"
             }
           ]
         },
@@ -389,8 +388,7 @@
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["SprintBS"],
           "modifierName": "LevelEntity_EnergyDisk_Lv1_SprintBeHurtDamageUp_Check",
-          "target": "AllPlayerAvatars",
-          "BILMCNCKIAO": ""
+          "target": "AllPlayerAvatars"
         }
       ],
       "abilitySpecials": {
@@ -632,14 +630,14 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": "HpRate_P2"
+                  "KDHOFDIBFJM": "HpRate_P2"
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub1"
@@ -649,9 +647,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P2"
+                  "KDHOFDIBFJM": "HpRate_P2"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub2"
@@ -661,9 +659,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_Del_EnergyDisk_AtkDownLowHP_Sub"
@@ -674,13 +672,13 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": "HpRate_P2"
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": "HpRate_P2"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub1"
@@ -689,9 +687,9 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P2"
+                  "KDHOFDIBFJM": "HpRate_P2"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub2"
@@ -807,8 +805,7 @@
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["SprintBS"],
           "modifierName": "LevelEntity_EnergyDisk_Lv2_SprintBeHurtDamageUp_Check",
-          "target": "AllPlayerAvatars",
-          "BILMCNCKIAO": ""
+          "target": "AllPlayerAvatars"
         }
       ],
       "abilitySpecials": {
@@ -1076,8 +1073,8 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": "HpRate_P1"
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_Del_EnergyDisk_AtkDownLowHP_Sub"
@@ -1087,9 +1084,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub"
@@ -1100,9 +1097,9 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownLowHP_Sub"
@@ -1170,9 +1167,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_Del_EnergyDisk_AtkDownHighHP_Sub"
@@ -1182,8 +1179,8 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": "HpRate_P1"
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownHighHP_Sub"
@@ -1194,8 +1191,8 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
-                  "ratio": "HpRate_P1"
+                  "$type": "MLPCNPAHGEK",
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_AtkDownHighHP_Sub"
@@ -1263,9 +1260,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "GreaterOrEqual",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_Del_EnergyDisk_SpeedDownLowHP_Sub"
@@ -1275,9 +1272,9 @@
               "onEvent": "HP",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_SpeedDownLowHP_Sub"
@@ -1288,9 +1285,9 @@
               "$type": "ApplyModifier",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "LesserOrEqual",
-                  "ratio": "HpRate_P1"
+                  "KDHOFDIBFJM": "HpRate_P1"
                 }
               ],
               "modifierName": "UNIQUE_EnergyDisk_SpeedDownLowHP_Sub"
@@ -1372,8 +1369,7 @@
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["SprintBS"],
           "modifierName": "LevelEntity_EnergyDisk_Lv3_SprintBeHurtDamageUp_Check",
-          "target": "AllPlayerAvatars",
-          "BILMCNCKIAO": ""
+          "target": "AllPlayerAvatars"
         }
       ],
       "abilitySpecials": {
@@ -1459,7 +1455,7 @@
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "CKDCEPKGCMH"
+                  "$type": "ECPKMAIHINE"
                 }
               ],
               "ratio": -1.0,
@@ -1475,7 +1471,7 @@
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "CKDCEPKGCMH"
+                  "$type": "ECPKMAIHINE"
                 }
               ],
               "ratio": 1.0,
@@ -1690,8 +1686,7 @@
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["SprintBS"],
           "modifierName": "LevelEntity_EnergyDisk_Lv4_SprintBeHurtDamageUp_Check",
-          "target": "AllPlayerAvatars",
-          "BILMCNCKIAO": ""
+          "target": "AllPlayerAvatars"
         }
       ],
       "abilitySpecials": {
@@ -1912,7 +1907,7 @@
                   "modifierName": "UNIQUE_EnergyDisk_Lv4_BeHurtDamageUpAfterULT_Effect"
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },

@@ -6,6 +6,13 @@
 ||	Protection:     [Protection]
 =======================================]]
 
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_GravenCarve] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     -- 自定义插槽
@@ -48,9 +55,9 @@ function action_enter_region(context, evt)
     if evt.param1 == defs.guide_regionID then 
         -- TODO: 添加新的教程
         if 0 ~= ScriptLib.AssignPlayerShowTemplateReminder(context,193,{param_uid_vec={},param_vec={},uid_vec={context.uid}}) then
-            ScriptLib.PrintContextLog(context, "弹教程失败")
+            PrintLog(context, "弹教程失败")
         else
-            ScriptLib.PrintContextLog(context, "教程UID:"..context.uid)
+            PrintLog(context, "教程UID:"..context.uid)
         end
     end
 

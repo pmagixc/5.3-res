@@ -18,7 +18,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementWet"
                 },
                 {
@@ -33,7 +33,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementWet"
                 },
                 {
@@ -41,9 +41,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -59,7 +59,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementIce"
                 },
                 {
@@ -74,7 +74,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementIce"
                 },
                 {
@@ -82,9 +82,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -100,7 +100,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementFire"
                 },
                 {
@@ -115,7 +115,7 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "NHPKNAEEMEO",
+                  "$type": "BJBCJBKOFKK",
                   "abilityState": "ElementFire"
                 },
                 {
@@ -123,9 +123,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -145,8 +145,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Freeze"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Freeze"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -160,17 +160,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Freeze"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Freeze"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -190,16 +190,16 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Stream"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Stream"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"]
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "ModifierAdd"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "ModifierAdd"
                 }
               ]
             }
@@ -215,12 +215,12 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Stream"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Stream"
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "BeingHit"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "BeingHit"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -234,21 +234,21 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Stream"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Stream"
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "BeingHit"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "BeingHit"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -264,8 +264,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Shock"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Shock"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -279,17 +279,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Shock"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Shock"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -318,13 +318,13 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 },
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Shock"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Shock"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -344,8 +344,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Explode"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Explode"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -359,17 +359,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Explode"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Explode"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -385,8 +385,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Superconductor"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Superconductor"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -400,17 +400,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Superconductor"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Superconductor"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -426,17 +426,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Burning"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Burning"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster", "MonsterEquip"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -452,13 +452,13 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "SwirlFire"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "SwirlFire"
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -468,13 +468,13 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "SwirlWater"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "SwirlWater"
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -484,13 +484,13 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "SwirlElectric"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "SwirlElectric"
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -500,13 +500,13 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "SwirlIce"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "SwirlIce"
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -540,8 +540,8 @@
                   "entityTypes": ["GatherObject"]
                 },
                 {
-                  "$type": "CBPENDHLCLH",
-                  "configIdArray": [70520002, 70520003]
+                  "$type": "NMOGOIIEGKJ",
+                  "KCMJHNPFCFM": [70520002, 70520003]
                 }
               ]
             }
@@ -581,8 +581,8 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "POIHJHMAMEM",
-                  "hitBoxType": "Head"
+                  "$type": "LCDGFEFCLIP",
+                  "GEGDJNBHHEC": "Head"
                 },
                 {
                   "$type": "ByAttackTags",
@@ -608,12 +608,12 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "CBPENDHLCLH",
-                  "configIdArray": [24010101, 24010201]
+                  "$type": "NMOGOIIEGKJ",
+                  "KCMJHNPFCFM": [24010101, 24010201]
                 },
                 {
-                  "$type": "POIHJHMAMEM",
-                  "hitBoxType": "Head"
+                  "$type": "LCDGFEFCLIP",
+                  "GEGDJNBHHEC": "Head"
                 },
                 {
                   "$type": "ByAttackTags",
@@ -646,9 +646,9 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.30000001192092896
+                  "KDHOFDIBFJM": 0.30000001192092896
                 }
               ]
             }
@@ -664,16 +664,16 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Melt"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Melt"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"]
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "ModifierAdd"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "ModifierAdd"
                 }
               ]
             }
@@ -689,12 +689,12 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Melt"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Melt"
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "BeingHit"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "BeingHit"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -708,21 +708,21 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Melt"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Melt"
                 },
                 {
-                  "$type": "MAJOFINFMIM",
-                  "sourceType": "BeingHit"
+                  "$type": "BAIOLOJCPBJ",
+                  "CJAKEGFPCJG": "BeingHit"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -774,17 +774,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "CrystallizeFire"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "CrystallizeFire"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster", "MonsterEquip", "Gadget"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -794,17 +794,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "CrystallizeWater"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "CrystallizeWater"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster", "MonsterEquip", "Gadget"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -814,17 +814,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "CrystallizeElectric"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "CrystallizeElectric"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster", "MonsterEquip", "Gadget"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             },
@@ -834,17 +834,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "CrystallizeIce"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "CrystallizeIce"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster", "MonsterEquip", "Gadget"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -1104,8 +1104,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Overdose"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Overdose"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -1119,17 +1119,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Overdose"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Overdose"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -1145,8 +1145,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Overgrow"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Overgrow"
                 },
                 {
                   "$type": "ByEntityTypes",
@@ -1160,17 +1160,17 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "ALLCIMBGDKB",
-                  "reactionType": "Overgrow"
+                  "$type": "OHNBLLKAJDC",
+                  "EMKLGGIADDM": "Overgrow"
                 },
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "LDMBLNFLNGI",
+                  "$type": "GCKCFCGCKBB",
                   "entityTypes": ["Avatar"],
-                  "forcebyOriginOwner": true
+                  "NFACGBFECEC": true
                 }
               ]
             }
@@ -1247,8 +1247,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1265,8 +1265,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1285,7 +1285,7 @@
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"],
-                  "isAuthority": 1
+                  "MLBFBBCCJPG": 1
                 }
               ]
             }
@@ -1302,8 +1302,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1320,8 +1320,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1338,8 +1338,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1356,44 +1356,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_AbilityAnimal_Jellyfish": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 1045,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_AbilityAnimal_Octopus": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 1046,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -1471,18 +1435,6 @@
             }
           ]
         },
-        "Watcher_Fontaine_Gadget_10171": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10171,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
         "Watcher_Annihilate": {
           "modifierName": "",
           "bonusCritical": 100.0,
@@ -1492,211 +1444,6 @@
               "watcherId": 1044,
               "mixinType": "ListenAbilityAction",
               "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_UnderseaBac_FakeDeath": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10160,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_TransparentEel_Death": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10161,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Run_Bird_Run": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10194,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"],
-                  "isAuthority": 1
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Talk_Statue": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10195,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Hairpin": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10188,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Yunqi": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10189,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_YunqiCombat": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10190,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_SpectacleBuild": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10191,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Candle": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10192,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Lotus": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10193,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_ShootingStatue": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10196,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_CarpJump": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 10197,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
             }
           ]
         }
@@ -2881,7 +2628,7 @@
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"],
-                  "isAuthority": 1
+                  "MLBFBBCCJPG": 1
                 }
               ]
             }
@@ -2898,8 +2645,8 @@
               "listenStateId": "",
               "predicates": [
                 {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
+                  "$type": "KENNLIPBFMA",
+                  "IEAOJAPKMHE": true
                 }
               ]
             }
@@ -3285,67 +3032,6 @@
             }
           ]
         },
-        "Watcher_Achievement_81444": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 81444,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"],
-                  "isAuthority": 1
-                },
-                {
-                  "$type": "DLAFJEFABDP",
-                  "isHost": true
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Achievement_81445": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 81445,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"],
-                  "isAuthority": 1
-                }
-              ]
-            }
-          ]
-        },
-        "Watcher_Achievement_81473": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 81473,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": "",
-              "predicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"],
-                  "isAuthority": 1
-                }
-              ]
-            }
-          ]
-        },
         "Watcher_Achievement_81356": {
           "modifierName": "",
           "bonusCritical": 100.0,
@@ -3359,7 +3045,7 @@
                 {
                   "$type": "ByEntityTypes",
                   "entityTypes": ["Avatar"],
-                  "isAuthority": 1
+                  "MLBFBBCCJPG": 1
                 }
               ]
             }
@@ -3436,246 +3122,6 @@
               "listenStateId": ""
             }
           ]
-        },
-        "Watcher_Achievement_82181": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82181,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82182": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82182,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82183": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82183,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82184": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82184,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82185": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82185,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82186": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82186,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82187": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82187,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82188": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82188,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_81418": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 81418,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82189": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82189,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82190": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82190,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82191": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82191,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82192": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82192,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82193": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82193,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82194": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82194,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82195": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82195,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82196": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82196,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82197": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82197,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82198": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82198,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
-        },
-        "Watcher_Achievement_82199": {
-          "modifierName": "",
-          "bonusCritical": 100.0,
-          "modifierMixins": [
-            {
-              "$type": "WatcherSystemMixin",
-              "watcherId": 82199,
-              "mixinType": "ListenAbilityAction",
-              "listenStateId": ""
-            }
-          ]
         }
       }
     }
@@ -3686,19 +3132,19 @@
       "abilityName": "LevelAbility_Combat_Activity_Watcher_1",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobaltriggerIDNoInitMixin",
+          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
           "globalValueKey": "SGV_HitByMimik_SkillA",
           "valueSteps": [-0.5, 0.5],
           "modifierNameSteps": ["Blank"]
         },
         {
-          "$type": "AttachModifierToSelfGlobaltriggerIDNoInitMixin",
+          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
           "globalValueKey": "SGV_HitByMimik_SkillB",
           "valueSteps": [-0.5, 0.5],
           "modifierNameSteps": ["Blank"]
         },
         {
-          "$type": "AttachModifierToSelfGlobaltriggerIDNoInitMixin",
+          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
           "globalValueKey": "SGV_Mimik_PickUped",
           "valueSteps": [-0.5, 0.5],
           "modifierNameSteps": ["Blank"]

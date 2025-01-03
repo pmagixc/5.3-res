@@ -63,7 +63,7 @@
                 "sortType": "Nearest",
                 "shapeName": "CircleR4",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {

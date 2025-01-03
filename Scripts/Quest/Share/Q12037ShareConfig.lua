@@ -1,260 +1,3 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1
-main_id = 12037
-L0_1 = {}
-L1_1 = 1203701
-L2_1 = 1203702
-L3_1 = 1203703
-L4_1 = 1203704
-L5_1 = 1203705
-L6_1 = 1203706
-L0_1[1] = L1_1
-L0_1[2] = L2_1
-L0_1[3] = L3_1
-L0_1[4] = L4_1
-L0_1[5] = L5_1
-L0_1[6] = L6_1
-sub_ids = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-finish_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L0_1.SERVER = L1_1
-fail_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1.CLIENT = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L4_1 = "133220776"
-L5_1 = ""
-L3_1[1] = L4_1
-L3_1[2] = L5_1
-L2_1[1] = L3_1
-L1_1.QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = L2_1
-L0_1.SERVER = L1_1
-cancel_action = L0_1
-L0_1 = {}
-L1_1 = {}
-L0_1["1203701"] = L1_1
-L1_1 = {}
-L0_1["1203704"] = L1_1
-L1_1 = {}
-L0_1["1203705"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12590
-L3_1.alias = "Npc12590"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1203704"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 12592
-L4_1.alias = "Npc12592"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q12037_N12592"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 12591
-L5_1.alias = "Npc12591"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q12037_N12591"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 12632
-L6_1.alias = "Npc12632"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q12037_N12632"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L7_1 = {}
-L7_1.id = 12633
-L7_1.alias = "Npc12633"
-L7_1.script = "Actor/Npc/TempNPC"
-L7_1.pos = "Q12037_N12633"
-L7_1.scene_id = 3
-L7_1.room_id = 0
-L7_1.data_index = 5
-L8_1 = {}
-L8_1.id = 12634
-L8_1.alias = "Npc12634"
-L8_1.script = "Actor/Npc/TempNPC"
-L8_1.pos = "Q12037_N12634"
-L8_1.scene_id = 3
-L8_1.room_id = 0
-L8_1.data_index = 6
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L2_1[5] = L7_1
-L2_1[6] = L8_1
-L1_1.npcs = L2_1
-L0_1["1203706"] = L1_1
-rewind_data = L0_1
-L0_1 = {}
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12589
-L3_1.alias = "Npc12589"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_Q1203703"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1203701"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12589
-L3_1.alias = "Npc12589"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_Q1203703"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1203702"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12589
-L3_1.alias = "Npc12589"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_Q1203703"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1203703"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12589
-L3_1.alias = "Npc12589"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "guide_Q1203703"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L2_1[1] = L3_1
-L1_1.npcs = L2_1
-L0_1["1203704"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 12590
-L3_1.alias = "Npc12590"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1203704"
-L3_1.scene_id = 3
-L3_1.room_id = 0
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 12592
-L4_1.alias = "Npc12592"
-L4_1.script = "Actor/Npc/TempNPC"
-L4_1.pos = "Q12037_N12592"
-L4_1.scene_id = 3
-L4_1.room_id = 0
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 12591
-L5_1.alias = "Npc12591"
-L5_1.script = "Actor/Npc/TempNPC"
-L5_1.pos = "Q12037_N12591"
-L5_1.scene_id = 3
-L5_1.room_id = 0
-L5_1.data_index = 3
-L6_1 = {}
-L6_1.id = 12632
-L6_1.alias = "Npc12632"
-L6_1.script = "Actor/Npc/TempNPC"
-L6_1.pos = "Q12037_N12632"
-L6_1.scene_id = 3
-L6_1.room_id = 0
-L6_1.data_index = 4
-L7_1 = {}
-L7_1.id = 12633
-L7_1.alias = "Npc12633"
-L7_1.script = "Actor/Npc/TempNPC"
-L7_1.pos = "Q12037_N12633"
-L7_1.scene_id = 3
-L7_1.room_id = 0
-L7_1.data_index = 5
-L8_1 = {}
-L8_1.id = 12634
-L8_1.alias = "Npc12634"
-L8_1.script = "Actor/Npc/TempNPC"
-L8_1.pos = "Q12037_N12634"
-L8_1.scene_id = 3
-L8_1.room_id = 0
-L8_1.data_index = 6
-L9_1 = {}
-L9_1.id = 1032
-L9_1.alias = "Npc1032"
-L9_1.script = "Actor/Npc/TempNPC"
-L9_1.pos = "Q1203704_N10000005"
-L9_1.scene_id = 3
-L9_1.room_id = 0
-L9_1.data_index = 7
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L2_1[4] = L6_1
-L2_1[5] = L7_1
-L2_1[6] = L8_1
-L2_1[7] = L9_1
-L1_1.npcs = L2_1
-L0_1["1203705"] = L1_1
-L1_1 = {}
-L2_1 = {}
-L3_1 = {}
-L3_1.id = 1032
-L3_1.alias = "Npc1032"
-L3_1.script = "Actor/Npc/TempNPC"
-L3_1.pos = "Q1203706_N1032"
-L3_1.scene_id = 1064
-L3_1.room_id = 1
-L3_1.data_index = 1
-L4_1 = {}
-L4_1.id = 3054
-L4_1.alias = "Npc3054"
-L4_1.script = "Actor/Npc/NpcFSMBehaviour"
-L4_1.pos = "Q1203706_N3054"
-L4_1.scene_id = 1064
-L4_1.room_id = 1
-L4_1.data_index = 2
-L5_1 = {}
-L5_1.id = 3057
-L5_1.alias = "Npc3057"
-L5_1.script = "Actor/Npc/NpcFSMBehaviour"
-L5_1.pos = "Q1203706_N10000005"
-L5_1.scene_id = 1064
-L5_1.room_id = 1064
-L5_1.data_index = 3
-L2_1[1] = L3_1
-L2_1[2] = L4_1
-L2_1[3] = L5_1
-L1_1.npcs = L2_1
-L0_1["1203706"] = L1_1
-quest_data = L0_1
+-- 任务配置数据开始-----------------------------
+
+main_id = 12037sub_ids = {	1203701,	1203702,	1203703,	1203704,	1203705,	1203706,}-- 任务配置数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 父任务执行项数据开始-----------------------------finish_action = {	CLIENT = { },	SERVER = { },}fail_action = {	CLIENT = { },	SERVER = { },}cancel_action = {	CLIENT = { },	SERVER = 	{		QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP = 		{			{ "133220776", "", },		},	},}-- 父任务执行项数据结束------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- Actor模块数据开始---------------------------------- 空-- Actor模块数据结束---------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 文本模块数据开始----------------------------------- 空-- 文本模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 路点模块数据开始----------------------------------- 空-- 路点模块数据结束----------------------------------- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 断线重连生成内容 开始------------------------------ 和questdata配的存档点对应rewind_data = {	["1203701"] = { },	["1203704"] = { },	["1203705"] = { },	["1203706"] = 	{		npcs = 		{			{				id = 12590,				alias = "Npc12590",				script = "Actor/Npc/TempNPC",				pos = "Q1203704",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 12592,				alias = "Npc12592",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12592",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12591,				alias = "Npc12591",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12591",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 12632,				alias = "Npc12632",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12632",				scene_id = 3,				room_id = 0,				data_index = 4,			},			{				id = 12633,				alias = "Npc12633",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12633",				scene_id = 3,				room_id = 0,				data_index = 5,			},			{				id = 12634,				alias = "Npc12634",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12634",				scene_id = 3,				room_id = 0,				data_index = 6,			},		},	},}-- 断线重连生成内容 结束------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-- 校验数据 开始------------------------------------ 和任务lua中生成NPC/Monster/Gadget/Item等对应quest_data = {	["1203701"] = 	{		npcs = 		{			{				id = 12589,				alias = "Npc12589",				script = "Actor/Npc/TempNPC",				pos = "guide_Q1203703",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1203702"] = 	{		npcs = 		{			{				id = 12589,				alias = "Npc12589",				script = "Actor/Npc/TempNPC",				pos = "guide_Q1203703",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1203703"] = 	{		npcs = 		{			{				id = 12589,				alias = "Npc12589",				script = "Actor/Npc/TempNPC",				pos = "guide_Q1203703",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1203704"] = 	{		npcs = 		{			{				id = 12589,				alias = "Npc12589",				script = "Actor/Npc/TempNPC",				pos = "guide_Q1203703",				scene_id = 3,				room_id = 0,				data_index = 1,			},		},	},	["1203705"] = 	{		npcs = 		{			{				id = 12590,				alias = "Npc12590",				script = "Actor/Npc/TempNPC",				pos = "Q1203704",				scene_id = 3,				room_id = 0,				data_index = 1,			},			{				id = 12592,				alias = "Npc12592",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12592",				scene_id = 3,				room_id = 0,				data_index = 2,			},			{				id = 12591,				alias = "Npc12591",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12591",				scene_id = 3,				room_id = 0,				data_index = 3,			},			{				id = 12632,				alias = "Npc12632",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12632",				scene_id = 3,				room_id = 0,				data_index = 4,			},			{				id = 12633,				alias = "Npc12633",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12633",				scene_id = 3,				room_id = 0,				data_index = 5,			},			{				id = 12634,				alias = "Npc12634",				script = "Actor/Npc/TempNPC",				pos = "Q12037_N12634",				scene_id = 3,				room_id = 0,				data_index = 6,			},			{				id = 1032,				alias = "Npc1032",				script = "Actor/Npc/TempNPC",				pos = "Q1203704_N10000005",				scene_id = 3,				room_id = 0,				data_index = 7,			},		},	},	["1203706"] = 	{		npcs = 		{			{				id = 1032,				alias = "Npc1032",				script = "Actor/Npc/TempNPC",				pos = "Q1203706_N1032",				scene_id = 1064,				room_id = 1,				data_index = 1,			},			{				id = 3054,				alias = "Npc3054",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q1203706_N3054",				scene_id = 1064,				room_id = 1,				data_index = 2,			},			{				id = 3057,				alias = "Npc3057",				script = "Actor/Npc/NpcFSMBehaviour",				pos = "Q1203706_N10000005",				scene_id = 1064,				room_id = 1064,				data_index = 3,			},		},	},}-- 校验数据 结束------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

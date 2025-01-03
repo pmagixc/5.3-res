@@ -40,8 +40,7 @@
                   "cdDelta": true,
                   "modifierName": "UNIQUE_ArenaChallenge2_FallingDamage_Effect_Challenge"
                 }
-              ],
-              "BILMCNCKIAO": ""
+              ]
             }
           ]
         },
@@ -87,7 +86,7 @@
                         "damagePercentageRatio": 0.0,
                         "bonusCritical": 0.0,
                         "ignoreAttackerProperty": true,
-                        "damage": 0.0,
+                        "enBreak": 0.0,
                         "attackType": "Melee",
                         "damageExtra": [
                           "Damage_Rate",
@@ -262,7 +261,7 @@
                   ]
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },
@@ -318,7 +317,7 @@
                 "sortType": "Random",
                 "shapeName": "CircleR12",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "cdDelta": true,
               "modifierName": "UNIQUE_ActivityAbility_ArenaChallenge2_TriggerAoeAfterULT_Monster"
@@ -350,14 +349,10 @@
                   "elementType": "Electric",
                   "bonusCritical": 25.0,
                   "ignoreAttackerProperty": true,
-                  "damage": 0.0,
-                  "damageExtra": [
-                    "Damage",
-                    "DamageSystemValue",
-                    "MUL"
-                  ],
+                  "enBreak": 0.0,
+                  "damageExtra": ["Damage", "DamageSystemValue", "MUL"],
                   "trueDamage": true,
-                  "ignoreModifyDamage": true,
+                  "JHBHILHIEJJ": true,
                   "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
@@ -482,7 +477,7 @@
                   ]
                 }
               ],
-              "clearSkillIdDelay": 0.20000000298023224
+              "CJJAFBGFGFD": 0.20000000298023224
             }
           ]
         },
@@ -537,7 +532,7 @@
                 "sortType": "Random",
                 "shapeName": "CircleR12",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "cdDelta": true,
               "modifierName": "UNIQUE_ActivityAbility_ArenaChallenge2_TriggerAoeAfterULT_Monster"
@@ -587,14 +582,10 @@
                   "elementType": "Electric",
                   "bonusCritical": 25.0,
                   "ignoreAttackerProperty": true,
-                  "damage": 0.0,
-                  "damageExtra": [
-                    "Damage",
-                    "DamageSystemValue",
-                    "MUL"
-                  ],
+                  "enBreak": 0.0,
+                  "damageExtra": ["Damage", "DamageSystemValue", "MUL"],
                   "trueDamage": true,
-                  "ignoreModifyDamage": true,
+                  "JHBHILHIEJJ": true,
                   "FKGFPFNOJMN": 0.0
                 },
                 "hitPattern": {
@@ -615,9 +606,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ArenaChallenge2_ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ArenaChallenge2_ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             }
@@ -627,9 +618,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ArenaChallenge2_ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ArenaChallenge2_ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -640,9 +631,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ArenaChallenge2_ThunderPos",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ArenaChallenge2_ThunderPos",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -655,14 +646,14 @@
                     "elementType": "Electric",
                     "bonusCritical": 25.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "damageExtra": [
                       "Damage_Avatar",
                       "DamageSystemValue",
                       "MUL"
                     ],
                     "trueDamage": true,
-                    "ignoreModifyDamage": true,
+                    "JHBHILHIEJJ": true,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -755,14 +746,14 @@
                     "elementType": "Electric",
                     "bonusCritical": 25.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "damageExtra": [
                       "Damage_Avatar",
                       "DamageSystemValue",
                       "MUL"
                     ],
                     "trueDamage": true,
-                    "ignoreModifyDamage": true,
+                    "JHBHILHIEJJ": true,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -917,7 +908,7 @@
                       "y": 0.0,
                       "z": 0.0
                     },
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "setTarget": false
                 },
@@ -953,9 +944,9 @@
                       "$type": "FireEffect",
                       "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Fire",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                        "IDGILJNLJGN": ""
                       },
                       "effectTempleteID": -1.0
                     },
@@ -966,9 +957,9 @@
                           "$type": "ConfigAttackSphere",
                           "triggerType": "TriggerNoRepeat",
                           "born": {
-                            "$type": "MKLCDCJFOHO",
-                            "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                            "directionKey": ""
+                            "$type": "LBFHLMJGELJ",
+                            "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                            "IDGILJNLJGN": ""
                           },
                           "radius": 5.0
                         },
@@ -981,13 +972,13 @@
                             "elementType": "Fire",
                             "bonusCritical": 100.0,
                             "ignoreAttackerProperty": true,
-                            "damage": 0.0,
+                            "enBreak": 0.0,
                             "damageExtra": [
                               "Value_DamageRate",
                               "Value_DamageSystemValue",
                               "MUL"
                             ],
-                            "bonusCritical": 0.0
+                            "FKGFPFNOJMN": 0.0
                           },
                           "hitPattern": {
                             "onHitEffectName": "",
@@ -1016,9 +1007,9 @@
                           "$type": "FireEffect",
                           "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Electric",
                           "born": {
-                            "$type": "MKLCDCJFOHO",
-                            "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                            "directionKey": ""
+                            "$type": "LBFHLMJGELJ",
+                            "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                            "IDGILJNLJGN": ""
                           },
                           "effectTempleteID": -1.0
                         },
@@ -1029,9 +1020,9 @@
                               "$type": "ConfigAttackSphere",
                               "triggerType": "TriggerNoRepeat",
                               "born": {
-                                "$type": "MKLCDCJFOHO",
-                                "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                                "directionKey": ""
+                                "$type": "LBFHLMJGELJ",
+                                "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                                "IDGILJNLJGN": ""
                               },
                               "radius": 5.0
                             },
@@ -1044,14 +1035,14 @@
                                 "elementType": "Electric",
                                 "bonusCritical": 100.0,
                                 "ignoreAttackerProperty": true,
-                                "damage": 0.0,
+                                "enBreak": 0.0,
                                 "damageExtra": [
                                   "Value_DamageRate",
                                   "Value_DamageSystemValue",
                                   "MUL"
                                 ],
                                 "trueDamage": true,
-                                "bonusCritical": 0.0
+                                "FKGFPFNOJMN": 0.0
                               },
                               "hitPattern": {
                                 "onHitEffectName": "",
@@ -1079,9 +1070,9 @@
                               "$type": "FireEffect",
                               "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Water",
                               "born": {
-                                "$type": "MKLCDCJFOHO",
-                                "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                                "directionKey": ""
+                                "$type": "LBFHLMJGELJ",
+                                "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                                "IDGILJNLJGN": ""
                               },
                               "effectTempleteID": -1.0
                             },
@@ -1092,9 +1083,9 @@
                                   "$type": "ConfigAttackSphere",
                                   "triggerType": "TriggerNoRepeat",
                                   "born": {
-                                    "$type": "MKLCDCJFOHO",
-                                    "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                                    "directionKey": ""
+                                    "$type": "LBFHLMJGELJ",
+                                    "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                                    "IDGILJNLJGN": ""
                                   },
                                   "radius": 5.0
                                 },
@@ -1107,14 +1098,14 @@
                                     "elementType": "Water",
                                     "bonusCritical": 100.0,
                                     "ignoreAttackerProperty": true,
-                                    "damage": 0.0,
+                                    "enBreak": 0.0,
                                     "damageExtra": [
                                       "Value_DamageRate",
                                       "Value_DamageSystemValue",
                                       "MUL"
                                     ],
                                     "trueDamage": true,
-                                    "bonusCritical": 0.0
+                                    "FKGFPFNOJMN": 0.0
                                   },
                                   "hitPattern": {
                                     "onHitEffectName": "",
@@ -1130,9 +1121,9 @@
                               "$type": "FireEffect",
                               "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Ice",
                               "born": {
-                                "$type": "MKLCDCJFOHO",
-                                "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                                "directionKey": ""
+                                "$type": "LBFHLMJGELJ",
+                                "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                                "IDGILJNLJGN": ""
                               },
                               "effectTempleteID": -1.0
                             },
@@ -1143,9 +1134,9 @@
                                   "$type": "ConfigAttackSphere",
                                   "triggerType": "TriggerNoRepeat",
                                   "born": {
-                                    "$type": "MKLCDCJFOHO",
-                                    "positionKey": "_Ability_ArenaChallenge2_AoePos",
-                                    "directionKey": ""
+                                    "$type": "LBFHLMJGELJ",
+                                    "LDPAKEFHAOK": "_Ability_ArenaChallenge2_AoePos",
+                                    "IDGILJNLJGN": ""
                                   },
                                   "radius": 5.0
                                 },
@@ -1158,14 +1149,14 @@
                                     "elementType": "Ice",
                                     "bonusCritical": 100.0,
                                     "ignoreAttackerProperty": true,
-                                    "damage": 0.0,
+                                    "enBreak": 0.0,
                                     "damageExtra": [
                                       "Value_DamageRate",
                                       "Value_DamageSystemValue",
                                       "MUL"
                                     ],
                                     "trueDamage": true,
-                                    "bonusCritical": 0.0
+                                    "FKGFPFNOJMN": 0.0
                                   },
                                   "hitPattern": {
                                     "onHitEffectName": "",
@@ -1329,9 +1320,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.30000001192092896
+                  "KDHOFDIBFJM": 0.30000001192092896
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -1384,9 +1375,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.4000000059604645
+                  "KDHOFDIBFJM": 0.4000000059604645
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -1439,9 +1430,9 @@
                   "entityTypes": ["Monster"]
                 },
                 {
-                  "$type": "JAEEKGKDNDI",
+                  "$type": "MLPCNPAHGEK",
                   "logic": "Lesser",
-                  "ratio": 0.5
+                  "KDHOFDIBFJM": 0.5
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -1505,12 +1496,8 @@
                   "bonusCritical": 100.0,
                   "ignoreAttackerProperty": true,
                   "strikeType": "Default",
-                  "damage": 25.0,
-                  "damageExtra": [
-                    "Damage",
-                    "DamageSystemValue",
-                    "MUL"
-                  ],
+                  "enBreak": 25.0,
+                  "damageExtra": ["Damage", "DamageSystemValue", "MUL"],
                   "trueDamage": true,
                   "FKGFPFNOJMN": 0.0
                 },
@@ -1610,7 +1597,7 @@
                   "key": "_ABILITY_ArenaChallenge2_AtkWeakTriggerThunderAoe_Pos",
                   "born": {
                     "$type": "ConfigBornByTarget",
-                    "onGround": true
+                    "CJKCLAIPMHH": true
                   },
                   "setTarget": false
                 },
@@ -1633,9 +1620,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Burst_Down_Lightning",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "_ABILITY_ArenaChallenge2_AtkWeakTriggerThunderAoe_Pos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "_ABILITY_ArenaChallenge2_AtkWeakTriggerThunderAoe_Pos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -1646,9 +1633,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "_ABILITY_ArenaChallenge2_AtkWeakTriggerThunderAoe_Pos",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "_ABILITY_ArenaChallenge2_AtkWeakTriggerThunderAoe_Pos",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 5.0
                 },
@@ -1661,7 +1648,7 @@
                     "elementType": "Electric",
                     "bonusCritical": 25.0,
                     "ignoreAttackerProperty": true,
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "damageExtra": [
                       "Value_DamageRate",
                       "Value_DamageSystemValue",
@@ -1808,10 +1795,10 @@
               "key": "ThunderPos",
               "born": {
                 "$type": "ConfigBornBySelf",
-                "bornRandom": {
-                  "$type": "OCDANLJMNNK",
-                  "minRandomRange": 0.0,
-                  "maxRandomRange": 1.0
+                "EIHGKLFJFDH": {
+                  "$type": "NEDBFINNHHP",
+                  "MONOAFEICPP": 0.0,
+                  "LEGMDANKMPK": 1.0
                 }
               }
             }
@@ -1826,9 +1813,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_Ambor_AlertCircle",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             }
@@ -1838,9 +1825,9 @@
               "$type": "FireEffect",
               "healLimitedByCasterMaxHPRatio": "Eff_ThunderFall_01",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "ThunderPos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "ThunderPos",
+                "IDGILJNLJGN": ""
               },
               "effectTempleteID": -1.0
             },
@@ -1851,9 +1838,9 @@
                   "$type": "ConfigAttackSphere",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "ThunderPos",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "ThunderPos",
+                    "IDGILJNLJGN": ""
                   },
                   "radius": 2.5
                 },
@@ -1867,7 +1854,7 @@
                     "bonusCritical": 25.0,
                     "ignoreAttackerProperty": true,
                     "strikeType": "Default",
-                    "damage": 0.0,
+                    "enBreak": 0.0,
                     "damageExtra": [
                       "ElementLevelCo",
                       "ThunderDamageRatio",

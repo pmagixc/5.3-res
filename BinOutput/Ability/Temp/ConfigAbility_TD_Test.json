@@ -18,9 +18,9 @@
             {
               "$type": "CreateGadget",
               "born": {
-                "$type": "MKLCDCJFOHO",
-                "positionKey": "_ABILITY_EnergyDisk_Thunder_Pos",
-                "directionKey": ""
+                "$type": "LBFHLMJGELJ",
+                "LDPAKEFHAOK": "_ABILITY_EnergyDisk_Thunder_Pos",
+                "IDGILJNLJGN": ""
               },
               "gadgetID": 44000300,
               "campID": 1001,
@@ -66,11 +66,11 @@
         {
           "$type": "ServerLuaCall",
           "luaCallType": "SpecificGroup",
-          "callParamList": [111101155],
+          "CallParamList": [111101155],
           "funcName": "Modifier_TD_Test_A",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         }
       ]
     }
@@ -104,11 +104,11 @@
         {
           "$type": "ServerLuaCall",
           "luaCallType": "SpecificGroup",
-          "callParamList": [111101155],
+          "CallParamList": [111101155],
           "funcName": "Modifier_TD_Test_B",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         }
       ]
     }
@@ -142,11 +142,11 @@
         {
           "$type": "ServerLuaCall",
           "luaCallType": "SpecificGroup",
-          "callParamList": [111101155],
+          "CallParamList": [111101155],
           "funcName": "Modifier_TD_Test_C",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         }
       ]
     }
@@ -180,11 +180,11 @@
         {
           "$type": "ServerLuaCall",
           "luaCallType": "SpecificGroup",
-          "callParamList": [111101155],
+          "CallParamList": [111101155],
           "funcName": "Modifier_TD_Test_D",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         }
       ]
     }

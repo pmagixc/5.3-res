@@ -6,6 +6,8 @@
 ||	Protection:     [Protection]
 =======================================]]
 
+
+
 local battleStartConsole = 1001
 local beastSkillConsole={
 	[1]=1033,
@@ -41,6 +43,15 @@ local gearOptionInfo=
 		[4]=905,
 	}	
 }
+
+
+
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_BattleMushroomMonster] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
 
 local extraTriggers = 
 {

@@ -12,9 +12,8 @@
             {
               "$type": "HealHP",
               "target": "Target",
-              "amountByCasterMaxHPRatio": 1.0,
-              "muteHealEffect": true,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 1.0,
+              "muteHealEffect": true
             }
           ]
         }
@@ -172,8 +171,7 @@
             {
               "$type": "AttachToAnimatorStateIDMixin",
               "stateIDs": ["Run"],
-              "modifierName": "Avatar_Start_RunBomber",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Start_RunBomber"
             }
           ]
         },
@@ -526,14 +524,12 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Fly"],
-              "modifierName": "Avatar_Flying_StaminaReduced",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Flying_StaminaReduced"
             },
             {
               "$type": "AttachToAnimatorStateIDMixin",
               "stateIDs": ["Run"],
-              "modifierName": "Avatar_Flying_StaminaReduced",
-              "BILMCNCKIAO": ""
+              "modifierName": "Avatar_Flying_StaminaReduced"
             }
           ]
         },
@@ -1063,12 +1059,10 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 12.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 12.0
                 }
               ],
-              "amountByCasterMaxHPRatio": 1.0,
-              "cdRatio": "",
+              "GGLMMJHNGMO": 1.0,
               "amount": 1.0
             },
             {
@@ -1079,8 +1073,7 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 12.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 12.0
                 }
               ],
               "modifierName": "RecoverHpElemEnergy"
@@ -1104,8 +1097,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 1.0,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 1.0
             }
           ]
         }
@@ -1137,12 +1129,10 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 20.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 20.0
                 }
               ],
-              "amountByCasterMaxHPRatio": 1.0,
-              "cdRatio": "",
+              "GGLMMJHNGMO": 1.0,
               "amount": 1.0
             },
             {
@@ -1153,8 +1143,7 @@
                 {
                   "$type": "JOLJOHDJLNF",
                   "logic": "LesserOrEqual",
-                  "ratio": 20.0,
-                  "PHMALDNHHLD": ""
+                  "ratio": 20.0
                 }
               ],
               "modifierName": "RecoverHpElemEnergy"
@@ -1178,8 +1167,7 @@
             {
               "$type": "HealHP",
               "cdDelta": true,
-              "amountByCasterMaxHPRatio": 1.0,
-              "cdRatio": ""
+              "GGLMMJHNGMO": 1.0
             }
           ]
         }
@@ -1214,7 +1202,7 @@
             },
             {
               "$type": "ChangeGadgetState",
-              "state": 1
+              "OBNBNBGHJEK": 1
             }
           ]
         }
@@ -1239,11 +1227,11 @@
                   "target": "Team",
                   "luaCallType": "SpecificGroup",
                   "isTarget": true,
-                  "callParamList": [235800001],
+                  "CallParamList": [235800001],
                   "funcName": "action_player_ready_to_go_single",
-                  "param1": 0.0,
-                  "KEEFCBAAODF": 0.0,
-                  "LABHKHBCHFB": 0.0
+                  "FDPBPIHKEGH": 0.0,
+                  "FJCBPCIDMGJ": 0.0,
+                  "NDCPJDDPIMD": 0.0
                 }
               ]
             }
@@ -1281,11 +1269,11 @@
               "$type": "ServerLuaCall",
               "canBeHandledOnRecover": true,
               "luaCallType": "SpecificGroup",
-              "callParamList": [247608007],
+              "CallParamList": [247608007],
               "funcName": "SLC_CharAmuseMain_PlayerEnter",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         }
@@ -1310,9 +1298,9 @@
       "abilityMixins": [
         {
           "$type": "DoActionByRayTagMixin",
-          "ugcRayTriggerDirections": ["Down"],
-          "rayTags": [1, 2, 3, 4, 5],
-          "modifierToTags": [
+          "GMDAOAIHKPM": ["Down"],
+          "FKIMDFCNONP": [1, 2, 3, 4, 5],
+          "HNBEKOEKIBC": [
             "UNIQUE_Team_Fire",
             "UNIQUE_Team_Water",
             "UNIQUE_Team_Ice",
@@ -1549,8 +1537,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Jump"],
-              "modifierName": "UGC_RocketJumpEffect",
-              "BILMCNCKIAO": ""
+              "modifierName": "UGC_RocketJumpEffect"
             }
           ],
           "onAdded": [
@@ -1627,7 +1614,7 @@
               "$type": "EntityDitherMixin",
               "predicates": [
                 {
-                  "$type": "CKJNCONHFNH"
+                  "$type": "ABFPLJIKNAD"
                 }
               ],
               "ditherValue": 0.5,
@@ -1650,7 +1637,7 @@
                 "entityTypePriority": ["Gadget"],
                 "shapeName": "CircleR15H30",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1826,7 +1813,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "UGCForbidSkill"
+              "DLEICBJFEKN": "UGCForbidSkill"
             }
           ]
         },
@@ -1861,7 +1848,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "UGCForbidSkill"
+              "DLEICBJFEKN": "UGCForbidSkill"
             }
           ]
         }
@@ -1871,7 +1858,7 @@
           "$type": "ChangePlayMode",
           "cdDelta": true,
           "muteRemoteAction": true,
-          "FFFGBBHBKGB": "UGCForbidSkill"
+          "DLEICBJFEKN": "UGCForbidSkill"
         }
       ],
       "onKill": [
@@ -1879,7 +1866,7 @@
           "$type": "ChangePlayMode",
           "cdDelta": true,
           "muteRemoteAction": true,
-          "FFFGBBHBKGB": "UGCForbidSkill"
+          "DLEICBJFEKN": "UGCForbidSkill"
         }
       ],
       "isDynamicAbility": true
@@ -1925,14 +1912,14 @@
             {
               "$type": "FollowAttachPointEffectMixin",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_Init_Lv1",
-              "attachPriority": "FollowPet",
-              "refreshOnAvatarIn": true
+              "APNJDGMDPIF": "FollowPet",
+              "JLEKPJMKLCF": true
             },
             {
               "$type": "FollowAttachPointEffectMixin",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_OnTeam_Lv3",
-              "attachPriority": "ThemePlay",
-              "refreshOnAvatarIn": true
+              "APNJDGMDPIF": "ThemePlay",
+              "JLEKPJMKLCF": true
             }
           ],
           "onAdded": [
@@ -2039,7 +2026,7 @@
             {
               "$type": "DynamicCollisionMixin",
               "tags": ["LEVEL1"],
-              "isChecker": true
+              "CMFFHGDJIMP": true
             }
           ],
           "onAdded": [
@@ -2153,13 +2140,13 @@
               "target": "CurLocalAvatar",
               "predicates": [
                 {
-                  "$type": "NMGDAEMCGIF",
+                  "$type": "DPGHGFAMBAD",
                   "target": "CurLocalAvatar",
                   "logic": "LesserOrEqual",
                   "value": 0.5
                 },
                 {
-                  "$type": "CNGBNECMGGP",
+                  "$type": "IEHJJFMCFAJ",
                   "elementType": "Electric"
                 }
               ],
@@ -2238,7 +2225,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 203,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
@@ -2247,7 +2234,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 203,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
@@ -2256,7 +2243,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 203,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
@@ -2277,14 +2264,12 @@
                 "StandbyShow_01",
                 "StandbyShow_02"
               ],
-              "modifierName": "Electric_Fairy_Effect_DoStandBy",
-              "BILMCNCKIAO": ""
+              "modifierName": "Electric_Fairy_Effect_DoStandBy"
             },
             {
               "$type": "AttachToAnimatorStateIDMixin",
               "stateIDs": ["Run", "Sprint"],
-              "modifierName": "Electric_Fairy_Effect_DoMove",
-              "BILMCNCKIAO": ""
+              "modifierName": "Electric_Fairy_Effect_DoMove"
             }
           ]
         },
@@ -2296,7 +2281,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
             },
@@ -2304,7 +2289,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
             },
@@ -2312,7 +2297,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
             }
@@ -2322,7 +2307,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
@@ -2331,7 +2316,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
@@ -2340,7 +2325,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
@@ -2355,7 +2340,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
@@ -2364,7 +2349,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
@@ -2373,7 +2358,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "State",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Int",
               "value": 201,
               "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
@@ -2498,7 +2483,7 @@
               "$type": "ServerLuaCall",
               "predicates": [
                 {
-                  "$type": "AJFBMOKILCM"
+                  "$type": "HIDEOMGPPCA"
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -2508,18 +2493,18 @@
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "callParamList": [247501001],
+              "CallParamList": [247501001],
               "funcName": "SLC_CallGuestShowReminder",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "SetGlobalValue",
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "AJFBMOKILCM"
+                  "$type": "HIDEOMGPPCA"
                 },
                 {
                   "$type": "ByTargetGlobalValue",
@@ -2534,13 +2519,13 @@
               "minValue": 0.0
             }
           ],
-          "onReconnect": [
+          "EAHGOMKOGPA": [
             {
               "$type": "SetGlobalValue",
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "HKHKGFIEIEF"
+                  "$type": "PNAJMHKEJLI"
                 }
               ],
               "ratio": 0.0,
@@ -2570,12 +2555,12 @@
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "callParamList": [247501001],
+              "CallParamList": [247501001],
               "funcName": "SLC_BloodHealthLevelHitAvatar",
-              "paramNum": 1,
-              "param1": -1.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "KIDPODIIJLI": 1,
+              "FDPBPIHKEGH": -1.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -2585,7 +2570,7 @@
           "modifierMixins": [
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "SlotQuickUse"
+              "MGEIMONNADI": "SlotQuickUse"
             }
           ]
         },
@@ -2625,15 +2610,15 @@
               "$type": "ServerLuaCall",
               "predicates": [
                 {
-                  "$type": "AJFBMOKILCM"
+                  "$type": "HIDEOMGPPCA"
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "callParamList": [247501001],
+              "CallParamList": [247501001],
               "funcName": "SLC_TryShowOfficialPatternGuidePage",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -2656,14 +2641,14 @@
               "$type": "ServerLuaCall",
               "predicates": [
                 {
-                  "$type": "AJFBMOKILCM"
+                  "$type": "HIDEOMGPPCA"
                 }
               ],
               "luaCallType": "CurGalleryControlGroup",
               "funcName": "SLC_TransPlayerToCurrentRoom",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             }
           ]
         },
@@ -2684,7 +2669,7 @@
           "modifierMixins": [
             {
               "$type": "DisableUIMixin",
-              "typeList": ["InteePanel"]
+              "JKEGAFJECGB": ["InteePanel"]
             },
             {
               "$type": "CurLocalAvatarMixinV2",
@@ -2731,7 +2716,7 @@
               "$type": "TriggerSetPassThrough",
               "cdDelta": true,
               "passThrough": true,
-              "includeDynamicBarrier": true
+              "DKCAPHOKPKK": true
             },
             {
               "$type": "TriggerHideWeapon",
@@ -2761,7 +2746,7 @@
             {
               "$type": "ShaderLerpMixin",
               "type": "AvatarDie",
-              "forceStopWhenRemoved": true
+              "IBDLCDBBMDC": true
             }
           ],
           "onAdded": [
@@ -2828,11 +2813,11 @@
           "target": "CurLocalAvatar",
           "cdDelta": true,
           "luaCallType": "SpecificGroup",
-          "callParamList": [247501001],
+          "CallParamList": [247501001],
           "funcName": "SLC_HeartBloodLevelRevivePlayer",
-          "param1": 0.0,
-          "KEEFCBAAODF": 0.0,
-          "LABHKHBCHFB": 0.0
+          "FDPBPIHKEGH": 0.0,
+          "FJCBPCIDMGJ": 0.0,
+          "NDCPJDDPIMD": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2845,9 +2830,9 @@
       "abilityMixins": [
         {
           "$type": "DoActionByRayTagMixin",
-          "ugcRayTriggerDirections": ["Down"],
-          "rayTags": [5],
-          "modifierToTags": ["UNIQUE_Team_RocketJump2"]
+          "GMDAOAIHKPM": ["Down"],
+          "FKIMDFCNONP": [5],
+          "HNBEKOEKIBC": ["UNIQUE_Team_RocketJump2"]
         },
         {
           "$type": "AttachModifierToGlobalValueMixin",
@@ -3020,8 +3005,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Jump"],
-              "modifierName": "UGC_RocketJumpEffectV2",
-              "BILMCNCKIAO": ""
+              "modifierName": "UGC_RocketJumpEffectV2"
             },
             {
               "$type": "RocketJumpMixin",
@@ -3071,8 +3055,7 @@
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Jump", "Fall"],
               "modifierName": "UNIQUE_FallingDamageImmune",
-              "isCheckOnAttach": true,
-              "BILMCNCKIAO": ""
+              "isCheckOnAttach": true
             }
           ]
         },
@@ -3115,7 +3098,7 @@
               "$type": "EntityDitherMixin",
               "predicates": [
                 {
-                  "$type": "CKJNCONHFNH"
+                  "$type": "ABFPLJIKNAD"
                 }
               ],
               "ditherValue": 0.5,
@@ -3157,7 +3140,7 @@
             {
               "$type": "ChangeGadgetState",
               "target": "Target",
-              "state": 201
+              "OBNBNBGHJEK": 201
             }
           ]
         }

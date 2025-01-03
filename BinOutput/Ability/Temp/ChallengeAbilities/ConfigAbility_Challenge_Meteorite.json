@@ -57,8 +57,7 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_Loop", "Channel_AS", "Channel_BS"],
-              "modifierName": "HitControl",
-              "BILMCNCKIAO": ""
+              "modifierName": "HitControl"
             }
           ]
         },
@@ -241,8 +240,8 @@
                 "shapeName": "CircleR5",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "All",
-                "campBasedOn": "CurLocalAvatar",
-                "SelectTargetsByShape": 1.0
+                "BDDJBGEIGMJ": "CurLocalAvatar",
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -304,8 +303,8 @@
                 "shapeName": "CircleR5",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "All",
-                "campBasedOn": "CurLocalAvatar",
-                "SelectTargetsByShape": 1.0
+                "BDDJBGEIGMJ": "CurLocalAvatar",
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -463,7 +462,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR25",
                 "campTargetType": "Enemy",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -485,14 +484,13 @@
             {
               "$type": "AttachToStateIDMixin",
               "stateIDs": ["Channel_Loop", "Channel_AS", "Channel_BS"],
-              "modifierName": "PlayerCharge",
-              "BILMCNCKIAO": ""
+              "modifierName": "PlayerCharge"
             }
           ],
           "onAdded": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "StartChannelTrigger"
+              "triggerID": "StartChannelTrigger"
             },
             {
               "$type": "SetExtraAbilityState"
@@ -503,7 +501,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR50",
                 "campTargetType": "AllExceptSelf",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -529,7 +527,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR50",
                 "campTargetType": "AllExceptSelf",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -567,7 +565,7 @@
                   "compareType": "NoneOrEqual"
                 }
               ],
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
               "$type": "RemoveModifier",
@@ -598,7 +596,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR50",
                 "campTargetType": "AllExceptSelf",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "predicates": [
                 {
@@ -615,13 +613,13 @@
               "target": "Team",
               "luaCallType": "CurScenePlay",
               "funcName": "UpdateAsterProgress",
-              "param1": 0.0,
-              "KEEFCBAAODF": 0.0,
-              "LABHKHBCHFB": 0.0
+              "FDPBPIHKEGH": 0.0,
+              "FJCBPCIDMGJ": 0.0,
+              "NDCPJDDPIMD": 0.0
             },
             {
               "$type": "SetAnimatorTrigger",
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
               "$type": "RemoveUniqueModifier",
@@ -640,7 +638,7 @@
               "born": {
                 "$type": "ConfigBornByAttachPoint",
                 "attachPointName": "EffPoint",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               },
               "effectTempleteID": -1.0
             }

@@ -6,6 +6,22 @@
 ||	Protection:     ???
 =======================================]]
 
+-- @李鸿杰 还没布设相关GROUP
+
+--[[
+local defs =
+{
+    -- Group对应的groupbundle
+    group_bundle_id = 0,
+} 
+--]]
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_Photo] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     --{ config_id = 40000001, name = "tri_group_load", event = EventType.EVENT_GROUP_LOAD, source = "", condition = "", action = "action_EVENT_GROUP_LOAD", trigger_count = 0 },
@@ -31,7 +47,7 @@ local extraTriggers =
 
 function action_EVENT_ANY_MONSTER_DIE(context, evt)
 
-    ScriptLib.PrintContextLog(context, "小动物死亡/消失")
+    PrintLog(context, "小动物死亡/消失")
 
     -- @唐天鹏 小动物死亡/消失都会触发 event_any_monster_die
 
@@ -54,7 +70,7 @@ function condition_EVENT_LEAVE_REGION(context, evt)
 end
 
 function action_EVENT_LEAVE_REGION(context, evt)
-    ScriptLib.PrintContextLog(context, "离开区域")
+    PrintLog(context, "离开区域")
     -- 刷新小动物
     ScriptLib.RefreshGroup(context, { group_id = base_info.group_id, suite = 1 })
 	return 0

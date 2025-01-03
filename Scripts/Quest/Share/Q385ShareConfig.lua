@@ -1,26 +1,28 @@
-local L0_1, L1_1, L2_1
+-- 任务配置
+
+-- 父任务id
+
 main_id = 385
-L0_1 = {}
-L1_1 = 38501
-L0_1[1] = L1_1
-sub_ids = L0_1
-L0_1 = {}
-rewind_data = L0_1
-L0_1 = rewind_data
-L1_1 = {}
-L0_1["38501"] = L1_1
-L0_1 = {}
-quest_data = L0_1
-L0_1 = quest_data
-L1_1 = {}
-L2_1 = {}
-L1_1.trial_actors = L2_1
-L2_1 = {}
-L1_1.actors = L2_1
-L2_1 = {}
-L1_1.items = L2_1
-L2_1 = {}
-L1_1.monsters = L2_1
-L2_1 = {}
-L1_1.gadgets = L2_1
-L0_1["38501"] = L1_1
+
+sub_ids =
+{
+    38501,
+}
+
+rewind_data = {}
+
+rewind_data["38501"] = 
+{
+}
+
+
+quest_data = {}
+
+quest_data["38501"] = 
+{
+    trial_actors = {},
+    actors = {},
+    items = {},
+    monsters = {},
+    gadgets = {}
+}

@@ -72,7 +72,7 @@
               "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "DLJEFPJGHIL",
+                  "$type": "PKMCAOOABDO",
                   "hitBoxNames": ["RopeHitbox"]
                 }
               ],
@@ -101,7 +101,7 @@
               "$type": "RemoveModifier",
               "predicates": [
                 {
-                  "$type": "DLJEFPJGHIL",
+                  "$type": "PKMCAOOABDO",
                   "hitBoxNames": ["LightHitBox"]
                 },
                 {
@@ -115,7 +115,7 @@
               "$type": "AttachModifier",
               "predicates": [
                 {
-                  "$type": "DLJEFPJGHIL",
+                  "$type": "PKMCAOOABDO",
                   "hitBoxNames": ["RopeHitbox"]
                 }
               ],
@@ -204,7 +204,7 @@
                     "elementType": "Fire",
                     "bonusCritical": 20.0,
                     "strikeType": "Default",
-                    "damage": 200.0,
+                    "enBreak": 200.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -287,7 +287,7 @@
                     "elementType": "Fire",
                     "bonusCritical": 20.0,
                     "strikeType": "Default",
-                    "damage": 200.0,
+                    "enBreak": 200.0,
                     "FKGFPFNOJMN": 0.0
                   },
                   "hitPattern": {
@@ -395,7 +395,7 @@
                 "attackPattern": {
                   "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
-                  "checkHitLayerType": "Both",
+                  "MMLJIFPBPOD": "Both",
                   "born": {
                     "$type": "ConfigBornByAttachPoint",
                     "offset": {

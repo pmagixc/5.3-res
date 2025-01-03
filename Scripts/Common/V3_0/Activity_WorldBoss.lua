@@ -6,6 +6,19 @@
 ||	Protection:     [Protection]
 =======================================]]
 
+---
+-- defs.small_region_id
+-- defs.big_region_id
+
+-- LD布设
+-- 大小两个Region
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_WorldBoss] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     --{ config_id = 40000001, name = "tri_monster_die", event = EventType.EVENT_ANY_MONSTER_DIE, source = "", condition = "condition_EVENT_ANY_MONSTER_DIE", action = "action_EVENT_ANY_MONSTER_DIE", trigger_count = 0},
@@ -25,7 +38,7 @@ local extraTriggers =
 
 -- function action_EVENT_ANY_MONSTER_DIE(context, evt)
 -- 	if 0 ~= ScriptLib.CreateGadget(context, { config_id = defs.chest_config_id }) then
--- 	  ScriptLib.PrintContextLog(context, "生成宝箱失败")
+-- 	  PrintLog(context, "生成宝箱失败")
 -- 	  return -1
 -- 	end
 -- 	return 0
@@ -37,7 +50,7 @@ function condition_EVENT_ENTER_REGION(context, evt)
 end
 
 function action_EVENT_ENTER_REGION(context, evt)
-    ScriptLib.PrintContextLog(context, "进入内圈")
+    PrintLog(context, "进入内圈")
     ScriptLib.SetPlayerEyePoint(context, defs.small_region_id, defs.big_region_id)	
 	return 0
 end
@@ -50,7 +63,7 @@ end
 
 -- 触发操作
 function action_EVENT_LEAVE_REGION(context, evt)
-    ScriptLib.PrintContextLog(context, "离开外圈")
+    PrintLog(context, "离开外圈")
     if context.uid ~= 0 then
         ScriptLib.ClearPlayerEyePoint(context, defs.small_region_id)
     end
@@ -62,7 +75,7 @@ end
 -- charge_type: 0-负电荷 1-正电荷
 function SLC_Activity_Boss_Watcher_Charge(context, charge_type)
 
-    ScriptLib.PrintContextLog(context, "电荷类型:"..charge_type)
+    PrintLog(context, "电荷类型:"..charge_type)
 
     local uidlist = ScriptLib.GetSceneUidList(context)
     for i = 1, #uidlist do

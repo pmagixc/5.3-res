@@ -71,47 +71,7 @@
     "Default": {
       "$type": "ConfigAbility",
       "abilityName": "ActivityAbility_LudiHarpastum_Serve_SwitchSkill",
-      "abilityMixins": [
-        {
-          "$type": "WidgetUseableMixin",
-          "targetWidgetMaterialId": 220027,
-          "onActive": [
-            {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
-              "ratio": 1.0,
-              "key": "_ABILITY_LudiHarpastum_Useable",
-              "maxValue": 0.0,
-              "minValue": 0.0
-            }
-          ],
-          "onDisable": [
-            {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
-              "ratio": 0.0,
-              "key": "_ABILITY_LudiHarpastum_Useable",
-              "maxValue": 0.0,
-              "minValue": 0.0
-            }
-          ]
-        },
-        {
-          "$type": "AttachModifierToSelfGlobalValueMixin",
-          "globalValueKey": "_ABILITY_LudiHarpastum_Useable",
-          "defaultGlobalValueOnCreate": 0.0,
-          "valueSteps": [-0.5, 0.5, 1.5],
-          "modifierNameSteps": [
-            "Blank",
-            "UNIQUE_ActivityAbility_LudiHarpastum_Serve_AddSkillInfo"
-          ]
-        }
-      ],
       "modifiers": {
-        "Blank": {
-          "modifierName": "",
-          "bonusCritical": 100.0
-        },
         "UNIQUE_ActivityAbility_LudiHarpastum_Serve_AddSkillInfo": {
           "modifierName": "",
           "isUnique": true,
@@ -132,7 +92,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "SwitchSkill",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "value": 1,
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum"
@@ -148,7 +108,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "SwitchSkill",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "type": "Bool",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum"
             },
@@ -177,6 +137,13 @@
           ]
         }
       },
+      "onAdded": [
+        {
+          "$type": "AttachModifier",
+          "cdDelta": true,
+          "modifierName": "UNIQUE_ActivityAbility_LudiHarpastum_Serve_AddSkillInfo"
+        }
+      ],
       "isDynamicAbility": true
     }
   },
@@ -188,14 +155,12 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Channel_BS", "Channel_Loop"],
-          "modifierName": "CheckChannelLoop",
-          "BILMCNCKIAO": ""
+          "modifierName": "CheckChannelLoop"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Channel_BS", "Channel_Loop", "Channel_AS"],
-          "modifierName": "Trigger_OnExit",
-          "BILMCNCKIAO": ""
+          "modifierName": "Trigger_OnExit"
         },
         {
           "$type": "ButtonHoldChargeMixin",
@@ -252,7 +217,7 @@
               "modifierName": "Focus"
             }
           ],
-          "onReleaseSecondCharged": [
+          "OnReleaseSecondCharged": [
             {
               "$type": "ApplyModifier",
               "cdDelta": true,
@@ -276,18 +241,20 @@
             {
               "$type": "SetAnimatorTrigger",
               "cdDelta": true,
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ],
-          "onCancelCharged": [
+          "AHICPDAIBBL": [
             {
               "$type": "SetAnimatorTrigger",
               "cdDelta": true,
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
-              "$type": "RemoveModifier",
-              "modifierName": "ActionPanelController"
+              "$type": "ChangePlayMode",
+              "cdDelta": true,
+              "muteRemoteAction": true,
+              "DLEICBJFEKN": "ActivityAimState"
             }
           ],
           "chargeStateIDs": ["Channel_Loop"]
@@ -300,11 +267,11 @@
           "modifierMixins": [
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "SlotQuickUse"
+              "MGEIMONNADI": "SlotQuickUse"
             },
             {
               "$type": "HideActionSlotMixin",
-              "slotType": "SlotCharge"
+              "MGEIMONNADI": "SlotCharge"
             },
             {
               "$type": "HideActionSlotMixin"
@@ -359,7 +326,7 @@
                   "z": 1.2000000476837158
                 },
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               },
               "effectTempleteID": -1.0
             },
@@ -374,17 +341,17 @@
                   "z": 1.2000000476837158
                 },
                 "direction": {
-                  "$type": "JOHHBEHLHLO",
+                  "$type": "CAMHJDKCEOP",
                   "angleOffset": {
                     "x": -1.5,
                     "y": 0.0,
                     "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
-                  "attachPointTargetType": "Self"
+                  "BKOJLOPLKJE": "Self"
                 },
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               }
             }
           ]
@@ -416,7 +383,7 @@
                   "z": 1.2000000476837158
                 },
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               },
               "effectTempleteID": -1.0
             },
@@ -427,8 +394,8 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "DMHLALOGPAH",
-                      "weaponTypes": ["WEAPON_BOW"]
+                      "$type": "EJIHECGHKCK",
+                      "NBNCGECJGEK": ["WEAPON_BOW"]
                     }
                   ]
                 }
@@ -442,25 +409,25 @@
                   "z": 1.2000000476837158
                 },
                 "direction": {
-                  "$type": "JOHHBEHLHLO",
+                  "$type": "CAMHJDKCEOP",
                   "angleOffset": {
                     "x": -1.5,
                     "y": 0.0,
                     "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
-                  "attachPointTargetType": "Self"
+                  "BKOJLOPLKJE": "Self"
                 },
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               }
             },
             {
               "$type": "TriggerBullet",
               "predicates": [
                 {
-                  "$type": "DMHLALOGPAH",
-                  "weaponTypes": ["WEAPON_BOW"]
+                  "$type": "EJIHECGHKCK",
+                  "NBNCGECJGEK": ["WEAPON_BOW"]
                 }
               ],
               "bulletID": 44000111,
@@ -472,17 +439,17 @@
                   "z": 1.2000000476837158
                 },
                 "direction": {
-                  "$type": "JOHHBEHLHLO",
+                  "$type": "CAMHJDKCEOP",
                   "angleOffset": {
                     "x": -1.5,
                     "y": 0.0,
                     "z": 0.0
                   },
                   "attachPointName": "FocusAnchor",
-                  "attachPointTargetType": "Self"
+                  "BKOJLOPLKJE": "Self"
                 },
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               }
             }
           ]
@@ -493,7 +460,7 @@
           "onAdded": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "StartChannelTrigger"
+              "triggerID": "StartChannelTrigger"
             },
             {
               "$type": "SetGlobalValue",
@@ -520,7 +487,7 @@
             {
               "$type": "SetAnimatorTrigger",
               "cdDelta": true,
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
               "$type": "SetAnimatorBool",
@@ -563,8 +530,7 @@
               },
               "canMove": false,
               "vcamFov": 30.0,
-              "disableAnim": true,
-              "BPJCLAEPBPL": ""
+              "disableAnim": true
             }
           ],
           "onRemoved": [
@@ -585,7 +551,7 @@
                   "compareType": "NoneOrEqual"
                 }
               ],
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ]
         },
@@ -631,8 +597,8 @@
               "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GJOOBALMOLO",
-                  "sceneIds": [
+                  "$type": "NBIGCHKLOBH",
+                  "CCBDBLAGEEK": [
                     47101, 47102, 47103, 47401, 47402, 47403, 47404, 47405,
                     47406
                   ]
@@ -651,8 +617,8 @@
               "$type": "ByNot",
               "predicates": [
                 {
-                  "$type": "GJOOBALMOLO",
-                  "sceneIds": [
+                  "$type": "NBIGCHKLOBH",
+                  "CCBDBLAGEEK": [
                     47101, 47102, 47103, 47401, 47402, 47403, 47404, 47405,
                     47406
                   ]
@@ -824,7 +790,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Hit",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_Racket_Swing"
             },
             {
@@ -999,7 +965,7 @@
             "attackPattern": {
               "$type": "GGBJACPDDCM",
               "triggerType": "TriggerNoRepeat",
-              "checkHitLayerType": "Both",
+              "MMLJIFPBPOD": "Both",
               "born": {
                 "$type": "ConfigBornByCollisionPoint",
                 "offset": {
@@ -1232,7 +1198,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "canBeHandledOnRecover": true,
-              "FFFGBBHBKGB": "BounceConjuring"
+              "DLEICBJFEKN": "BounceConjuring"
             }
           ]
         }
@@ -1331,7 +1297,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR2.5H5",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "targetPredicates": [
                 {
@@ -1377,9 +1343,9 @@
                   "luaCallType": "CurGalleryControlGroup",
                   "isTarget": true,
                   "funcName": "AutoReturnCount",
-                  "param1": 0.0,
-                  "KEEFCBAAODF": 0.0,
-                  "LABHKHBCHFB": 0.0
+                  "FDPBPIHKEGH": 0.0,
+                  "FJCBPCIDMGJ": 0.0,
+                  "NDCPJDDPIMD": 0.0
                 }
               ]
             }
@@ -1394,7 +1360,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "ToAutoMode",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_Racket_Swing"
             }
           ],
@@ -1403,7 +1369,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "ToNormalMode",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_Racket_Swing"
             }
           ]
@@ -1418,7 +1384,7 @@
               "$type": "SendEffectTrigger",
               "target": "Team",
               "parameter": "Hit",
-              "attachPoint": "",
+              "IIKEHINGEME": "",
               "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_Racket_Swing"
             }
           ]
@@ -1531,9 +1497,9 @@
                       "luaCallType": "CurGalleryControlGroup",
                       "isTarget": true,
                       "funcName": "SoilBallCount",
-                      "param1": 0.0,
-                      "KEEFCBAAODF": 0.0,
-                      "LABHKHBCHFB": 0.0
+                      "FDPBPIHKEGH": 0.0,
+                      "FJCBPCIDMGJ": 0.0,
+                      "NDCPJDDPIMD": 0.0
                     }
                   ]
                 },
@@ -1553,9 +1519,9 @@
                       "luaCallType": "CurGalleryControlGroup",
                       "isTarget": true,
                       "funcName": "IceBallCount",
-                      "param1": 0.0,
-                      "KEEFCBAAODF": 0.0,
-                      "LABHKHBCHFB": 0.0
+                      "FDPBPIHKEGH": 0.0,
+                      "FJCBPCIDMGJ": 0.0,
+                      "NDCPJDDPIMD": 0.0
                     }
                   ]
                 },
@@ -1575,9 +1541,9 @@
                       "luaCallType": "CurGalleryControlGroup",
                       "isTarget": true,
                       "funcName": "CurveBallCount",
-                      "param1": 0.0,
-                      "KEEFCBAAODF": 0.0,
-                      "LABHKHBCHFB": 0.0
+                      "FDPBPIHKEGH": 0.0,
+                      "FJCBPCIDMGJ": 0.0,
+                      "NDCPJDDPIMD": 0.0
                     }
                   ]
                 },
@@ -1597,9 +1563,9 @@
                       "luaCallType": "CurGalleryControlGroup",
                       "isTarget": true,
                       "funcName": "SpeedBallCount",
-                      "param1": 0.0,
-                      "KEEFCBAAODF": 0.0,
-                      "LABHKHBCHFB": 0.0
+                      "FDPBPIHKEGH": 0.0,
+                      "FJCBPCIDMGJ": 0.0,
+                      "NDCPJDDPIMD": 0.0
                     }
                   ]
                 }
@@ -1635,9 +1601,8 @@
             {
               "$type": "KillSelf",
               "banDrop": true,
-              "limboByTargetMaxHPRatio": true,
-              "killSelfType": "Disappear",
-              "configIdArray": [70000000]
+              "banExp": true,
+              "killSelfType": "Disappear"
             }
           ]
         },
@@ -1691,14 +1656,12 @@
                   "$type": "JOLJOHDJLNF",
                   "target": "Applier",
                   "logic": "LesserOrEqual",
-                  "ratio": 2.200000047683716,
-                  "PHMALDNHHLD": ""
+                  "ratio": 2.200000047683716
                 },
                 {
                   "$type": "JOLJOHDJLNF",
                   "target": "Applier",
-                  "ratio": 1.2000000476837158,
-                  "PHMALDNHHLD": ""
+                  "ratio": 1.2000000476837158
                 }
               ],
               "ratio": 1.0,
@@ -1803,7 +1766,7 @@
                 "$type": "SelectTargetsByShape",
                 "shapeName": "CircleR30",
                 "campTargetType": "All",
-                "SelectTargetsByShape": 1.0
+                "OBHNBNDMPFN": 1.0
               },
               "cdDelta": true,
               "predicates": [
@@ -1829,25 +1792,25 @@
               "cdDelta": true,
               "bulletID": 44000113,
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.0,
                   "y": 0.0,
                   "z": 0.0
                 },
                 "direction": {
-                  "$type": "HAEIKNNFLFO",
+                  "$type": "MDFHAFBFOAD",
                   "angleOffset": {
                     "x": 0.0,
                     "y": 0.0,
                     "z": 0.0
                   },
-                  "randomAngleHor": 3.0,
-                  "randomAngleVer": 3.0,
-                  "PDKJDHJIEJB": ""
+                  "JCHDCLMGGGA": 3.0,
+                  "LLMANEFGMJE": 3.0,
+                  "NNGJPPABGNH": ""
                 },
-                "positionKey": "BallPos",
-                "directionKey": ""
+                "LDPAKEFHAOK": "BallPos",
+                "IDGILJNLJGN": ""
               }
             }
           ]
@@ -2051,7 +2014,7 @@
             "attackPattern": {
               "$type": "GGBJACPDDCM",
               "triggerType": "TriggerNoRepeat",
-              "checkHitLayerType": "Both",
+              "MMLJIFPBPOD": "Both",
               "born": {
                 "$type": "ConfigBornByCollisionPoint",
                 "offset": {
@@ -2492,8 +2455,7 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Channel_BS", "Channel_Loop"],
-          "modifierName": "CheckChannelLoop",
-          "BILMCNCKIAO": ""
+          "modifierName": "CheckChannelLoop"
         },
         {
           "$type": "AttachModifierToSelfGlobalValueMixin",
@@ -2515,7 +2477,7 @@
           "onAdded": [
             {
               "$type": "SetAnimatorTrigger",
-              "value": "StartChannelTrigger"
+              "triggerID": "StartChannelTrigger"
             },
             {
               "$type": "SetGlobalValue",
@@ -2573,7 +2535,7 @@
             {
               "$type": "SetAnimatorTrigger",
               "cdDelta": true,
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             },
             {
               "$type": "SetAnimatorBool",
@@ -2584,7 +2546,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "ActivityAimState"
+              "DLEICBJFEKN": "ActivityAimState"
             },
             {
               "$type": "AvatarExitFocus",
@@ -2621,8 +2583,7 @@
               },
               "canMove": false,
               "vcamFov": 30.0,
-              "disableAnim": true,
-              "BPJCLAEPBPL": ""
+              "disableAnim": true
             }
           ],
           "onRemoved": [
@@ -2643,7 +2604,7 @@
                   "compareType": "NoneOrEqual"
                 }
               ],
-              "value": "EndChannelTrigger"
+              "triggerID": "EndChannelTrigger"
             }
           ]
         },
@@ -2662,7 +2623,7 @@
               "$type": "ChangePlayMode",
               "cdDelta": true,
               "muteRemoteAction": true,
-              "FFFGBBHBKGB": "ActivityAimState"
+              "DLEICBJFEKN": "ActivityAimState"
             },
             {
               "$type": "AvatarExitFocus",
@@ -2684,7 +2645,7 @@
                   "ratio": 1.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220029,
                   "itemNum": 1
                 }
@@ -2715,7 +2676,7 @@
                   "ratio": 2.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220030,
                   "itemNum": 1
                 }
@@ -2746,7 +2707,7 @@
                   "ratio": 3.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220031,
                   "itemNum": 1
                 }
@@ -2784,7 +2745,7 @@
                   "ratio": 1.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220029,
                   "itemNum": 1
                 }
@@ -2806,7 +2767,7 @@
                   "ratio": 2.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220030,
                   "itemNum": 1
                 }
@@ -2828,7 +2789,7 @@
                   "ratio": 3.0
                 },
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220031,
                   "itemNum": 1
                 }
@@ -2856,7 +2817,7 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220029,
                   "itemNum": 1
                 }
@@ -2874,7 +2835,7 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220030,
                   "itemNum": 1
                 }
@@ -2892,7 +2853,7 @@
               "cdDelta": true,
               "predicates": [
                 {
-                  "$type": "FOPDFMMCLKE",
+                  "$type": "DDNLOFEDHHE",
                   "itemId": 220031,
                   "itemNum": 1
                 }
@@ -2948,7 +2909,7 @@
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "OnBeginSecondCharged": [
@@ -2957,7 +2918,7 @@
                   "modifierName": "Focus"
                 }
               ],
-              "onReleaseSecondCharged": [
+              "OnReleaseSecondCharged": [
                 {
                   "$type": "ApplyModifier",
                   "cdDelta": true,
@@ -2966,20 +2927,20 @@
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 }
               ],
-              "onCancelCharged": [
+              "AHICPDAIBBL": [
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 },
                 {
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "chargeStateIDs": ["Channel_Loop"]
@@ -3027,7 +2988,7 @@
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "OnBeginSecondCharged": [
@@ -3036,7 +2997,7 @@
                   "modifierName": "Focus"
                 }
               ],
-              "onReleaseSecondCharged": [
+              "OnReleaseSecondCharged": [
                 {
                   "$type": "ApplyModifier",
                   "cdDelta": true,
@@ -3045,20 +3006,20 @@
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 }
               ],
-              "onCancelCharged": [
+              "AHICPDAIBBL": [
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 },
                 {
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "chargeStateIDs": ["Channel_Loop"]
@@ -3106,7 +3067,7 @@
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "OnBeginSecondCharged": [
@@ -3115,7 +3076,7 @@
                   "modifierName": "Focus"
                 }
               ],
-              "onReleaseSecondCharged": [
+              "OnReleaseSecondCharged": [
                 {
                   "$type": "ApplyModifier",
                   "cdDelta": true,
@@ -3124,20 +3085,20 @@
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 }
               ],
-              "onCancelCharged": [
+              "AHICPDAIBBL": [
                 {
                   "$type": "SetAnimatorTrigger",
                   "cdDelta": true,
-                  "value": "EndChannelTrigger"
+                  "triggerID": "EndChannelTrigger"
                 },
                 {
                   "$type": "ChangePlayMode",
                   "cdDelta": true,
                   "muteRemoteAction": true,
-                  "FFFGBBHBKGB": "ActivityAimState"
+                  "DLEICBJFEKN": "ActivityAimState"
                 }
               ],
               "chargeStateIDs": ["Channel_Loop"]
@@ -3177,7 +3138,7 @@
               "born": {
                 "$type": "ConfigBornByAttachPoint",
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               }
             },
             {
@@ -3185,14 +3146,14 @@
               "target": "Caster",
               "key": "_ActivityAbility_Shoot_POS",
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.0,
                   "y": 0.5,
                   "z": 1.2000000476837158
                 },
-                "positionKey": "_Temp_POS",
-                "directionKey": ""
+                "LDPAKEFHAOK": "_Temp_POS",
+                "IDGILJNLJGN": ""
               }
             },
             {
@@ -3209,9 +3170,9 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeA_OnShoot",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "_ActivityAbility_Shoot_POS",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                    "IDGILJNLJGN": ""
                   },
                   "effectTempleteID": -1.0
                 },
@@ -3219,9 +3180,9 @@
                   "$type": "TriggerBullet",
                   "bulletID": 44000115,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "_ActivityAbility_Shoot_POS",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                    "IDGILJNLJGN": ""
                   }
                 }
               ],
@@ -3240,14 +3201,14 @@
                       "$type": "FireEffect",
                       "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeB_OnShoot",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
+                        "$type": "LBFHLMJGELJ",
                         "offset": {
                           "x": 0.0,
                           "y": 0.0,
                           "z": 0.0
                         },
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       },
                       "effectTempleteID": -1.0
                     },
@@ -3255,9 +3216,9 @@
                       "$type": "TriggerBullet",
                       "bulletID": 44000116,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     }
                   ],
@@ -3266,9 +3227,9 @@
                       "$type": "FireEffect",
                       "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeC_OnShoot",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       },
                       "effectTempleteID": -1.0
                     },
@@ -3276,9 +3237,9 @@
                       "$type": "TriggerBullet",
                       "bulletID": 44000117,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     }
                   ]
@@ -3325,7 +3286,7 @@
               "born": {
                 "$type": "ConfigBornByAttachPoint",
                 "attachPointName": "FocusAnchor",
-                "attachPointTargetType": "Self"
+                "BKOJLOPLKJE": "Self"
               }
             },
             {
@@ -3336,22 +3297,22 @@
                   "$type": "ByNot",
                   "predicates": [
                     {
-                      "$type": "DMHLALOGPAH",
-                      "weaponTypes": ["WEAPON_BOW"]
+                      "$type": "EJIHECGHKCK",
+                      "NBNCGECJGEK": ["WEAPON_BOW"]
                     }
                   ]
                 }
               ],
               "key": "_ActivityAbility_Shoot_POS",
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.0,
                   "y": 0.5,
                   "z": 1.2000000476837158
                 },
-                "positionKey": "_Temp_POS",
-                "directionKey": ""
+                "LDPAKEFHAOK": "_Temp_POS",
+                "IDGILJNLJGN": ""
               }
             },
             {
@@ -3359,20 +3320,20 @@
               "target": "Caster",
               "predicates": [
                 {
-                  "$type": "DMHLALOGPAH",
-                  "weaponTypes": ["WEAPON_BOW"]
+                  "$type": "EJIHECGHKCK",
+                  "NBNCGECJGEK": ["WEAPON_BOW"]
                 }
               ],
               "key": "_ActivityAbility_Shoot_POS",
               "born": {
-                "$type": "MKLCDCJFOHO",
+                "$type": "LBFHLMJGELJ",
                 "offset": {
                   "x": 0.30000001192092896,
                   "y": 0.0,
                   "z": 1.2000000476837158
                 },
-                "positionKey": "_Temp_POS",
-                "directionKey": ""
+                "LDPAKEFHAOK": "_Temp_POS",
+                "IDGILJNLJGN": ""
               }
             },
             {
@@ -3389,9 +3350,9 @@
                   "$type": "FireEffect",
                   "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeA_OnShoot",
                   "born": {
-                    "$type": "MKLCDCJFOHO",
-                    "positionKey": "_ActivityAbility_Shoot_POS",
-                    "directionKey": ""
+                    "$type": "LBFHLMJGELJ",
+                    "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                    "IDGILJNLJGN": ""
                   },
                   "effectTempleteID": -1.0
                 },
@@ -3402,52 +3363,52 @@
                       "$type": "ByNot",
                       "predicates": [
                         {
-                          "$type": "DMHLALOGPAH",
-                          "weaponTypes": ["WEAPON_BOW"]
+                          "$type": "EJIHECGHKCK",
+                          "NBNCGECJGEK": ["WEAPON_BOW"]
                         }
                       ]
                     }
                   ],
                   "bulletID": 44000118,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "direction": {
-                      "$type": "JOHHBEHLHLO",
+                      "$type": "CAMHJDKCEOP",
                       "angleOffset": {
                         "x": -1.5,
                         "y": -2.0,
                         "z": 0.0
                       },
                       "attachPointName": "FocusAnchor",
-                      "attachPointTargetType": "Self"
+                      "BKOJLOPLKJE": "Self"
                     },
-                    "positionKey": "_ActivityAbility_Shoot_POS",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                    "IDGILJNLJGN": ""
                   }
                 },
                 {
                   "$type": "TriggerBullet",
                   "predicates": [
                     {
-                      "$type": "DMHLALOGPAH",
-                      "weaponTypes": ["WEAPON_BOW"]
+                      "$type": "EJIHECGHKCK",
+                      "NBNCGECJGEK": ["WEAPON_BOW"]
                     }
                   ],
                   "bulletID": 44000118,
                   "born": {
-                    "$type": "MKLCDCJFOHO",
+                    "$type": "LBFHLMJGELJ",
                     "direction": {
-                      "$type": "JOHHBEHLHLO",
+                      "$type": "CAMHJDKCEOP",
                       "angleOffset": {
                         "x": -1.5,
                         "y": 0.0,
                         "z": 0.0
                       },
                       "attachPointName": "FocusAnchor",
-                      "attachPointTargetType": "Self"
+                      "BKOJLOPLKJE": "Self"
                     },
-                    "positionKey": "_ActivityAbility_Shoot_POS",
-                    "directionKey": ""
+                    "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                    "IDGILJNLJGN": ""
                   }
                 }
               ],
@@ -3466,9 +3427,9 @@
                       "$type": "FireEffect",
                       "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeB_OnShoot",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       },
                       "effectTempleteID": -1.0
                     },
@@ -3479,52 +3440,52 @@
                           "$type": "ByNot",
                           "predicates": [
                             {
-                              "$type": "DMHLALOGPAH",
-                              "weaponTypes": ["WEAPON_BOW"]
+                              "$type": "EJIHECGHKCK",
+                              "NBNCGECJGEK": ["WEAPON_BOW"]
                             }
                           ]
                         }
                       ],
                       "bulletID": 44000119,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
+                        "$type": "LBFHLMJGELJ",
                         "direction": {
-                          "$type": "JOHHBEHLHLO",
+                          "$type": "CAMHJDKCEOP",
                           "angleOffset": {
                             "x": -1.5,
                             "y": -2.0,
                             "z": 0.0
                           },
                           "attachPointName": "FocusAnchor",
-                          "attachPointTargetType": "Self"
+                          "BKOJLOPLKJE": "Self"
                         },
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     },
                     {
                       "$type": "TriggerBullet",
                       "predicates": [
                         {
-                          "$type": "DMHLALOGPAH",
-                          "weaponTypes": ["WEAPON_BOW"]
+                          "$type": "EJIHECGHKCK",
+                          "NBNCGECJGEK": ["WEAPON_BOW"]
                         }
                       ],
                       "bulletID": 44000119,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
+                        "$type": "LBFHLMJGELJ",
                         "direction": {
-                          "$type": "JOHHBEHLHLO",
+                          "$type": "CAMHJDKCEOP",
                           "angleOffset": {
                             "x": -1.5,
                             "y": 0.0,
                             "z": 0.0
                           },
                           "attachPointName": "FocusAnchor",
-                          "attachPointTargetType": "Self"
+                          "BKOJLOPLKJE": "Self"
                         },
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     }
                   ],
@@ -3533,9 +3494,9 @@
                       "$type": "FireEffect",
                       "healLimitedByCasterMaxHPRatio": "Eff_Activity_LudiHarpastum_BombTypeC_OnShoot",
                       "born": {
-                        "$type": "MKLCDCJFOHO",
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "$type": "LBFHLMJGELJ",
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       },
                       "effectTempleteID": -1.0
                     },
@@ -3546,52 +3507,52 @@
                           "$type": "ByNot",
                           "predicates": [
                             {
-                              "$type": "DMHLALOGPAH",
-                              "weaponTypes": ["WEAPON_BOW"]
+                              "$type": "EJIHECGHKCK",
+                              "NBNCGECJGEK": ["WEAPON_BOW"]
                             }
                           ]
                         }
                       ],
                       "bulletID": 44000120,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
+                        "$type": "LBFHLMJGELJ",
                         "direction": {
-                          "$type": "JOHHBEHLHLO",
+                          "$type": "CAMHJDKCEOP",
                           "angleOffset": {
                             "x": -1.5,
                             "y": -2.0,
                             "z": 0.0
                           },
                           "attachPointName": "FocusAnchor",
-                          "attachPointTargetType": "Self"
+                          "BKOJLOPLKJE": "Self"
                         },
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     },
                     {
                       "$type": "TriggerBullet",
                       "predicates": [
                         {
-                          "$type": "DMHLALOGPAH",
-                          "weaponTypes": ["WEAPON_BOW"]
+                          "$type": "EJIHECGHKCK",
+                          "NBNCGECJGEK": ["WEAPON_BOW"]
                         }
                       ],
                       "bulletID": 44000120,
                       "born": {
-                        "$type": "MKLCDCJFOHO",
+                        "$type": "LBFHLMJGELJ",
                         "direction": {
-                          "$type": "JOHHBEHLHLO",
+                          "$type": "CAMHJDKCEOP",
                           "angleOffset": {
                             "x": -1.5,
                             "y": 0.0,
                             "z": 0.0
                           },
                           "attachPointName": "FocusAnchor",
-                          "attachPointTargetType": "Self"
+                          "BKOJLOPLKJE": "Self"
                         },
-                        "positionKey": "_ActivityAbility_Shoot_POS",
-                        "directionKey": ""
+                        "LDPAKEFHAOK": "_ActivityAbility_Shoot_POS",
+                        "IDGILJNLJGN": ""
                       }
                     }
                   ]
@@ -3675,7 +3636,7 @@
                 "elementType": "Fire",
                 "bonusCritical": "Value_Durability",
                 "ignoreAttackerProperty": true,
-                "damage": 0.0,
+                "enBreak": 0.0,
                 "damageExtra": [
                   "Value_DamageSystemValue",
                   "Value_DamageSystemRate",
@@ -3758,7 +3719,7 @@
                 "elementType": "Fire",
                 "bonusCritical": "Value_Durability",
                 "ignoreAttackerProperty": true,
-                "damage": 0.0,
+                "enBreak": 0.0,
                 "damageExtra": [
                   "Value_DamageSystemValue",
                   "Value_DamageSystemRate",
@@ -3841,7 +3802,7 @@
                 "elementType": "Fire",
                 "bonusCritical": "Value_Durability",
                 "ignoreAttackerProperty": true,
-                "damage": 0.0,
+                "enBreak": 0.0,
                 "damageExtra": [
                   "Value_DamageSystemValue",
                   "Value_DamageSystemRate",

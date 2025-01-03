@@ -7,14 +7,12 @@
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Start"],
-          "modifierName": "FireSpray",
-          "BILMCNCKIAO": ""
+          "modifierName": "FireSpray"
         },
         {
           "$type": "AttachToStateIDMixin",
           "stateIDs": ["Stop"],
-          "modifierName": "FireStop",
-          "BILMCNCKIAO": ""
+          "modifierName": "FireStop"
         }
       ],
       "modifiers": {
@@ -66,7 +64,7 @@
                 "attackPattern": {
                   "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
-                  "checkHitLayerType": "Both",
+                  "MMLJIFPBPOD": "Both",
                   "born": {
                     "$type": "ConfigBornByAttachPoint",
                     "attachPointName": "WeaponR"
@@ -76,7 +74,7 @@
                     "y": 1.399999976158142,
                     "z": 8.0
                   },
-                  "muteHitBehindScene": true
+                  "OFPHDGKGMPA": true
                 },
                 "attackInfo": {
                   "attackTag": "",
@@ -144,7 +142,7 @@
                 "attackPattern": {
                   "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
-                  "checkHitLayerType": "Both",
+                  "MMLJIFPBPOD": "Both",
                   "born": {
                     "$type": "ConfigBornBySelf",
                     "offset": {
@@ -158,7 +156,7 @@
                     "y": 1.399999976158142,
                     "z": 8.0
                   },
-                  "muteHitBehindScene": true
+                  "OFPHDGKGMPA": true
                 },
                 "attackInfo": {
                   "attackTag": "",
@@ -214,7 +212,7 @@
                 "attackPattern": {
                   "$type": "GGBJACPDDCM",
                   "triggerType": "TriggerNoRepeat",
-                  "checkHitLayerType": "Both",
+                  "MMLJIFPBPOD": "Both",
                   "born": {
                     "$type": "ConfigBornBySelf",
                     "offset": {
@@ -228,7 +226,7 @@
                     "y": 1.399999976158142,
                     "z": 8.0
                   },
-                  "muteHitBehindScene": true
+                  "OFPHDGKGMPA": true
                 },
                 "attackInfo": {
                   "attackTag": "",

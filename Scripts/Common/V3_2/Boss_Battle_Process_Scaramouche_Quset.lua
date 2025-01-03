@@ -15,6 +15,12 @@ local bossMonsterId=
 	29070105
 }
 
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Boss_Battle_Process_Scaramouche_Quest] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
+
 local extraTriggers = 
 {
     { config_id = 40000001, name = "monster_die", event = EventType.EVENT_ANY_MONSTER_DIE, source = "", condition = "", action = "action_EVENT_ANY_MONSTER_DIE", trigger_count = 0 },
@@ -85,7 +91,7 @@ function action_EVENT_TIME_AXIS_PASS(context, evt)
 				ScriptLib.AddSceneTag(context, 20168 ,1202)
 			end
 		end
-		ScriptLib.PrintContextLog(context, "没找到传送目标点")
+		PrintLog(context, "没找到传送目标点")
 		ScriptLib.InitTimeAxis(context,"YAxisCheck",{5},true)
 	end
 
@@ -123,7 +129,7 @@ end
 
 function action_EVENT_ANY_MONSTER_LIVE(context, evt)
 	--进入方法的log
-	ScriptLib.PrintContextLog(context, "monster alive:"..evt.param1)
+	PrintLog(context, "monster alive:"..evt.param1)
 	local monsterEntityId=ScriptLib.GetEntityIdByConfigId(context, evt.param1)
     local monsterId=ScriptLib.GetMonsterIdByEntityId(context, monsterEntityId)
 	if LF_IsBossMonster(context,monsterId) then
@@ -134,13 +140,13 @@ end
 
 function action_EVENT_QUEST_FINISH(context, evt)
 	--进入方法的log
-	ScriptLib.PrintContextLog(context, "quest finish:"..evt.param1)
+	PrintLog(context, "quest finish:"..evt.param1)
 	return 0
 end
 
 function action_EVENT_QUEST_START(context, evt)
 	--进入方法的log
-	ScriptLib.PrintContextLog(context, "quest start:"..evt.param1)
+	PrintLog(context, "quest start:"..evt.param1)
 	--根据任务ID来决定做什么处理
 	--一开始隐藏一阶段boss，听任务的创
 	if evt.param1==defs.questBossAppear then

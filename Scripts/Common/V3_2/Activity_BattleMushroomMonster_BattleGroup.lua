@@ -6,6 +6,12 @@
 ||	Protection:     [Protection]
 =======================================]]
 
+--[[
+local custom_level={
+	[81013]={max_count=5}
+}
+]]--
+
 local global_info=
 {
 	attackLevel={groupId=247101001,galleryId=28021,max_wave=3},
@@ -22,6 +28,12 @@ local global_info=
 	phase_two_time=90,
 	phase_two_awardball_cd=10,
 }
+
+-- 打印日志
+function PrintLog(context, content)
+	local log = "## [Activity_BattleMushroomMonster_BattleGroup] TD: "..content
+	ScriptLib.PrintContextLog(context, log)
+end
 
 local extraTriggers = 
 {
@@ -62,7 +74,7 @@ function LF_GetWaveNumber(context)
 	elseif base_info.group_id==global_info.defenseLevel.groupId then
 		return global_info.defenseLevel.max_wave
 	end
-	ScriptLib.PrintContextLog(context, "战斗总波次获取失败")
+	PrintLog(context, "战斗总波次获取失败")
 	return 0
 end
 
@@ -70,11 +82,11 @@ end
 function LF_SetRandomResult(context)
 	local fungusFighterTrainingParams=ScriptLib.GetCurFungusFighterTrainingParams(context)
 	if #fungusFighterTrainingParams<3 then
-		ScriptLib.PrintContextLog(context, "地城ID获取失败")
+		PrintLog(context, "地城ID获取失败")
 		return 0
 	end
 	if fungus_strategy_info[fungusFighterTrainingParams[1]]==nil then
-		ScriptLib.PrintContextLog(context, "地城ID获取失败")
+		PrintLog(context, "地城ID获取失败")
 	end
 
 	local dungeonId=fungusFighterTrainingParams[1]
@@ -90,11 +102,11 @@ function LF_SetRandomResult(context)
 			if i==1 then
 				ScriptLib.SetGroupVariableValue(context, "index",index)
 				ScriptLib.SetGroupVariableValue(context, "waveIndex",waveIndex)
-				ScriptLib.PrintContextLog(context, "第一波上传记录结果")
+				PrintLog(context, "第一波上传记录结果")
 			end
 		end
 		if 0 ~= ScriptLib.SetCurFungusFighterTrainingParams(context, {rand_index=999,monster_pool_list=upLoadPool}) then
-			ScriptLib.PrintContextLog(context, "随机结果上传失败")
+			PrintLog(context, "随机结果上传失败")
 		end
 	end
 	--[[
@@ -106,7 +118,7 @@ function LF_SetRandomResult(context)
 		if curRound==1 then
 			ScriptLib.SetGroupVariableValue(context, "index",index)
 			ScriptLib.SetGroupVariableValue(context, "waveIndex",waveIndex)
-			ScriptLib.PrintContextLog(context, "第一波上传记录结果")
+			PrintLog(context, "第一波上传记录结果")
 		end
 		ScriptLib.SetCurFungusFighterTrainingParams(context, {rand_index=100*index+waveIndex,monster_pool_list=fungus_strategy_info[dungeonId][index][curRound][waveIndex].monster_package})
     end
@@ -120,14 +132,14 @@ function LF_GetGalleryId(context)
 	elseif base_info.group_id==global_info.defenseLevel.groupId then
 		return global_info.defenseLevel.galleryId
 	end
-	ScriptLib.PrintContextLog(context, "galleryid获取失败")
+	PrintLog(context, "galleryid获取失败")
 	return 0
 end
 
 function LF_GetMonsterConfig(context)
 	local fungusFighterTrainingParams=ScriptLib.GetCurFungusFighterTrainingParams(context)
 	if #fungusFighterTrainingParams<3 then
-		ScriptLib.PrintContextLog(context, "地城ID获取失败")
+		PrintLog(context, "地城ID获取失败")
 		return 0
 	end
 	local curRound=fungusFighterTrainingParams[2]
@@ -139,20 +151,20 @@ function LF_GetMonsterConfig(context)
 		return fungus_strategy_info[fungusFighterTrainingParams[1]][index][curRound][waveIndex]
 	elseif fungusFighterTrainingParams[2] > 1 then
 		local pool=fungusFighterTrainingParams[3+curRound]
-		ScriptLib.PrintContextLog(context, "获取pool:"..pool)
+		PrintLog(context, "获取pool:"..pool)
 		return monsterPoolReverseTable[pool]
 		--local multiIndex=fungusFighterTrainingParams[3]
 		--waveIndex=multiIndex%100
 		--index=(multiIndex-waveIndex)/100
 	end
-	ScriptLib.PrintContextLog(context, "MonsterConfig获取失败")
+	PrintLog(context, "MonsterConfig获取失败")
 	return 0
 end
 
 function LF_Random(context,num)
 	math.randomseed(ScriptLib.GetServerTime(context))
 	local ret=math.random(num)
-	ScriptLib.PrintContextLog(context, "随机结果为"..ret)
+	PrintLog(context, "随机结果为"..ret)
 	return ret
 end
 
@@ -182,7 +194,7 @@ end
 ------ Server Lua Call Functions -----------
 
 function SLC_AwardBall_Catch(context)
-	ScriptLib.PrintContextLog(context, "玩家吃球")
+	PrintLog(context, "玩家吃球")
 	ScriptLib.MarkGroupLuaAction(context, "FungusFighter_6",ScriptLib.GetGalleryTransaction(context, LF_GetGalleryId(context)) , {})
 	local index=LF_Random(context,global_info.maxEffectNum)
 	local monsterList=ScriptLib.GetGroupAliveMonsterList(context, base_info.group_id)
@@ -226,13 +238,13 @@ function SLC_AwardBall_Catch(context)
 		ScriptLib.UpdatePlayerGalleryScore(context, LF_GetGalleryId(context), {["buff_id"]=3,["buff_last_time"]=global_info.awardball_skillthree_effecttime})
 		ScriptLib.ShowReminder(context, 400215)
 	else
-		ScriptLib.PrintContextLog(context, "吃球随机结果错误")
+		PrintLog(context, "吃球随机结果错误")
 	end
 	return 0
 end
 
 function SLC_EnemyMonsterReviveSkill(context,param1)
-	ScriptLib.PrintContextLog(context, "点名怪物"..param1)
+	PrintLog(context, "点名怪物"..param1)
 	local beast = ScriptLib.GetMonsterConfigId(context, { monster_eid = context.source_entity_id })
 	ScriptLib.SetEntityServerGlobalValueByConfigId(context, beast, "SGV_Revive_Skill_Flag", param1)
 	return 0
@@ -241,7 +253,7 @@ end
 ------ conditions & actions ------
 --group加载
 function action_EVENT_GROUP_LOAD(context, evt)
-    ScriptLib.PrintContextLog(context, "group load")
+    PrintLog(context, "group load")
 	LF_RefreshVariables(context)
     LF_SetRandomResult(context)
     return 0
@@ -250,17 +262,17 @@ end
 --蕈兽选择完毕，开启挑战
 --1.dungeonid 2.round 3.randindex
 function action_EVENT_TRAINING_FUNGUS_SELECT_DONE(context, evt)
-	ScriptLib.PrintContextLog(context, "已选择蕈兽")
-	ScriptLib.PrintContextLog(context, "准备开启gallery:"..LF_GetGalleryId(context))
+	PrintLog(context, "已选择蕈兽")
+	PrintLog(context, "准备开启gallery:"..LF_GetGalleryId(context))
 	if not ScriptLib.IsGalleryStart(context,LF_GetGalleryId(context)) then
 		local bindSGV=ScriptLib.GetTeamServerGlobalValue(context, ScriptLib.GetSceneOwnerUid(context),"SGV_Fungus_Burst_Count")
 		local monsterConfig=LF_GetMonsterConfig(context)
 		ScriptLib.SetPlayerStartGallery(context, LF_GetGalleryId(context), {ScriptLib.GetSceneOwnerUid(context)})
 		ScriptLib.SetGadgetStateByConfigId(context, defs.start_gear, 202)
-		ScriptLib.PrintContextLog(context, "gallery已开启")
+		PrintLog(context, "gallery已开启")
 		local fungusFighterTrainingParams=ScriptLib.GetCurFungusFighterTrainingParams(context)
 		if #fungusFighterTrainingParams<3 then
-			ScriptLib.PrintContextLog(context, "地城ID获取失败")
+			PrintLog(context, "地城ID获取失败")
 			return 0
 		end
 		--如果不是第一间，要创建开局奖励球
@@ -278,9 +290,9 @@ function action_EVENT_TRAINING_FUNGUS_SELECT_DONE(context, evt)
 			ScriptLib.UpdatePlayerGalleryScore(context, LF_GetGalleryId(context), {["max_monster_count"]=monsterConfig.total_count,
 			["killed_monster_count"]=0,rest_skill_count=bindSGV,max_skill_count=global_info.max_skill_count})
 			if -1==ScriptLib.AutoPoolMonsterTide(context, 1, base_info.group_id, monsterConfig.monster_package,0, {}, {}, {sgv_map = {SGV_Revive_Skill_Flag = 0},total_count=monsterConfig.total_count, min_count=monsterConfig.min_count, max_count=monsterConfig.max_count,fill_time=monsterConfig.fill_time or 0,fill_count=monsterConfig.fill_count or 0,is_tag_bit_match=true,is_ordered = true}) then
-				ScriptLib.PrintContextLog(context, "怪物潮初始化失败"..monsterConfig.monster_package[1])
+				PrintLog(context, "怪物潮初始化失败"..monsterConfig.monster_package[1])
 			else
-				ScriptLib.PrintContextLog(context, "怪物潮开启"..monsterConfig.monster_package[1])
+				PrintLog(context, "怪物潮开启"..monsterConfig.monster_package[1])
 			end
 		end
 		--准备产球时间轴
@@ -299,16 +311,16 @@ function action_EVENT_TRAINING_FUNGUS_SELECT_DONE(context, evt)
 		--最后要开镜头
 		ScriptLib.CreateGadget(context, { config_id = defs.camGadget })
 	else
-		ScriptLib.PrintContextLog(context, "gallery重复开启，检查配置")
+		PrintLog(context, "gallery重复开启，检查配置")
 	end
 	return 0
 end
 
 --怪物死亡增加gallery计数
 function action_EVENT_ANY_MONSTER_DIE(context, evt)
-	ScriptLib.PrintContextLog(context, "怪物死亡")
+	PrintLog(context, "怪物死亡")
 	if not ScriptLib.IsGalleryStart(context,LF_GetGalleryId(context)) then
-		ScriptLib.PrintContextLog(context, "怪物死亡,gallery未开启")
+		PrintLog(context, "怪物死亡,gallery未开启")
 		return 0
 	end
 	local killMonsters=ScriptLib.GetGroupVariableValue(context, "killedMonsters")
@@ -331,7 +343,7 @@ end
 
 --产球
 function action_EVENT_TIME_AXIS_PASS(context, evt)
-	ScriptLib.PrintContextLog(context, "时间轴触发"..evt.source_name)
+	PrintLog(context, "时间轴触发"..evt.source_name)
 	if evt.source_name=="PhaseTwoStart" then
 		ScriptLib.SetGroupVariableValue(context, "phaseTwoStart",1)
 		return 0
@@ -390,9 +402,9 @@ function action_EVENT_ANY_GADGET_DIE(context, evt)
 			end
 		end
 		if containsKey==true or evt.param1==defs.awardball_configid then
-			ScriptLib.PrintContextLog(context, "助威球死亡")
+			PrintLog(context, "助威球死亡")
 			local awardballNum=ScriptLib.CheckRemainGadgetCountByGroupId(context, {group_id = base_info.group_id,gadget_id={global_info.awardball_gadget_id}})
-			ScriptLib.PrintContextLog(context, "剩余助威球数量"..awardballNum)
+			PrintLog(context, "剩余助威球数量"..awardballNum)
 			if awardballNum==0 then
 				local hostUid=ScriptLib.GetSceneOwnerUid(context)
 				ScriptLib.RevokePlayerShowTemplateReminder(context, 212, {hostUid})
@@ -405,7 +417,7 @@ end
 
 --gallery结束恢复逻辑
 function action_EVENT_GALLERY_STOP(context, evt)
-	ScriptLib.PrintContextLog(context, "event gallery stop")
+	PrintLog(context, "event gallery stop")
 	--关时间轴
 	ScriptLib.EndTimeAxis(context,"AwardBallGenerate")
 	--回收reminder
@@ -445,9 +457,9 @@ end
 --处理积分球的reminder显示
 function action_EVENT_GADGET_CREATE(context, evt)
 	if evt.param2 == global_info.awardball_gadget_id then
-		ScriptLib.PrintContextLog(context, "GADGET_CREATE_助威球创建")
+		PrintLog(context, "GADGET_CREATE_助威球创建")
 		local awardballNum=ScriptLib.CheckRemainGadgetCountByGroupId(context, {group_id = base_info.group_id,gadget_id={global_info.awardball_gadget_id}})
-		ScriptLib.PrintContextLog(context, "剩余助威球数量"..awardballNum)
+		PrintLog(context, "剩余助威球数量"..awardballNum)
 		if awardballNum>0 and ScriptLib.GetGroupTempValue(context,"templateReminderShow",{})==0 then
 			local hostUid=ScriptLib.GetSceneOwnerUid(context)
 			ScriptLib.AssignPlayerShowTemplateReminder(context,212,{is_need_cache=true, param_uid_vec={},param_vec={},uid_vec={hostUid}})
