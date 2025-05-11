@@ -1,6 +1,6 @@
-# 5.3-res
+# 5.3 resources
 
-## does anything really work?
+# Not entirely functional
 
 ## in case it doesn't work/console gets spammed a lot, try:
 
@@ -28,7 +28,7 @@
 
 # Credits:
 
-- me for making this skill issued repo
+- me for putting this together
 - hiro for resources
 - dimbreath for resources as well
 - yuuki for resource inspiration
